@@ -11,7 +11,6 @@ keywords:  github armanriazi
 feature:  Github
 author: "Arman Riazi"
 title: "Arman Riazi"
-permalink: /site
 ---
 [![mkdocs-ci](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/armanriazi/armanriazi.github.io/actions/workflows/ci.yml)
 > I was walking past to a park, heading toward the city center. I saw my friend and then she suggests to create pages like this exactly. I appreciate her.
