@@ -3,9 +3,8 @@ keywords:   armanriazi ArmanRiazi Github Blockchain Developer AramisIT ArazhIT
 feature:  Github 
 title: "Arman Riazi"
 author: "Arman Riazi"
-icon: material/emoticon-happy-outline
 search:
-exclude: true
+    exclude: true
 type:  Link
 keywords:  github armanriazi
 feature:  Github

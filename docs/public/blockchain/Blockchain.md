@@ -13,29 +13,43 @@ title: "Arman Riazi"
 ---
 [TOC]
 
+![Blockchain-Canvas](../../assets/attachments/Blockchain-Canvas.jpg)
+
+![Blockchain-Canvas](../../assets/attachments/Blockchain-Taxonomy.JPG)
+
+![Blockchain-Canvas](../../assets/attachments/Blockchain4.JPG)
+
+![Blockchain-Canvas](../../assets/attachments/BlockchainStack.JPG)
+
 ## 2021-2023
 
 ### Research
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)](whitepaper.md)
+ 
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)](substrate-polka-kus/polka-research-intro.md)
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)](substrate-framework.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)](substrate-polka-kus/substrate-framework-research-intro.md)
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan/Part(3)](crowdloan.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan/Part(3)](substrate-polka-kus/crowdloan/crowdloan-research-intro.md)
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/ParaState/Part(4)](parastate.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/ParaState/Part(4)](parastate/parastate-research-intro.md)
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM/Part(5)](ewasm.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM/Part(5)](wasm/ewasm-research-intro.md)
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/SecondState/Part(6)](secondstate.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/SecondState/Part(6)](secondstate/secondstate-research-intro.md)
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang/Part(7)](rust-lang.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang/Part(7)](../programming/rust/rust-lang-research-intro.md)
 
- [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](setup.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/NodeSetup/Part(8)](substrate-polka-kus/substrate-setup-research-intro.md)
 
 ### Passed self-study tutorials 
 
-
+* Substrate workshop with Gavin Wood and Sergei Shulepov
+* Build a Bitcoin-like Blockchain with Substrate
+* Intro to Substrate-1-10
+* Substrate based ParaChains (Polkadot) support via Parastate
+* Substrate Recipes Workshop - Learn to Build a Custom Blockchain
+* 
 ## 2019-2020
 
 ### Sample Projects 
@@ -48,13 +62,14 @@ title: "Arman Riazi"
 
 
 ### Research
+
 [Blockchain-tutorials](Blockchain-tutorials.md)
 
 ### Passed self-study tutorials 
 
-#### ◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘
+◘ Sample My Academic & Experiences On Blockchain Subject(2020-2021) ◘
 
-#### Archived Video Packages(**Seen**):
+#### Archived Video Packages(**Seen**)
 - INE Understanding Crypto Currencies Bitcoins and Blockchains
 - Lynda Ethereum Building Blockchain Decentralized Apps DApps
 - Packtpub Blockchain for Business 2018 The New Industrial Revolution
@@ -62,26 +77,33 @@ title: "Arman Riazi"
 - StoneRiverElearning Building Cryptocurrencies and Smart Contracts
 - StoneRiverElearning Starting with NEM (Not yet)
 - TechnicsPublications Data Modeling and Blockchain
-Build a Blockchain and a cryptocurrnecy from scratch
-#### Youtube Channels:
+- Build a Blockchain and a cryptocurrnecy from scratch
+- IBM Blockchain Solutions 
+
+#### Youtube Channels
+
 - Hyperledger
 - IBM 
 - DApp university
 - Skycoin
 - Blockstack
--
-#### Samples have runned by test network:
-- DAapp university by web3.js (Reactjs,Js)
+- Ethereum
+  
+#### Samples have runned by test network
+
+- DAapp university by web3.js (Reactjs,Js)-[Solidity](Solidity.md)
 - Solidity (build a game)
-- Build blockchain with GOlang (Websocket)
+- Build blockchain with Golang (Websocket)
+- 
 #### Trading
 - Investment Cryptocurrentcy
 - Trading On The Platforms Of The Cryptocurrency
 - Binance Trading
 - Trading on Civil Platforms (native financial)
 - Knowledge Of Technical & Conceptual Trading
-#### ◘ And many bookmarks that taked my attention and time :) for understanding leaf subjects of blockchain ◘
+  
+◘ And many bookmarks that taked my attention and time :grinning: for understanding leaf subjects of blockchain ◘
+
 #### Shared Research White Papers
-(link:https://1drv.ms/u/s!AiPa0TLEgzJ7jQ6q5Uj5CYjJKcik)
-#OneNote
+ [OneNote-Online](https://1drv.ms/u/s!AiPa0TLEgzJ7jQ6q5Uj5CYjJKcik) 
 

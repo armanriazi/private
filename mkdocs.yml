@@ -5,18 +5,17 @@ repo_url: https://github.com/armanriazi/armanriazi.github.io
 nav:    
     - 'Home':
         - 'Index': 'index.md'
-        - 'Walk-through': 'public/public.md'                
-        - 'Private': 'private/private.md'       
+        - 'Walk-through': 'public/public.md'                              
     - 'Blockchain':       
         - 'Blockchain': 'public/blockchain/Blockchain.md'        
     - 'Walk-through': 
-        - 'Walk-through': 'public/public.md'    
-    - 'About':
-        - 'About': 'about.md'        
+        - 'Walk-through': 'public/public.md'          
     - 'Tags':
         - 'Tags': 'tags.md'      
     - 'Links':
         - 'Links': 'links.md'            
+    - 'About':
+        - 'About': 'about.md'  
               
 theme:
   name: material

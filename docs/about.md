@@ -1,5 +1,4 @@
 ---
-icon: material/emoticon-happy-outline
 search:
 exclude: false
 type:  About
