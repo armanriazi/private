@@ -14,7 +14,7 @@ title: "Arman Riazi"
 ---
 [TOC]
 
-## A guide to demoing the marketplace contract
+## A guide to demoing the vote contract
 
 ### Prerequisites
 This documentation has been intended for readers with a basic understanding on the Solidity smart contract programming language and on basic web developing tools. In order to run,

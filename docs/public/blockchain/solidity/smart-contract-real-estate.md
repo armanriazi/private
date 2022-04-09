@@ -38,7 +38,7 @@ testrpc -d
 ```
 
 ### Deploy the contract
-For demoing purposes, TestRPC is a good choice for a client, for a number of reasons. First
+For demoing purposes, Test[[RPC]] is a good choice for a client, for a number of reasons. First
 ly, TestRPC creates a new blockchain instance and transactions can be paid with tokens of the
 said blockchain. The creator of the TestRPC session gains access to the tokens for free and
 therefore transactions can be made without a cost. Secondly, by default, TestRPC is configured
