@@ -46,6 +46,8 @@ rustup update stable
 
 rustup target add wasm32-unknown-unknown --toolchain nightly
 
+rustup component add rust-src --toolchain stable-x86_64-unknown-linux-gnu
+
 rustc --version
 
 source $HOME/.cargo/env

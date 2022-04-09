@@ -40,6 +40,7 @@ author: "ArmanRiazi"
 
 >It can be realistic.
 
+>I proud of you for that.
 
 
 
@@ -122,9 +123,15 @@ author: "ArmanRiazi"
 
 >I'm going to be #hired
 
->I was going to call you
 
+[[call]]
+>I was [[going]] to call you
 
+>I missed your call
+
+>The reason I am aking
+
+>Can you put your boss on the phone?
 
 
 
@@ -199,7 +206,7 @@ author: "ArmanRiazi"
 
 >I think you should #consider #decision(tajdid nazar)
 
-
+>If I understand you correctly, you think our investment has been mistake
 
 
 
@@ -242,7 +249,7 @@ Anytime/Sometime after three would be fine.
 >Let's get to the #point
 >Let me have everone for #attention please
 >Let me try to  #answer your [[question]] like this
-
+>Let's bring this to a #close, shall we?
 
 [[interest]]
 >I'm interested in knowing [[what]] kind of...
@@ -324,8 +331,6 @@ Anytime/Sometime after three would be fine.
 
 
 
-
-
 [[rather]]
 >I'd rather to let me finish it that is all right
 
@@ -374,6 +379,9 @@ Anytime/Sometime after three would be fine.
 
 >...for the same #reason that peter has just #given
 
+>I'm afraid we've run out of time.
+
+>We'll have to cut this meeting short.
 
 [[question]]
 
@@ -410,6 +418,8 @@ Anytime/Sometime after three would be fine.
 >Can #we reach #conclusion here?
 
 >Was there much bug?
+
+>Do you feel comfortable telling me what you know?
 
 >How much are we [[talking]] about?
 
