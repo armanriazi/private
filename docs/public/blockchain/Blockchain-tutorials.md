@@ -1,6 +1,6 @@
 [TOC]
 
-# Blockchain popular platforms 
+ Blockchain popular [[platforms]] 
 
 ![Blockchain Popular Platforms](https://miro.medium.com/max/1400/1*w1nAHaPMV0fRlKuwThTRNQ.jpeg)
 

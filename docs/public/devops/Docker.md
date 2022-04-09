@@ -1,4 +1,6 @@
-# DevOps: Docker registry Basic Authentication and HTTPS
+# Docker
+
+DevOps: Docker registry Basic Authentication and HTTPS
 
 ![Docker](https://miro.medium.com/max/406/1*8uXBBUlyJePLINh-xPzlJQ.jpeg)
 

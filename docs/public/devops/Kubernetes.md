@@ -1,4 +1,6 @@
-# Kubernetes Capabilities
+# Kubernetes 
+
+Capabilities:
 
 > Scheduling and orchestrating application containers
 > 
