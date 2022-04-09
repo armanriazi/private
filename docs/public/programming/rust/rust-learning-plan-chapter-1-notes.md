@@ -150,7 +150,7 @@ cargo --version
 Create a new Rust program
 cargo new <project_name>
 
-# Example for a project named hello_world
+## Example for a project named hello_world
 cargo new hello_world
 Check that Rust program compiles
 cargo check

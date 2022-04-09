@@ -14,5 +14,8 @@ permalink: /tags
 # Tags
 
 Following is a list of relevant tags:
+(If you want to get updated-graph you will ask me by Email)
 
 [TAGS]
+
+![Graph](assets/attachments/graph.jpg)

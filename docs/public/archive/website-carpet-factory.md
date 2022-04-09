@@ -7,15 +7,17 @@
 * Ability to insert news dynamically
 * It has got separate CRM section
   
-  ##### #CRM
+  ##### [[CRM]]
 
-  ##### #Electronic Payment
+  ##### Electronic Payment
 
-  ##### #ASP.NET
+  ##### [[ASP.NET]]
 
   ##### #SMS
 
-  ##### #Payment
+  ##### [[Payment]]
+
+[[Archive]]
 
 ??? info
       ![Sales Photo](../../assets/attachments/main_aad70.gif)

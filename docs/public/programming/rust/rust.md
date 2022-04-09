@@ -1,4 +1,4 @@
-# Rust-Language
+## Rust-Language
 
 [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Rust-Lang](rust-lang-research-intro.md)
 

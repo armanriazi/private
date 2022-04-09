@@ -6,20 +6,19 @@ keywords:  Link armanriazi
 feature:  Link
 author: "Arman Riazi"
 layout: page
-title: "Personal Links"
 permalink: /links
 ---
 
 [TOC]
 
-# Links
+## Links
 
 * [English Resume](https://cutt.ly/OPk7FT2)
 
 * [Youtube Channel](https://cutt.ly/pyKrYMh)
 
   
-###### Papers On Blockchain
+#### Papers On Blockchain
 
 > [Read.Cash](https://read.cash/@arman-riazi-science)
 
@@ -49,7 +48,7 @@ permalink: /links
 
 * [Linktr.ee](https://linktr.ee/armanriazi)
 
-###### Personal WebSite(Archived)
+#### Personal WebSite(Archived)
   
 > [Arazhit](http://arazhit.webredirect.org)
 
@@ -57,18 +56,16 @@ permalink: /links
 
 > [ArmanRiazi](https://armanriazi.ir)
 
-###### Personal WebSite(Archived)
+#### Personal WebSite(Archived)
 
 > [ArmanRiazi-Doc](https://github.com/armanriazi/Documents)
 
-###### Email addresses
+#### Email addresses
 
 > [*Job](mailto:arman2job@gmail.com)
 
 > [Developer](mailto:arman2develop@gmail.com)
 
 > [Scholar](mailto:arman2riazi@sco.iaun.ac.ir)
-
-
-* Skype ID
+*** Skype ID ***
 >  armanriazi
