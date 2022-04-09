@@ -1,4 +1,4 @@
-﻿## Solidity
+﻿# Solidity
 
 ## Sample Projects 
 

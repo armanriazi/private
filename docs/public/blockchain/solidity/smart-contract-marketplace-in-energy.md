@@ -13,7 +13,7 @@ title: "Arman Riazi"
 ---
 [TOC]
 
-## A guide to demoing the energy contract
+## A guide to demoing the [[energy]] contract
 
 ### Prerequisites
 This documentation has been intended for readers with a basic understanding on the Solidity smart contract programming language and on basic web developing tools. In order to run,
@@ -28,7 +28,7 @@ the demo requires the following software to be installed. For verified functiona
 > Node.js, version 7.9.0
 
 
-Running an Ethereum client
+Running an [[Ethereum]] client
 
 ### Install dependencies
 
@@ -118,8 +118,7 @@ Once an offer has been created and accepted, and the scheduled transfer of elect
 both the seller’s and the buyer’s smart meters are expected to report on the successfulness of
 the transfer. The Ethereum transactions submitting these reports can be created using the
 scripts sellerreport.js and buyerreport.js. The optional index parameter can be used to refer to
-different sell offers exactly the same way as in the scripts described earlier. Both scripts, sellerreport.js and buyerreport.js need to be run in order to move an instance of electricity transfer
-to its next state in the smart contract.
+different sell offers exactly the same way as in the scripts described earlier. Both scripts, sellerreport.js and buyerreport.js need to be run in order to move an instance of electricity transfer to its next state in the smart contract.
 The reports have a deadline before which they need to be submitted. According to the deadline, the reports must be submitted and written into the blockchain no later than 30 minutes
 after the transfer is completed. In the case a transacting party fails to report within the allocated time frame, the smart contract will assume the worst possible economic outcome for the
 abstinent party.
@@ -151,5 +150,5 @@ running the demo. It shows the status of all the created sell offers and the acc
 the buyer, the seller and the electricity market smart contract. The status viewer can be run by
 opening the file index.html in any web browser.
 
-### Github-link
+### Sourcecode
 [Armanriazi-Github-Energy-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-marketplace-in-energy)

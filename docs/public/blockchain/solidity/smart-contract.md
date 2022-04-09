@@ -1,4 +1,4 @@
-# Smart Contract
+# [[SmartContract]]
 
 ## Sample Projects 
 

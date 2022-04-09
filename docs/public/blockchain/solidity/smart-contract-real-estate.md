@@ -13,7 +13,7 @@ title: "Arman Riazi"
 ---
 [TOC]
 
-## A guide to demoing the real-estate contract
+## A guide to demoing the [[real-estate]] contract
 
 ## Prerequisites
 
@@ -22,13 +22,13 @@ the demo requires the following software to be installed. For verified functiona
 
 > Ubuntu 16.04.2 LTS
 > 
-> TestRPC, version 3.0.4
+> #Test[[RPC]], version 3.0.4
 > 
-> Truffle, version 3.2.1
+> #Truffle, version 3.2.1
 > 
 > Node.js, version 7.9.0
 
-Running an Ethereum client
+Running an [[Ethereum]] client
 
 ### Run a deterministic TestRPC session
 At first, an Ethereum client needs to be run
@@ -169,5 +169,5 @@ running the demo. It shows the status of the workflow process, with all the cont
 by the various participants. The status viewer can be run by opening the file index.html in any
 web browser.
 
-### Github-link
+### Sourcecode
 [Armanriazi-Github-RealState-Sample Project](https://github.com/armanriazi/armanriazi-armanriazi-ethereum-in-real-estate)
