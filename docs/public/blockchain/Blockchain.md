@@ -15,13 +15,13 @@ title: "Arman Riazi"
 
 ## Blockchain
 
-![Blockchain-Canvas](../../assets/attachments/Blockchain4.JPG){width=600,height=600}
+![Blockchain-Canvas](../../assets/attachments/Blockchain4.JPG){width=650,height=650}
 
-![Blockchain-Canvas](../../assets/attachments/Blockchain-Canvas.jpg){width=600,height=600}
+![Blockchain-Canvas](../../assets/attachments/Blockchain-Canvas.jpg){width=650,height=650}
 
-![Blockchain-Canvas](../../assets/attachments/Blockchain-Taxonomy.JPG){width=600,height=600}
+![Blockchain-Canvas](../../assets/attachments/Blockchain-Taxonomy.JPG){width=650,height=650}
 
-![Blockchain-Canvas](../../assets/attachments/BlockchainStack.JPG){width=600,height=600}
+![Blockchain-Canvas](../../assets/attachments/BlockchainStack.JPG){width=650,height=650}
 
 ## 2021-2023
 
