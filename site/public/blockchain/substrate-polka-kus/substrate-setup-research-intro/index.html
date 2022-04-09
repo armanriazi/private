@@ -13,7 +13,7 @@
     
     
       
-        <title>Walk-Through/Substrate/NodeSetup - Arman Riazi</title>
+        <title>Substrate setup research intro - Arman Riazi</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#walk-throughsubstratenodesetup" class="md-skip">
+        <a href="#introducing" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Walk-Through/Substrate/NodeSetup
+              Substrate setup research intro
             
           </span>
         </div>
@@ -628,8 +628,76 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducing" class="md-nav__link">
+    Introducing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing" class="md-nav__link">
+    installing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apt-get-install-llvm-clang-linux-headers-uname-r" class="md-nav__link">
+    'apt-get install llvm clang linux-headers-"$(uname -r)"
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cargo-fix-allow-dirtycargo-fix-edition" class="md-nav__link">
+    cargo fix --allow-dirty#cargo fix --edition
+  </a>
+  
+    <nav class="md-nav" aria-label="cargo fix --allow-dirty#cargo fix --edition">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#single-node-development-chain" class="md-nav__link">
+    Single-Node Development Chain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-node-local-testnet" class="md-nav__link">
+    Multi-Node Local Testnet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#literature" class="md-nav__link">
+    Literature
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -650,15 +718,29 @@
 
 
 
-<h1 id="walk-throughsubstratenodesetup">Walk-Through/Substrate/NodeSetup<a class="headerlink" href="#walk-throughsubstratenodesetup" title="Permanent link">&para;</a></h1>
-<p><strong>#Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate</strong></p>
+<div class="toc">
+<ul>
+<li><a href="#introducing">Introducing</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#installing">installing</a></li>
+<li><a href="#apt-get-install-llvm-clang-linux-headers-uname-r">'apt-get install llvm clang linux-headers-"$(uname -r)"</a></li>
+<li><a href="#cargo-fix-allow-dirtycargo-fix-edition">cargo fix --allow-dirty#cargo fix --edition</a><ul>
+<li><a href="#single-node-development-chain">Single-Node Development Chain</a></li>
+<li><a href="#multi-node-local-testnet">Multi-Node Local Testnet</a></li>
+<li><a href="#literature">Literature</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p><strong>Walk-Through/Substrate/NodeSetup</strong></p>
 <p>👩‍🏫👩‍🏫👩‍🏫</p>
-<p>*Introducing</p>
-<p>https://github.com/substrate-developer-hub/substrate-node-template</p>
-<p>https://docs.substrate.io/tutorials/v3/create-your-first-substrate-chain/</p>
-<p><em>*</em>Prerequisites**</p>
+<h2 id="introducing">Introducing<a class="headerlink" href="#introducing" title="Permanent link">&para;</a></h2>
+<p><a href="https://github.com/substrate-developer-hub/substrate-node-template">substrate-node-template</a></p>
+<p><a href="https://docs.substrate.io/tutorials/v3/create-your-first-substrate-chain/">Create-your-first-substrate-chain</a></p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
 <p>Ubuntu 20.04, Docker 19-20, Ngnix, Nodejs 16.13.2, ReactJs, VirtualBox(Optional).</p>
-<p><strong>#Manifest for installing rust and build-essentials on ubuntu 20.04.03</strong>
+<h2 id="installing">installing<a class="headerlink" href="#installing" title="Permanent link">&para;</a></h2>
+<p><strong>Manifest for installing rust and build-essentials on ubuntu 20.04.03</strong>
 <div class="highlight"><pre><span></span><code>rustup self uninstall
 
 apt-get update
@@ -704,10 +786,10 @@ source $HOME/.cargo/env
 <p>🤷‍♂️🤷‍♂️🤷‍♂️:🐱‍👤</p>
 <p>linking_with_cc_failed_exit_code_1/build-essential-fails-because-of-unmet-dependencies</p>
 <p>👆👆👆</p>
-<p><strong>#Manifest for cargo and compiling</strong></p>
+<p><strong>Manifest for cargo and compiling</strong></p>
 <p><strong>#rustup component add --toolchain=nightly rust-src rustfmt</strong></p>
 <p><code>rustup target add wasm32-unknown-unknown</code></p>
-<h1 id="apt-get-install-llvm-clang-linux-headers-uname-r">apt-get install llvm clang linux-headers-"$(uname -r)"<a class="headerlink" href="#apt-get-install-llvm-clang-linux-headers-uname-r" title="Permanent link">&para;</a></h1>
+<h1 id="apt-get-install-llvm-clang-linux-headers-uname-r">'apt-get install llvm clang linux-headers-"$(uname -r)"<a class="headerlink" href="#apt-get-install-llvm-clang-linux-headers-uname-r" title="Permanent link">&para;</a></h1>
 <p><code>apt install llvm clang</code>
 <code>cargo build --release</code></p>
 <h1 id="cargo-fix-allow-dirtycargo-fix-edition">cargo fix --allow-dirty#cargo fix --edition<a class="headerlink" href="#cargo-fix-allow-dirtycargo-fix-edition" title="Permanent link">&para;</a></h1>
@@ -740,7 +822,7 @@ source $HOME/.cargo/env
 <p>🤷‍♂️🤷‍♂️🤷‍♂️:🐱‍👤</p>
 <p>Error: failed to run custom build command for librocksdb-sys v6</p>
 <p>👆👆👆</p>
-<p><strong>#Single-Node Development Chain</strong></p>
+<h2 id="single-node-development-chain">Single-Node Development Chain<a class="headerlink" href="#single-node-development-chain" title="Permanent link">&para;</a></h2>
 <p>This command will start the single-node development chain with persistent state:
 <div class="highlight"><pre><span></span><code>/substrate-node-template
 cargo build --release &amp;&amp; ./target/release/node-template --ws-external --base-path ./my-chain-state --enable-offchain-indexing true --rpc-cors all --name &quot;Arman Riazi&quot; --pruning archive --prometheus-external --chain local  --dev #(or --chain fir)
@@ -915,7 +997,7 @@ root       84338       2  0 17:13 ?        00:00:00 [kworker/u6:2-events_unbound
 root       84348   34026  1 17:16 pts/1    00:00:01 ./target/release/node-template --dev --ws-external
 root       84704   75818  0 17:18 pts/3    00:00:00 ps -ef
 </code></pre></div></p>
-<p><strong>#Multi-Node Local Testnet</strong></p>
+<h2 id="multi-node-local-testnet">Multi-Node Local Testnet<a class="headerlink" href="#multi-node-local-testnet" title="Permanent link">&para;</a></h2>
 <p>If you want to see the multi-node consensus algorithm in action, refer to our Start a Private Network tutorial.</p>
 <p>Purge the development chain's state:
 <div class="highlight"><pre><span></span><code>./target/release/node-template purge-chain --base-path /tmp/alice --chain local
@@ -947,16 +1029,16 @@ subkey restore Alice
 </code></pre></div></p>
 <p>The private network substrate  was made by manifest:</p>
 <p>https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945</p>
-<h1 id="try-introductory-tutorial-for-creating-your-first-runtime-module">Try  introductory tutorial for creating your first runtime module<a class="headerlink" href="#try-introductory-tutorial-for-creating-your-first-runtime-module" title="Permanent link">&para;</a></h1>
+<p>Try  introductory tutorial for creating your first runtime module </p>
 <iframe width="700" height="396" src="https://www.youtube.com/embed/0IoUZdDi5Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>📚📚📚</p>
-<h1 id="literature">Literature<a class="headerlink" href="#literature" title="Permanent link">&para;</a></h1>
-<p>https://doc.rust-lang.org/error-index.html</p>
-<p>https://rust-lang.github.io/rustup/examples.html</p>
-<p>https://core.tetcoin.org/docs/en/tutorials/start-a-private-network/</p>
-<p>https://docs.deip.world/develop/substrate-based-chain</p>
-<p>https://docs.substrate.io/v3/getting-started/glossary/</p>
+<h2 id="literature">Literature<a class="headerlink" href="#literature" title="Permanent link">&para;</a></h2>
+<p><a href="https://doc.rust-lang.org/error-index.html">Error-Rust-Lang</a></p>
+<p><a href="https://rust-lang.github.io/rustup/examples.html">Rustup</a></p>
+<p><a href="https://core.tetcoin.org/docs/en/tutorials/start-a-private-network">Start-a-private-network</a></p>
+<p><a href="https://docs.deip.world/develop/substrate-based-chain">Substrate-based-chain</a></p>
+<p><a href="https://docs.substrate.io/v3/getting-started/glossary/">Substrate-Glossary</a></p>
 <p>❤️❤️❤️</p>
 <p>If you liked this article or if it helped you please clap on this post to help the Read.Cash algorithm recommend it to more people. If you have any questions or remarks please feel free to leave a comment below.</p>
 <p>Alternatively, please feel free to send donations </p>
@@ -965,7 +1047,9 @@ subkey restore Alice
 </blockquote>
 <p>❤️❤️❤️</p>
 <p>Reseacher &amp; Organized by:</p>
-<p>🙏#Arman-Riazi🤝</p>
+<p>🙏Arman-Riazi🤝</p>
+<p>[[Polkadot-Ecosystem-Research]]</p>
+<p>[[Substrate]]</p>
 
               
             </article>
