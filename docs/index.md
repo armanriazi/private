@@ -21,5 +21,5 @@ title: "Arman Riazi"
 **[Go Surfing On...](public/public.md)**
 
 
-![Welcome!HelloWorld!](https://ipfs.io/ipfs/QmXEvRE4sRszXSCPTVFu71mSkXNcGedwa3hBiv8ZkbhhUh){ loading=lazy }
+![Welcome!HelloWorld!](assets/attachments/graph.jpg){ loading=lazy }
 
