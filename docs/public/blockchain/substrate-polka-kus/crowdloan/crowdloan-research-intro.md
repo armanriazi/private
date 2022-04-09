@@ -1,4 +1,4 @@
-[TOC]
+
 
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan(3)**
 

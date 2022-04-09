@@ -1,10 +1,9 @@
-# Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Parastate(4)
+**Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Parastate(4)**
 
-#Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate
 
 👩‍🏫👩‍🏫👩‍🏫
 
-*Introducing
+## Introducing
 
 ParaState is a **proof-of-stake blockchain** platform that says its goal is to ParaState aims to become a Polkadot parachain that extends the frontier of Ethereum with substrate framework. By supporting 20+ programming languages to create Ethereum-compatible multi-chain smart contract.
 
@@ -26,19 +25,22 @@ Polkadot (bridge assets via Snowfork/Interlay).
 
 📚📚📚
 
-#Literature
+## Literature
 
  intermediate representation = IR
 
-https://docs.substrate.io/v3/getting-started/glossary/
+[Substrate-Glossary](https://docs.substrate.io/v3/getting-started/glossary/)
 
 ❤️❤️❤️
 
 Reseacher & Organized by:
 
-🙏#Arman-Riazi🤝 
+🙏Arman-Riazi🤝 
 
- 
+[[Polkadot-Ecosystem-Research]]
+
+[[Substrate]]
+
 
  
 

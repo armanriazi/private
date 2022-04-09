@@ -1,10 +1,8 @@
-# Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Secondstate(6)
-
-#Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate
+**Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Secondstate(6)**
 
 👩‍🏫👩‍🏫👩‍🏫
 
-*Introducing
+## Introducing
 
 For automakers, the runtime isolation reduces complexity in integration and operation. For parts makers, the virtualized runtime supports “write once run on any car”. Second State is developing a real-time, deterministic, and efficient runtime sandbox for automotive applications. It is completely open source and already used by leading auto suppliers. 
 
@@ -12,9 +10,10 @@ For automakers, the runtime isolation reduces complexity in integration and oper
 ![Secondstate](https://cdn.rcimg.net/arman-riazi-science/a8138de8/409ef0bb0cbfb8a3d66daa64d0027c6a.png)
 ![Secondstate](https://cdn.rcimg.net/arman-riazi-science/a8138de8/0571788b3e3cf3ed4f13ac3b1a940a2c.png)
 ![Secondstate](https://cdn.rcimg.net/arman-riazi-science/a8138de8/c801aa481272248edf07f7923da1772a.png)
+
 👆👆👆
 
-#SSVM
+## SSVM
 
 The Second State Functions is based on the **Second State WebAssembly VM (SSVM). It is specifically optimized for server-side applications.**
 
@@ -30,7 +29,7 @@ Supports safe access to external resources, such as databases, message queues, a
 
 Allows precise metering of computational resources for serverless apps.
 
-#Serverless
+## Serverless
 
 @FaaS 
 
@@ -42,7 +41,7 @@ However, traditional FaaS are based on microVM (eg Firecracker and gVisor) and a
 
 👆👆👆
 
-#UsedFeatures
+## Features
 
 @WasmEdge 
 
@@ -68,7 +67,7 @@ Second State FaaS provides a Rust API to run Tensorflow-based MTCNN models at na
 
 📚📚📚
 
-#Literature
+## Literature
 
 WebAssembly System Interface  = WASI
 
@@ -80,11 +79,12 @@ Function as a Service = FaaS
 
 Reseacher & Organized by:
 
-🙏#Arman-Riazi🤝 
+🙏Arman-Riazi🤝 
 
  
+[[Polkadot-Ecosystem-Research]]
 
- 
+[[Substrate]]
 
  
 

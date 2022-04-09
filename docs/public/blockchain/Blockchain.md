@@ -11,7 +11,7 @@ feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
 ---
-[TOC]
+[Tags]
 
 ## Blockchain
 
@@ -23,12 +23,17 @@ title: "Arman Riazi"
 
 ![Blockchain-Canvas](../../assets/attachments/BlockchainStack.JPG){width=650,height=650}
 
+## MindMapping
+
+(If you want to get update-mind-mapping image, ask me by Email(Title: armanriazi.github.io _ MindMapping))
+[Substrate MindMapping](../../assets/attachments/substrate-minmap.jpg){width=650,height=650}
+
 ## 2021-2023
 
 ### Research
 
  
-  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)](substrate-polka-kus/polka-research-intro.md)
+  [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)](substrate-polka-kus/polka-research-intro.md)
 
   [Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)](substrate-polka-kus/substrate-framework-research-intro.md)
 

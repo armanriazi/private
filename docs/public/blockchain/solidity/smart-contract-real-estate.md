@@ -11,7 +11,7 @@ feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
 ---
-[TOC]
+
 
 ## A guide to demoing the [[real-estate]] contract
 

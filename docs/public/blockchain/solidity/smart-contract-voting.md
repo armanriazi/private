@@ -12,7 +12,7 @@ feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
 ---
-[TOC]
+
 
 ## A guide to the [[vote]] contract
 

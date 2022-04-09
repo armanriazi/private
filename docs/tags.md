@@ -11,11 +11,9 @@ title: "Tags"
 permalink: /tags
 ---
 
-# Tags
-
 Following is a list of relevant tags:
-(If you want to get updated-graph you will ask me by Email)
-
-[TAGS]
-
+(If you want to get updated-graph, ask me by Email(Title: armanriazi.github.io _ Graph))
 ![Graph](assets/attachments/graph.jpg)
+
+(If you want to get updated-mind-mapping image, ask me by Email(Title: armanriazi.github.io _ MindMapping))
+![Substrate Mind Mapping](assets/attachments/substrate-minmap.jpg)

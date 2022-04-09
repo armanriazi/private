@@ -1,5 +1,5 @@
 
-[TOC]
+
 
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)**
 
