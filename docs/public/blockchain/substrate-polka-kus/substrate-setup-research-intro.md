@@ -1,20 +1,22 @@
-# Walk-Through/Substrate/NodeSetup
+[TOC]
 
-**#Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate**
+**Walk-Through/Substrate/NodeSetup**
 
 👩‍🏫👩‍🏫👩‍🏫
 
-*Introducing
+## Introducing
 
-https://github.com/substrate-developer-hub/substrate-node-template
+[substrate-node-template](https://github.com/substrate-developer-hub/substrate-node-template)
 
-https://docs.substrate.io/tutorials/v3/create-your-first-substrate-chain/
+[Create-your-first-substrate-chain](https://docs.substrate.io/tutorials/v3/create-your-first-substrate-chain/)
 
-***Prerequisites**
+## Prerequisites
 
 Ubuntu 20.04, Docker 19-20, Ngnix, Nodejs 16.13.2, ReactJs, VirtualBox(Optional).
 
-**#Manifest for installing rust and build-essentials on ubuntu 20.04.03**
+## installing
+
+**Manifest for installing rust and build-essentials on ubuntu 20.04.03**
 ```
 rustup self uninstall
 
@@ -67,13 +69,13 @@ linking_with_cc_failed_exit_code_1/build-essential-fails-because-of-unmet-depend
 
 👆👆👆
 
-**#Manifest for cargo and compiling**
+**Manifest for cargo and compiling**
 
 **#rustup component add --toolchain=nightly rust-src rustfmt**
 
 ```rustup target add wasm32-unknown-unknown```
 
-#apt-get install llvm clang linux-headers-"$(uname -r)" #
+#'apt-get install llvm clang linux-headers-"$(uname -r)" 
 
 ```apt install llvm clang```
 ```cargo build --release```
@@ -114,7 +116,7 @@ Error: failed to run custom build command for librocksdb-sys v6
 
 👆👆👆
 
-**#Single-Node Development Chain**
+## Single-Node Development Chain
 
 This command will start the single-node development chain with persistent state:
 ```
@@ -300,7 +302,7 @@ root       84348   34026  1 17:16 pts/1    00:00:01 ./target/release/node-templa
 root       84704   75818  0 17:18 pts/3    00:00:00 ps -ef
 ```
 
-**#Multi-Node Local Testnet**
+## Multi-Node Local Testnet
 
 If you want to see the multi-node consensus algorithm in action, refer to our Start a Private Network tutorial.
 
@@ -339,23 +341,23 @@ The private network substrate  was made by manifest:
 
 https://polkadot.js.org/apps/#/settings?rpc=ws://192.168.8.110:9945
 
-# Try  introductory tutorial for creating your first runtime module 
+Try  introductory tutorial for creating your first runtime module 
 
 <iframe width="700" height="396" src="https://www.youtube.com/embed/0IoUZdDi5Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 📚📚📚
 
-#Literature
+## Literature
 
-https://doc.rust-lang.org/error-index.html
+[Error-Rust-Lang](https://doc.rust-lang.org/error-index.html)
 
-https://rust-lang.github.io/rustup/examples.html
+[Rustup](https://rust-lang.github.io/rustup/examples.html)
 
-https://core.tetcoin.org/docs/en/tutorials/start-a-private-network/
+[Start-a-private-network](https://core.tetcoin.org/docs/en/tutorials/start-a-private-network)
 
-https://docs.deip.world/develop/substrate-based-chain
+[Substrate-based-chain](https://docs.deip.world/develop/substrate-based-chain)
 
-https://docs.substrate.io/v3/getting-started/glossary/
+[Substrate-Glossary](https://docs.substrate.io/v3/getting-started/glossary/)
 
 ❤️❤️❤️
 
@@ -368,5 +370,8 @@ Alternatively, please feel free to send donations
 
 Reseacher & Organized by:
 
-🙏#Arman-Riazi🤝
+🙏Arman-Riazi🤝
 
+[[Polkadot-Ecosystem-Research]]
+
+[[Substrate]]

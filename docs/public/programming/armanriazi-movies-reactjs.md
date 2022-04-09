@@ -1,10 +1,14 @@
 
 
+[[Github-ArmanRiazi]]
+
+# armanriazi-movies-reactjs
+
 [online: armanriazi-movies-reactjs.herokuapp](https://armanriazi-movies-reactjs.herokuapp.com/)
 
 > Improved speed and performance.
 
-> I developed a sample-project base on #reactjs, #nodejs, #couchdb, #ibm ,and [[cloud]], on #heroku #pipline.
+> I developed a sample-project base on [[Reactjs]], [[Nodejs]], [[Couchdb]], #[[IBM]] ,and [[Cloud]], on [[Heroku]] [[CICD]].
 
 > I wanted to start work on reactjs that I think it has a main components include grid, list, search, connected to db. 
 

@@ -1,10 +1,12 @@
-# Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)
 
-#Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate
+[TOC]
+
+**Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)**
+
 
 👩‍🏫👩‍🏫👩‍🏫
 
-*Introducing
+## Introducing
 
 Polkadot unites a network of heterogeneous blockchain shards called parachains. These chains connect to and are secured by the Polkadot Relay Chain. They can also connect with external networks via bridges.
 
@@ -30,7 +32,7 @@ as the parachain’s ingress queue
 
 👆👆👆
 
-#Parachain
+## Parachain
 
 A first parachain implementation, likely to be based heavily on an existing blockchain protocol such as Bitcoin or (more likely, since it provides for rich transactions) Ethereum. This will include an integration with the proof-of-stake chain, allowing the parachain to gain consensus without its own internal consensus mechanism.
 
@@ -44,11 +46,11 @@ over-burdensome validation algorithm.
 
 A parachain utilising the properties of zk-SNARKs in order to ensure identities of transactors on it are kept private. A stretch goal dependent on the relay-chain.
 
-#Relay-chains
+## Relay-chains
 
 This is the final stage of the relay-chain, allowing the dynamic addition, removal and emergency pausing of parachains, the reporting of bad behaviour and includes implementation of the \fisherman" functionality Polkadot will be able to scale even further in the future with a planned feature known as nested relay chains, which will increase the number of shards that can be added to the network.
 
-#Interchain
+## Interchain
 
 (according to the logic of that chain) able to effect the **dispatch of a transaction into a second parachain or, potentially**, the relay-chain. Like external transactions on production blockchains, they are fully asynchronous and there is no intrinsic ability for them to return any kind of information back to its origin.
 
@@ -72,7 +74,7 @@ kind of direct routing.
 
 Hyper-cube Routing. Hyper-cube routing is a mechanism which can mostly be build as an extension to the basic routing mechanism described above.
 
-#Validators 
+## Validators 
 
 Validators may provide only a \null" block containing no external "transactions" data, but may run the risk of getting a reduced reward if they do. 
 
@@ -146,7 +148,7 @@ To mitigate this, we propose a simple strategy on the part of validators. Firstl
 
 Collator Preferences. One important aspect of this system is to ensure that there is a healthy selection of collators creating the blocks in any given parachain. If a single collator dominated a parachain then some attacks become more feasible.
 
-#Collators
+## Collators
 
 it is quite possible that this mechanism enables even very small stakeholders to contribute as a collator.
 
@@ -156,13 +158,13 @@ This is the delivery of an alternative chain-specific collator functionality. It
 
 Validators work alongside a parachain gossip protocol with collators individuals who collate **transactions into blocks** and provide a noninteractive, zero-knowledge proof that the block constitutes a valid child of its parent (and taking any transaction fees for their trouble
 
-#Fishermen
+## Fishermen
 
 The parties get a reward for reporting such activity; their term, "fishermen" stems from the unlikeliness of such a reward.
 
 Fishermen, as well as general relay-chain and parachain clients will generally aim to keep a connection open to a validator or guarantor.
 
-#Queue
+## Queue
 
 These queues are **administered on the relay-chain**
 
@@ -174,7 +176,7 @@ to a stalled destination may be reported synchronously.
 
 *(Though since no return path exists, if a secondary transaction failed for that reason.)*
 
-#Networking
+## Networking
 
 @overlay@devp2p @p2p
 
@@ -192,17 +194,17 @@ our own. Several peer-to-peer base protocols exist that we may use or augment in
 
 👆👆👆
 
-#Parachain-Block
+### Parachain-Block
 
 @Candidate
 
 Such subsets of validators are required to provide a parachain block candidate which is guaranteed valid (on pain of bond confiscation).
 
-#Transaction-forwarding-contract
+### Transaction-forwarding-contract
 
 In short, we envision that transactions from Polkadot can be signed by validators and then fed into Ethereum where they can be **interpreted and enacted by a transaction-forwarding contract.**
 
-#Break-in-contract
+### Break-in-contract
 
 Ethereum is able to host a "break-in contract" which can maintain the 144 signatories and be controlled by them. 
 
@@ -212,7 +214,7 @@ validator to be guaranteed payment in exchange for the provision of a particular
 
 These resources may be measured in something like gas, but could also be some entirely novel model such as subjective time-to-execute or a Bitcoin-like flat-fee model.
 
-#Breakout-contract
+### Breakout-contract
 
 @Header
 
@@ -222,7 +224,7 @@ Delivering a transaction from Bitcoin to Polkadot can in principle be done with 
 
 **Any tokens then owned in the "break-out address"** would then, in principle, be controlled by those same validators for later dispersal
 
-#Staking-Contract
+## Staking-Contract
 
  This contract maintains the validator set. It manages:
 
@@ -236,11 +238,11 @@ Delivering a transaction from Bitcoin to Polkadot can in principle be done with 
 
 👆👆👆
 
-#POS
+## POS
 
 Proof-of-stake chain: Extending the consensus mechanism into proof-of stake territory; this module includes staking tokens, managing entry and exit from the validator pool, a market mechanism for determining validator rewards, finalising the approval-voting nomination mechanism and managing bond-confiscation and dismissal. It includes a substantial amount of research and prototyping prior to final development.
 
-#NPOS
+### NPOS
 
 @Stake-Token-Liquidity
 
@@ -252,17 +254,17 @@ sessions would happen regularly, perhaps as often as once per hour.
 
 Nominating works through an approval-voting system.Each session, nominators’ bonds are dispersed to be represented by one or more validators.
 
-#POA
+### POA
 
 Proof-of-authority consensus mechanism supporting rich validator statements and allowing multiple independent items to be agreed upon under a single series based upon subjective reception of the partial set of validator statements. The mechanism should allow the proof of misbehaviour for the dismissal of malicious validators but need not involve any staking mechanism. A substantial amount of research and prototyping will precede the development of this component
 
-#POC
+### POC
 
 An initial proof-of-concept would focus on placing the new validation algorithms into clients themselves, effectively requiring a hard fork of the protocol each time an additional class of chain were added.
 
 👆👆👆
 
-##Features
+## Features
 
 @Forkless
 
@@ -272,7 +274,7 @@ often taking months of work, and particularly contentious hard forks can break a
 
 How can a blockchain network automatically upgrade? Substrate has a unique property where the runtime (state transition function) is stored within the blockchain state. This means nodes update themselves by default rather than through manual intervention.
 
-#DAO
+## DAO
 
 @governance
 
@@ -288,7 +290,7 @@ stake voting positively may be a sensible starting point.
 
 The removal of parachains altogether would come only after a referendum .
 
-#Crowdloan
+## Crowdloan
 
 @Slot
 
@@ -300,7 +302,7 @@ Essentially, the community of stakeholders will need to be incentivized to add c
 
 👆👆👆
 
-#Fees
+## Fees
 
 @Negotiation-logic
 
@@ -308,7 +310,7 @@ The transaction has an origin segment, providing the ability to identify a parac
 
 Calling into another such chain would mean proxying through this bridge, which would provide the means of negotiating the value transfer between chains in order to pay for the computation resources required on the destination parachain.
 
-#Gas
+### Gas
 
 **cost of Ethereum confirming** that an instruction was properly validated as coming from the Polkadot network would be no more than 300,000 gas|a mere 6% of the total block gas limit at 5.5M.
 
@@ -320,13 +322,13 @@ Because of Substrate’s modularity, gas is completely optional, and the introdu
 
 ✍️✍️✍️
 
-#Signature
+### Signature
 
 One interesting, and cheaper, *alternative to this multisignature contract model would be to use ✍️threshold signatures in order to achieve the multi-lateral ownership semantics*. While threshold signature schemes for **ECDSA** are computationally expensive, those for other schemes such as ✍️ **Schnorr signatures are very reasonable.**
 
 Bitcoin is substantially more limited, with most clients accepting only multisignature transactions with a maximum of 3 parties
 
-#SPV 
+### SPV 
 
 refers to Simplified Payment Verification in Bitcoin and describes a method for clients to verify transactions while keeping only **a copy of all blocks headers** of the longest PoW chain.
 
@@ -346,7 +348,7 @@ under long-term bond in the validation process.
 
 📚📚📚
 
-#Literature
+## Literature
 
 external data referenced = transactions
 
@@ -358,17 +360,26 @@ XCMP = Cross-Chain Message Passing
 
 runtime = state transition function
 
-https://docs.substrate.io/v3/getting-started/glossary/
+[Substrate-Glossary](https://docs.substrate.io/v3/getting-started/glossary/)
 
 ❤️❤️❤️
 
 If you liked this article or if it helped you please clap on this post to help the Read.Cash algorithm recommend it to more people. If you have any questions or remarks please feel free to leave a comment below.
 
 Alternatively, please feel free to send donations 
+
 > 0xde5D732a5AB44832E1c69b18be30834639F44A2c
 
 ❤️❤️❤️
 
 Reseacher & Organized by: 
 
-🙏#Arman-Riazi🤝
+🙏Arman-Riazi🤝
+
+[[Polkadot-Ecosystem-Research]]
+
+[[Polkadot]]
+
+[[Kusama]]
+
+[[Substrate]]

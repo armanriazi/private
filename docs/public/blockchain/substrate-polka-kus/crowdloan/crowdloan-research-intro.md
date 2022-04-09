@@ -1,16 +1,16 @@
-# Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan(3)
+[TOC]
 
-#Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate
+**Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan(3)**
 
 👩‍🏫👩‍🏫👩‍🏫
 
-*Introducing
+## Introducing
 
 Kusama is a **canary** network for Polkadot; Kusama is a **proving ground for runtime upgrades, on-chain governance, and parachains**. The network is a permissionless.Kusama does not support smart contracts natively.The Kusama network is Polkadot's experimental, community-focused R&D network.  
 
 👆👆👆
 
-#AccountThese are transfer and transfer_keep_alive. transfer will allow you to send KSM regardless of the consequence; transfer_keep_alive will not allow you to send an amount that would allow the sending account to be removed due to it going below the existential deposit.
+AccountThese are transfer and transfer_keep_alive. transfer will allow you to send KSM regardless of the consequence; transfer_keep_alive will not allow you to send an amount that would allow the sending account to be removed due to it going below the existential deposit.
 
 By default, Polkadot-JS Apps will use transfer_keep_alive, ensuring that the account you send from cannot drop below the existential deposit of 0.001666 KSM.
 
@@ -26,7 +26,7 @@ On Kusama, you can check if recovery has been set up by checking the recovery.r
 
 👆👆👆
 
-#Parachain-Slots-Auction
+## Parachain-Slots-Auction
 
 Polkadot Parachain Auctions do not offer a free and open environment as we have seen with ERC20 tokens, where the only thing needed was a white paper to deploy a smart contract on the Ethereum Blockchain. Such a feature allows for flexibility in the Polkadot ecosystem where every Parachain can create its own set of rules
 
@@ -44,13 +44,13 @@ Shared security and processing of transactions don’t come for free. One of the
 
 A Parachain slot is a scarce resource. Given an increase in the number of Parachains, every few months new Parachains slots will be added. The Polkadot ultimate goal is to have 100 slots.
 
-@crowdsale-VS-crowdloan 
+## crowdsale-VS-crowdloan 
 
 crowdsale and crowdloan which makes sense because they sound the same. they are similar but there are some very key differences for example **crowdsale** I am sure you're familiar with it's kind of like platforms along the lines of **kickstarter** so you fund a project say **creating a backpack that sings and lights up and then you give the funds to eventually get the product knowing that it's not created yet** and then the creator uses those funds to make the product and then eventually you'll get that product in the mail so you are buying an actual thing and then you get that thing but you never get your original funds back  where a **crowdloan is very different** so you're finding a specific function for example a parachain slot and it can only be used for that purpose it can't be used for anything else and then all funds that you contribute are delivered back to you once the lease is up so anything you contributed originally comes right back to you and it's not like you're putting funds down and you never see them again but you get something else in return and so parachain teams don't have control over the funds it's locked in the relay chain which prevents rug pull so all of a sudden funds can't just disappear or someone takes all of them it's pretty much impossible for that to happen and then if the first attempt to score slot isn't successful the crowd loan continues to try to score a parachain slot in the next round and then the next round until they do and all crowdloans do have an expiration date and that will all be specified in the outset so you should never be left in the dark you'll always have all the information you need so you can look forward to all the exciting things to come.
 
  the other thing to keep in mind is some projects have a **rewards** cap for their crowd loans so they can only give out so many rewards or they can only take so many contributions to the crowd loan or a certain amount so if you are set on wanting to participate it's always good to do it as soon as you feel ready um just in case you know there's a cut off or in case you can get bonus rewards.
 
-@ParachainAcution-vs-eBayAcution
+## ParachainAcution-vs-eBayAcution
 
 a common misconception in the cryptocurrency space is that a para chain slot auction is something that you have to actively participate in kind of like an auction on ebay but that actually couldn't be further from the truth and all you have to do is contribute you don't have to bid and the crowdloan does on behalf of the project so there's no stress for you and then there's a difference between a regular auction and then a parachain slot option which is used to decide which pair of chains get to be connected to the relay chain so it's not like bidding on ebay for a handbag or something like that and then there's the concept of a candle auction which means in the ending period which is the last five days the auction can just end at any time and no one knows when this will be no single human knows and it's **completely automated and a mystery to everyone and so the crowdloan opens before the auction starts and it stays open until a winner is declared** so definitely make sure to contribute while the crowd loan is still open and hopefully before your team scores a slot and you **get lots of rewards.**
 
@@ -136,16 +136,24 @@ The remaining parachains must continue to compete for a slot, assuming their cro
 
 📚📚📚
 
-#Literature
+## Literature
 
  authorities win slots based on a verifiable random function = VRF
 
 the private-bid projects =  Individual parachain
 
-https://docs.substrate.io/v3/getting-started/glossary/
+[Substrate-Glossary](https://docs.substrate.io/v3/getting-started/glossary/)
 
 ❤️❤️❤️
 
 Researcher & Organized by:
 
-🙏#Arman-Riazi🤝
+🙏Arman-Riazi🤝
+
+[[Polkadot-Ecosystem-Research]]
+
+[[Kusama]]
+
+[[Polkadot]]
+
+[[CrowdLoan]]

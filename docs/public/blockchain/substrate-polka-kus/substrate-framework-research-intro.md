@@ -1,10 +1,10 @@
-# Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)
+[TOC]
 
-#Dr.Gavin-Wood #Polkadot#kusama#ParaState#Substrate
+**Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)**
 
 👩‍🏫👩‍🏫👩‍🏫
 
-*Introducing
+## Introducing
 
 **Polkadot and Substrate are not dependent on each other**. Polkadot parachains can be built and maintained without ever touching Substrate. Substrate-based chains can exist as **‘solo-chains’** on an independent basis.
 
@@ -29,17 +29,16 @@ you're not only free to choose your parameters such gas costs, governance, and c
 
 On my opinion for  substrate future(DNA Replication)
 
- 
 
-#limitations-Resolved
+## Limitations-Resolved
 
 For example, reusing the Ethereum codebase implies several limitations: **having to place all of your business logic in terms of the EVM**, being forced to **use one of the two EVM languages**, having all business logic dynamically metered, and being limited to Ethereum's transaction pool and lack of core upgradability.
 
 **Without Substrate, there would be no easy way to build the blockchains** that constitute the Polkadot ecosystem, and many builders would be forced into using a constrictive and uniform smart contract environment, limiting innovation and leaving Polkadot’s remarkable heterogeneous sharding system unutilized.
 
-##MainModules
+## MainModules
 
-#Frame
+###Frame
 
  business logic is provided through a **modular system known as FRAME**.
 
@@ -83,31 +82,29 @@ The FRAME System crate frame_system provides low-level types, storage, and fu
 
 **The System crate defines all the core types for the Substrate runtime**, such as:
 
-Origin
+*Origin
 
-Block Number
+*Block Number
 
-Account Id
+*Account Id
 
-Hash
+*Hash
+*
+*Header
+*Version
+*
+*etc...
 
-Header
+*It also has a number of system-critical storage items, such as:
 
-Version
+*Account Nonce
+*
+*Block Hash
 
-etc...
+*Block Number
 
-It also has a number of system-critical storage items, such as:
-
-Account Nonce
-
-Block Hash
-
-Block Number
-
-Events
-
-etc...
+*Events
+*etc...
 
 Finally, it defines a number of low level functions which can access your blockchain storage, verify the origin of an extrinsic, and more.
 
@@ -125,7 +122,7 @@ The FRAME Executive Pallet frame_executive **acts as the orchestration layer*
 
 **The runtime library brings together all** these components and pallets. It defines which pallets are included with your runtime and configures them to work together to compose your final runtime. When calls are made to your runtime, it uses the Executive pallet to dispatch those calls to the individual pallets.
 
-#Pallet
+### Pallet
 
 **A developer may choose to have a pallet that enables smart contracts**, or specifically not include pallets to keep their blockchain network lean and reduce attack vectors.
 
@@ -143,13 +140,13 @@ https://docs.substrate.io/v3/runtime/frame/
 
 Atomic Swap, Aura, Authority Discovery, Authorship, BABE , Balances, Benchmark, Collective, Contracts, Democracy, Elections Phragmén, Elections, GRANDPA, Identity, I'm Online, Indices, Membership, Multisig, Nicks, Offences, Proxy, Recovery, Randomness Collective Flip, Scheduler, Scored Pool, Session, Society, Staking, Sudo, Timestamp, Transaction Payment, Treasury, Utility, Vesting
 
-#Execution environment
+### Execution environment
 
 Off-chain features run in their own Wasm execution environment outside of the Substrate runtime.
 
-##Conceptes
+## Conceptes
 
-#Extrinsics
+### Extrinsics
 
 An extrinsic is a piece of information that comes from outside the chain and is included in a block. **Extrinsics fall into three categories: inherents, signed transactions, and unsigned transactions.**
 
@@ -173,21 +170,21 @@ Since the transaction is not signed, there is **nobody to pay a fee**. Because o
 
 ##Features
 
-#Configurable
+### Configurable
 
 @Feeless
 
 Unlike many legacy blockchain networks, which have hard limits for transaction throughput, Substrate is configurable. **Transaction latency can be alleviated through configurable blocktimes, flexible transaction queues, and/or horizontal scaling. Transaction fees are configurable even to the point of feeless** transactions. Development is faster since developers can use the tooling they prefer and select from a growing list of pallets instead of building from scratch. Upgrades happen faster thanks to forkless runtime upgrades.
 
-#Light-client-first
+## Light-client-first
 
 Another unique attribute of Substrate is its “light-client-first” design which can **run directly in-browser and interact with a chain in a fully trustless way.** Traditional approaches for syncing nodes require users to run dedicated hardware and wait a long time for their node to sync, or as a workaround, use a centralized service provider. Substrate light-clients sync lightning fast and drastically increase the decentralization of blockchain networks. Developers can relax, knowing their end users aren’t reliant on a separate node infrastructure susceptible to downtime or hacking.
 
-#Security
+## Security
 
 Substrate chains can inherit security from Substrate-based relay chains like Polkadot or Kusama. 
 
-#Offchain
+## Offchain
 
 Off-chain features run in **their own execution environment outside of the Substrate runtime**. This creates a separation of concerns and ensures block production is not impacted by long-running off-chain tasks. Although the primary benefit of off-chain features may be cost, there are many other benefits. For example, off-chain features can **enable private data to be easily stored and retrievable off-chain to support record deletion and other needs of GDPR-compliant use cases and applications.**
 
@@ -223,9 +220,9 @@ Nodes have to opt-in for persistency of this data via --enable-offchain-indexin
 
 👆👆👆
 
-##Compatibility
+## Compatibility
 
-#SRML
+### SRML
 
 SRML provides the basic building blocks for Substrate-based blockchains and **includes all the essential functionality for a purpose-built blockchain.** Among the various modules included with the **SRML is the Contracts module, designed for executing "native" Wasm smart contracts on any Substrate-based chain.**
 
@@ -253,7 +250,7 @@ Existing Solidity applications can be deployed and executed in this environment,
 
 📚📚📚
 
-#Literature
+## Literature
 
 hot-swap components = pallets 
 
@@ -275,11 +272,16 @@ A verification mechanism =e.g. voting, averaging, checking sender signatures, or
 
 Substrate Runtime Module Library = SRML
 
-https://docs.substrate.io/v3/getting-started/glossary/
+[Substrate-Glossary](https://docs.substrate.io/v3/getting-started/glossary/)
 
 ❤️❤️❤️
 
 Researcher & Organized by:
 
-🙏#Arman-Riazi🤝
+🙏Arman-Riazi🤝
 
+[[Polkadot-Ecosystem-Research]]
+
+[[Polkadot]]
+
+[[Substrate]]

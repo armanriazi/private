@@ -33,11 +33,11 @@ author: "Arman Riazi"
 |    Solidity  | 2 M         |    :material-check-all:   | It seems to me that there would be better languages for developing so in the near furure we need to low-level lang for improve performance hardware resources |
 | IBM HyperLedger       |      1 M        |        :material-check-all:          |  HyperLedger is suited for organizations especially. Hyperledger has got good community and uses cloud-native tools but I think it is not a real decentralized blockchain framework for scalability and giving governance so I used to decide a little bit work on it           |
 | Rust-Lang      | 4 M       |  :material-check-all::material-check:        |      Fantastic, complex language for decentralized/distributed     |
-| Substrate     |  2 M           |       :material-check-all::material-check:          |        Awsome work of 🙏Dr.gavin and parity.io community        |
+| Substrate     |  2 M           |       :material-check-all::material-check:          |        Awsome work of 🙏#Dr.Gavin and parity.io community        |
 | Polkadot & Kusuma        |      1 M     |        :material-check-all::material-check:          |       Crowdloan, tokenization💲, parachain and parathreads         |
 | Blockchain research       |      6 M        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
 
-About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate, 2 months research on Polkadot ecosystem, 6 month scholar research on blockchain. There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM**[[Substrate]][[WASM]] to apply for mixing experiences and technologies that lead to **Defi2.0 & Web3.0**.
+About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate, 2 months research on Polkadot ecosystem, 6 month scholar research on blockchain. There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi2.0 & #Web3.0**.
  
  > Hands-On Experience With Blockchain Developing.
 
@@ -45,7 +45,7 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
  > Experienced With Software Development Lifecycle. 
 
- > Experienced With **Cloud-Computing** And [[DevOps]]/[Link](public/devops/Devops.md) #CloudNative Tools. 
+ > Experienced With **Cloud-Computing** And DevOps/[Link](public/devops/Devops.md) CloudNative Tools. 
 
  > Expert In **Modern** Programming Languages.
 
