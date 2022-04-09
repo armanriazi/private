@@ -1,3 +1,18 @@
+---
+keywords:   armanriazi ArmanRiazi Github Blockchain Ethereum Solidity
+feature:  Blockchain 
+title: "Arman Riazi"
+author: "Arman Riazi"
+search:
+exclude: false
+type:  SmartContract
+keywords:  github armanriazi ethereum solidity energy
+feature:  Blockchain
+author: "Arman Riazi"
+title: "Arman Riazi"
+---
+[TOC]
+
 ## A guide to demoing the energy contract
 
 ### Prerequisites
@@ -11,6 +26,7 @@ the demo requires the following software to be installed. For verified functiona
 > Truffle, version 3.2.1
 
 > Node.js, version 7.9.0
+
 
 Running an Ethereum client
 
@@ -134,3 +150,6 @@ The status viewer is a web page which is useful for observing changes in the blo
 running the demo. It shows the status of all the created sell offers and the account balances of
 the buyer, the seller and the electricity market smart contract. The status viewer can be run by
 opening the file index.html in any web browser.
+
+### Github-link
+[Armanriazi-Github-Energy-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-marketplace-in-energy)

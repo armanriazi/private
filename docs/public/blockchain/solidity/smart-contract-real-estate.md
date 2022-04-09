@@ -1,3 +1,18 @@
+---
+keywords:   armanriazi ArmanRiazi Github Blockchain Ethereum Solidity
+feature:  Blockchain 
+title: "Arman Riazi"
+author: "Arman Riazi"
+search:
+exclude: false
+type:  SmartContract
+keywords:  github armanriazi ethereum solidity real-state
+feature:  Blockchain
+author: "Arman Riazi"
+title: "Arman Riazi"
+---
+[TOC]
+
 ## A guide to demoing the real-estate contract
 
 ## Prerequisites
@@ -153,3 +168,6 @@ The status viewer is a web page which is useful for observing changes in the blo
 running the demo. It shows the status of the workflow process, with all the contributions to it
 by the various participants. The status viewer can be run by opening the file index.html in any
 web browser.
+
+### Github-link
+[Armanriazi-Github-RealState-Sample Project](https://github.com/armanriazi/armanriazi-armanriazi-ethereum-in-real-estate)
