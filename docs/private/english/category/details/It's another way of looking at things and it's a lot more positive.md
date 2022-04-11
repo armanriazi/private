@@ -1,1 +1,1 @@
-#Way [[Look]]
+[[way]] [[look]]

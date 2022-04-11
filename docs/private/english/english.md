@@ -10,126 +10,150 @@ author: "ArmanRiazi"
 
 
 [[influence]]
+[influence](category/influence.md)
 
 [[proud]]
+[proud](category/proud.md)
 
 [[conflict]]
+[conflict](category/conflict.md)
 
 [[approach]]
+[approach](category/approach.md)
 
 [[situation]]
+[situation](category/situation.md)
 
 [[history]]
+[history](category/history.md)
 
-[[willbe]]
+
 
 [[as]]
+[as](category/as.md)
  
-
 [[abilities]]
+[abilities](category/abilities.md)
  
-
-[[canbe]]
-
 
 
 [[dueto]]
+[dueto](category/dueto.md)
 
 
 [[continue]]
+[continue](category/continue.md)
 
 
 [[conjunctions]]
+[conjunctions](category/conjunctions.md)
 
 
 [[before]]
-
-
-[[wait]]
- 
-
-[[aslongas]]
+[before](category/before.md)
 
 
 
 [[organize]]
+[organize](category/organize.md)
 
- 
+ [[if]]
+[if](category/if.md)
+
  [[mean]]
-
+[mean](category/mean.md)
  
 [[understand]]
-
+[understand](category/understand.md)
 
 
 [[advice]]
-
+[advice](category/advice.md)
 
 [[got]]
-
+[got](category/got.md)
 
 [[getting]]
-
+[getting](category/getting.md)
 
 
 [[goingto]]
-
+[goingto](category/goingto.md)
 
 [[call]]
- 
+ [call](category/call.md)
 
 [[know]]
-
+[know](category/know.md)
 
 [[try]]
- 
+ [try](category/try.md)
 
 [[think]]
-
+[think](category/think.md)
 
 [[relevent]]
-
+[relevent](category/relevent.md)
 
 [[time]]
- 
+ [time](category/time.md)
+
+ [[whichis]]
+ [which](category/whichis.md)
 
 [[practise]]
-
+[practise](category/practise.md)
  
 [[interupt]]
-
+[interupt](category/interupt.md)
 
 [[let]]
-
+[let](category/let.md)
 
 [[decision]]
-
+[decision](category/decision.md)
 
 [[ask]]
-
+[ask](category/ask.md)
 
 [[talk]]
-
+[talk](category/talk.md)
 
 [[like]]
-
+[like](category/like.md)
 
 [[interest]]
-
+[interest](category/interest.md)
 
 [[take]]
+[take](category/take.md)
 
+[[look-see]]
+[take](category/look-see.md)
+
+[[recommend]]
+[recommend](category/recommend.md)
+
+[[feel]]
+[feel](category/feel.md)
 
 [[insist]]
-
+[insist](category/insist.md)
 
 [[issue]]
-
+[issue](category/issue.md)
 
 [[wonder]]
-
+[wonder](category/wonder.md)
 
 [[meet]]
+[meet](category/meet.md)
 
+[[permission]]
+[permission](category/permission.md)
+
+[[be]]
+[be](category/be.md)
 
 [[question]]
+[question](category/question.md)

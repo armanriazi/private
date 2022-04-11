@@ -6,4 +6,6 @@
 
  [[The 'move' closure is often used alongside 'thread:: spawn']]
 
- I haven't seen a framework [[as]] good as substrate. 
+ [[I haven't seen a framework as good as substrate]]
+
+ [[We can compare every ... to each other]]

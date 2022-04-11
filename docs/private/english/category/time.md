@@ -4,7 +4,7 @@
 
 [[I will just be a minute]]
 
-[[It took me ages to #learn to develop substrate]]
+[[It took me ages to learn to develop substrate]]
 
 [[All the services are out at the moment]]
 
@@ -12,7 +12,7 @@
 
 [[Anytime/Sometime after three would be fine]]
 
-
+[[It's time for you to rotate in to the etc]]
 
 [[expire]]
 

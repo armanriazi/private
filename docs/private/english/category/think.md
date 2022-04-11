@@ -4,10 +4,11 @@
 
 [[I noticed that etc]]
 
-[[it seems to me that]]
+[[It seems to me that]]
 
 [[I have no Idea]]
 
+[[So keep in mind that etc]]
 
 
 [[I'm afraid that not how I see it]]

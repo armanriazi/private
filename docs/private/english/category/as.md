@@ -2,3 +2,6 @@
 
 [[As you know from your own experience]]
 
+
+[[aslongas]]
+[aslongas](category/aslongas.md)

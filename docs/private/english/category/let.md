@@ -6,16 +6,27 @@
 
 [[Let's called a Day]]
 
-[[Let's get toe point]]
+[[Let's get to the point]]
 
 [[Let me have everone for attention please]]
 
 [[Let me try to answer your question like this]]
 
-[[Let's bring this to a close, shall we-Q]]
 
-[[Let's get down to business shall we-Q]]
+[[Let's talk about the what, why, and how of the...]]
 
-[[Let's move on shall we-Q]]
+[[let me kick it off with the what]]
 
-[[Let's get started shall we-Q]]
+[[Let me get a closer look at this first]]
+
+[[Let's head over to -.org and take a look etc]]
+
+[[Let's take a look at the following exp]]
+
+[[Let's take a few  minutes to discuss the difference between these two type of setups]]
+
+[[I hope you enjoy. If you have any question please let me know]]
+
+
+
+[[question_let]]
