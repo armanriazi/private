@@ -1,0 +1,1 @@
+#LackOf [[opinion]]
