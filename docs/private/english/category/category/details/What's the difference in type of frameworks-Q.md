@@ -1,1 +1,1 @@
-[[rather]]
+[[rather]] [[type]]
