@@ -1,5 +1,5 @@
 [[canbe]]
-[canbe](category/canbe.md)
+[canbe](canbe.md)
 
 [[willbe]]
-[willbe](category/willbe.md)
+[willbe](willbe.md)

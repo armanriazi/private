@@ -6,5 +6,5 @@
 
 
 [[aslongas]]
-[aslongas](category/aslongas.md)
+[aslongas](aslongas.md)
 

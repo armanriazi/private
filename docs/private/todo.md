@@ -1,6 +1,6 @@
 * I'm gonna cover any boring theory
 * I work on substrate in the last few months
-*   I don't think of myself as a hero person since every developer is not able to reach all information because of a lack of time
+* I don't think of myself as a hero person since every developer is not able to reach all information because of a lack of time
 * I think we are drifting off the point a bit
 
 
