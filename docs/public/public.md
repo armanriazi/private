@@ -17,4 +17,4 @@
 
 * [Links](other/main.md)
 
-* [Entertainment](public/fun.md)* 
+* [Entertainment](../fun.md)
