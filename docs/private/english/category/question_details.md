@@ -1,4 +1,6 @@
 
+[[Why is this the case-Q]]
+
 [[Could you be more precise-Q]]
 
 [[Do you anticipate any deficulty-Q]]
@@ -24,3 +26,5 @@
 [[What seems to the trouble-Q]]
 
 [[What's the difference in type of frameworks-Q]]
+
+[[How all the difference sectors work together in different roles work together and we'll have a case study later]]

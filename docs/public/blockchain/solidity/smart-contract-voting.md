@@ -24,9 +24,9 @@ the demo requires the following software to be installed. For verified functiona
 
 > Node.js, version 8.9.0
 
-> #Ganache
+> Ganache
 
-> #MetaMask
+> MetaMask
 
 Running an [[Ethereum]] client
 
@@ -50,7 +50,7 @@ npm install
 * Transparency 
 * Distributed 
 * Private Test Network
-* Integrite to the Metamask
+* Integrate to the Metamask
 
 
 ### Sourcecode

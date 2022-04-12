@@ -7,7 +7,7 @@ author: "Arman Riazi"
 search:
 exclude: false
 type:  SmartContract
-keywords:  github armanriazi ethereum solidity marketplace
+keywords:  github armanriazi ethereum solidity marketplace nodejs eth
 feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
@@ -24,7 +24,7 @@ the demo requires the following software to be installed. For verified functiona
 
 > Node.js, version 8.9.0
 
-> #MetaMask
+> MetaMask
 
 Running an [[Ethereum]] client
 
@@ -51,3 +51,5 @@ npm install
 
 ### Sourcecode
 [Armanriazi-Github-Marketplace-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-market)
+
+#nodejs #metamask

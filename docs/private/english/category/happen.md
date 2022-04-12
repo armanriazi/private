@@ -4,4 +4,4 @@
 
 [[The market tries to anticipate what will happen]]
 
-[[it can help me predict what might happen from a perspective in the future]]
+[[It can help me predict what might happen from a perspective in the future]]

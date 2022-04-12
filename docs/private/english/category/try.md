@@ -8,4 +8,6 @@
 
  [[Do it and then as soon as you finish try another solution one after the other]]
 
+ [[Try to understand why economic statistics are going up or down]]
+ 
  [[question_try]]

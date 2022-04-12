@@ -75,7 +75,7 @@ linking_with_cc_failed_exit_code_1/build-essential-fails-because-of-unmet-depend
 
 ```rustup target add wasm32-unknown-unknown```
 
-#'apt-get install llvm clang linux-headers-"$(uname -r)" 
+```apt-get install llvm clang linux-headers-"$(uname -r)"```
 
 ```apt install llvm clang```
 ```cargo build --release```

@@ -36,9 +36,7 @@
 [[did you catch the process photos I posted-Q]]
 
 
-
 [[Please clarifying what you mean-Q]]
-
 
 
 [[Which task do you associate with current plan-Q]]
@@ -67,3 +65,13 @@
 [[Which will walk you through the answers]]
 
 [[Isn't is cool?]]
+
+[[What's that about-Q]]
+
+[[What is expected for GDP-Q]]
+
+[[What a company worth today]]
+
+[[How they change interest rates]]
+
+[[How are we gonna learn these concepts]]

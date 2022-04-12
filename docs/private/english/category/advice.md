@@ -13,3 +13,7 @@
 [[This is crucial for]]
 
 [[It'll be a competition advantage for you]]
+
+[[You gotta keep an eye on some of these factors]]
+
+[[Always look at the source and then the source of the source If you want to drill down]]

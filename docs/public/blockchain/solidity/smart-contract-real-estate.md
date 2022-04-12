@@ -6,7 +6,7 @@ author: "Arman Riazi"
 search:
 exclude: false
 type:  SmartContract
-keywords:  github armanriazi ethereum solidity real-state
+keywords:  github armanriazi ethereum solidity real-state nodejs truffle ganache eth
 feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
@@ -22,9 +22,9 @@ the demo requires the following software to be installed. For verified functiona
 
 > Ubuntu 16.04.2 LTS
 > 
-> #Test[[RPC]], version 3.0.4
+> Test[[RPC]], version 3.0.4
 > 
-> #Truffle, version 3.2.1
+> Truffle, version 3.2.1
 > 
 > Node.js, version 7.9.0
 
@@ -171,3 +171,5 @@ web browser.
 
 ### Sourcecode
 [Armanriazi-Github-RealState-Sample Project](https://github.com/armanriazi/armanriazi-armanriazi-ethereum-in-real-estate)
+
+#nodejs #truffle #ganache #eth #ethereum

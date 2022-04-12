@@ -16,3 +16,5 @@
 * [Archive-Projects](archive/main.md)
 
 * [Links](other/main.md)
+
+* [Entertainment](public/fun.md)* 

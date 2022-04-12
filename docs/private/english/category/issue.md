@@ -44,6 +44,10 @@
 
 [[The problem should go in a minute]]
 
+ [[depending on what sector you cover]]
+
 [[Sometimes those .. impacts on a ... don't worry at all]]
+
+[[That's one of the reason why there was a bit of commedity]]
 
 [[question_issue]]

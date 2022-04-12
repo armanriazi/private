@@ -19,3 +19,9 @@
 [[This page assume you're investing in banks]]
 
 [[This course is base on my real life practical exp]]
+
+[[I'll explain in the next lecture]]
+
+[[I want to show you these things in a second here]]
+
+[[I forgot to sth so I would dclick, and I would go here]]

@@ -10,6 +10,8 @@ author: "Arman Riazi"
 ---
 
 # About Me
+> I'm ArmanRiazi I work with companies to realize benifits & business outcomes from Blockchain and ITIL technologies.
+
 > Arman Riazi knows how to move your business, mind, developing on blockchain 4.0.
 
 > Getting Luxary services that you can afford.
@@ -18,9 +20,13 @@ author: "Arman Riazi"
 
 ![Image title](assets/attachments/me.png)
 
+> I am Arman Riazi I work with companies to realize benefits and business outcomes from Blockchain and ITIL.
+
+> I want to kind of give you a menu of every type of investment and solutions on the Blockchain.
+ 
 > I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 2 years.
 
-> Following the table is my recent experience and my favorite 😋 for access to [archive](public/archive/archive-until-2016.md) before 2020 you can click on it.
+> Following the table is my recent experiences 😋 for access to [archive](public/archive/archive-until-2016.md) before 2020 you can click on it.
 
 ``` Exprt: Experience ```
 ``` Prd: Period ```
@@ -51,13 +57,13 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
  > Have Technical Conscience To Define The Right Blockchain Solutions. 
 
- > Understand Decentralized Ledgers and Configure Full/Master#Node. 
+ > Understand Decentralized Ledgers and Configure Full/Master Node. 
 
  > Technical Knowledge of Standards and Ecosystems. 
 
  > Cryptocurrency #trading and using financial services. 
 
- > Graduated **M.Sc**[[master]] In Field Of Information Technology. 
+ > Graduated **M.Sc** [[master]] In Field Of Information Technology. 
  
  Over 10 years of experience in designing, developing, deploying, analyzing, and implementing [[Cloud]]-native, web, and software engineers. 
  
@@ -66,7 +72,8 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
  * Good communication, problem-solving, documentation, and analytical. 
  * Capable of learning new skills and concepts quickly. 
  * Maintain effective relationships with others. 
- * General features including Research, Creative, Analyze, Developing. 
+ * General features including Research, Creative, Analyze, Self-Developing. 
  * Highly organized, motivated, confident.
- * I have a passport and I finished military service.
+
  
+<iframe src="https://drive.google.com/file/d/1OFAWs46pYsdmxW33v2qAFugY1mTdzyTk/preview" width="640" height="480" allow="autoplay"></iframe>

@@ -1,5 +1,3 @@
-[TOC]
-
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM(5)**
 
 👩‍🏫👩‍🏫👩‍🏫
@@ -67,7 +65,6 @@ SecondState developers recently built a Solidity to Ewasm compiler called Soll
 
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/54616ed0162c79fb98ff115bf19525c1.png)
 
-```#pretty printed source```
 ```solc/solc --strict-assembly --optimize ~/simple_storage/simple_storage_yul_ir.txt```
 
 
@@ -78,9 +75,9 @@ SecondState developers recently built a Solidity to Ewasm compiler called Soll
  ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/abef4b5add46893a5c5be2fb268b62d2.png)
 
 
-https://docs.parastate.io/developers-resources/sewup-ewasm/set-up-sewup
+[Set-up-Sewup](https://docs.parastate.io/developers-resources/sewup-ewasm/set-up-sewup)
 
-https://docs.parastate.io/developers-resources/sewup-ewasm/tutorial-hello-world
+[Tutorial-Hello-World]](https://docs.parastate.io/developers-resources/sewup-ewasm/tutorial-hello-world)
 
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/e120f04193d2f6aed497d0d10a40224e.png)
 ![EWASM](https://cdn.rcimg.net/arman-riazi-science/591674c4/90ad2987d86671619e2d1bf735dd5e72.png)

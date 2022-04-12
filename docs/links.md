@@ -15,9 +15,10 @@ permalink: /links
 
 * [English Resume](https://cutt.ly/OPk7FT2)
 
-* [Youtube Channel](https://cutt.ly/pyKrYMh)
+* [Youtube Channel Blockchain](https://www.youtube.com/channel/UC4DbYxk3q_6MPNNpHa-C7ag)
 
-  
+* [Youtube Channel-Archived](https://cutt.ly/pyKrYMh)
+
 #### Papers On Blockchain
 
 > [Read.Cash](https://read.cash/@arman-riazi-science)
