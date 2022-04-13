@@ -10,5 +10,9 @@
 [[finish]]
 [Finish](finish.md)
 
+[[if]]
+[if](../if.md)
+
+
 [[let]]
 [Let](../let.md)
