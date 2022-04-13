@@ -1,0 +1,9 @@
+[[So keep in mind that ...]]
+[[At this point you're probably wondering, what is ...]]
+[[The ... is often used alongside with the..]]
+[[I don't know if it works but we try it]]
+[[I maybe wrong but...]]
+[[It's been working fine]]
+[[I've got a bit of warning in the project]]
+[[It's time for you to rotate ...]]
+ 

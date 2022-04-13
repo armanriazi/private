@@ -11,7 +11,6 @@ feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
 ---
-[Tags]
 
 ## Blockchain
 
@@ -25,10 +24,23 @@ title: "Arman Riazi"
 
 ## MindMapping
 
-(If you want to get update-mind-mapping image, ask me by Email(Title: armanriazi.github.io _ MindMapping))
+> If you want to get update-mind-mapping image, send me Email
+> (Title: armanriazi.github.io _ MindMapping)
+
 [Substrate MindMapping](../../assets/attachments/substrate-minmap.jpg){width=650,height=650}
 
 ## 2021-2023
+### My Current Consideration
+
+[Rust-Lang](../programming/rust/rust.md)
+
+[Substrate](Substrate.md)
+
+[Kusama](Kusama.md)
+
+[Polkadot](Polkadot.md)
+
+[ParaState](ParaState.md)
 
 ### Research
 
@@ -51,12 +63,15 @@ title: "Arman Riazi"
 
 ### Passed self-study tutorials 
 
-* Substrate workshop with Gavin Wood and Sergei Shulepov
+* Substrate workshop with Dr.Gavin Wood and Sergei Shulepov
 * Build a Bitcoin-like Blockchain with Substrate
 * Intro to Substrate-1-10
 * Substrate based ParaChains (Polkadot) support via Parastate
 * Substrate Recipes Workshop - Learn to Build a Custom Blockchain
-* 
+* Build a Bitcoin-like Blockchain with Substrate - Beginner Friendly
+  
+
+
 ## 2019-2020
 
 ### Sample Projects 

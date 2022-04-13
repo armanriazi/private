@@ -26,6 +26,8 @@ author: "Arman Riazi"
  
 > I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 2 years.
 
+> It took me ages to learn the programming and found knowledge of IT.
+
 > Following the table is my recent experiences 😋 for access to [archive](public/archive/archive-until-2016.md) before 2020 you can click on it.
 
 ``` Exprt: Experience ```

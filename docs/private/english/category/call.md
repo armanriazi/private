@@ -1,11 +1,8 @@
 
 [[I was going to call you]]
-[[goingto]]
+
  [[I missed your call]]
  
-
-
-#missed
 
  [[The reason I am asking]]
 
