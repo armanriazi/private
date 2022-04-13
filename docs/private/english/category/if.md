@@ -5,7 +5,7 @@
 [[If you want I could change it]]
 
 
-[[The point here is that if you got the course wrong, then course is meaning less, okey?]]
+[[The point here is that if you got the course wrong, then course is meaning less, okey-Q]]
 
 
 [[If the price of gold goes up a lot it can be seen as a flight to quality investments or a feer investment indicators]]
@@ -19,7 +19,7 @@
 
 [[If I told you I was going to give you a dollar in a year and the interest rate then was ten percent you can do math and figure out]]
 
-[[If we can not trust the participants in the sys, how do we address the data-Q]]
-
 [[If a country make more money than it spends that it has a deficities]]
+
+[[question_if]]
 
