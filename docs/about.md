@@ -24,11 +24,18 @@ author: "Arman Riazi"
 
 > I want to kind of give you a menu of every type of investment and solutions on the Blockchain.
  
+> I learned  the hard way over the years and I try to make it really simplicitic in this WebSite.
+
 > I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 2 years.
 
 > It took me ages to learn the programming and found knowledge of IT.
 
+> I recommend signing up Discord channel to get updates and share information to each other.
+> > Channel: Blockchain-Aramisit, Discord ID: ArmanRiazi
+
 > Following the table is my recent experiences 😋 for access to [archive](public/archive/archive-until-2016.md) before 2020 you can click on it.
+
+## Blockchain Experience
 
 ``` Exprt: Experience ```
 ``` Prd: Period ```
@@ -46,7 +53,11 @@ author: "Arman Riazi"
 | Blockchain research       |      6 M        |        :material-check-all::material-check:          |        It is always included in my routine activity during a day        |
 
 About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate, 2 months research on Polkadot ecosystem, 6 month scholar research on blockchain. There is not exactly the time to estimate spend time since developing and learning would go with each other. In my opinion, developers who had a kind of skills like Frontend, Backend, or Database have been forced into the Blockchain ecosystem because of the charm of the subject and the rapid growth and evolution of the Technology. I wonder to let you know I am big on **Substrate and WASM** Substrate, WASM to apply for mixing experiences and technologies that lead to **#Defi2.0 & #Web3.0**. It is the only chance I get to find out what's been going on in the technology world and catch up with the current affairs.
+
+## Proof of Knowledge
  
+> [Knowledgement-Tags](tags.md)
+
  > Hands-On Experience With Blockchain Developing.
 
  > Knowledge Of Blockchain Structure.
@@ -66,7 +77,9 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
  > Cryptocurrency #trading and using financial services. 
 
  > Graduated **M.Sc** [[master]] In Field Of Information Technology. 
- 
+
+ > Birthday: 11/11/1989
+
  Over 10 years of experience in designing, developing, deploying, analyzing, and implementing [[Cloud]]-native, web, and software engineers. 
  
  Expertise in the architecture of #Microservices and distributed systems, and modifying related application code. Capable of learning new programming languages and technologies. 
@@ -76,6 +89,6 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
  * Maintain effective relationships with others. 
  * General features including Research, Creative, Analyze, Self-Developing. 
  * Highly organized, motivated, confident.
-
+## Resume
  
 <iframe src="https://drive.google.com/file/d/1OFAWs46pYsdmxW33v2qAFugY1mTdzyTk/preview" width="640" height="480" allow="autoplay"></iframe>

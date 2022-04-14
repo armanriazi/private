@@ -5,6 +5,6 @@
 [[I think we are drifting off the point a bit]]
 [[There is many different wasy to do]]
 [[It's different ways to teach it]]
-[[  The goal of the unit tests is actually to make sure that we won't face errors while we are trying to deploy the release version]]
+[[The goal of the unit tests is actually to make sure that we won't face errors while we are trying to deploy the release version]]
 [[After this section we're going to jump right into investment banking as such]]
  [[We need to move on ...]]

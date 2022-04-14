@@ -1,6 +1,12 @@
+[[Let's talk about the what, why, and how of the...]]
+
+[[let me kick it off with the what]]
+
 [[Let's work on with together]]
 
 [[Let me continue]]
+
+[[Let’s go back to our original example]]
 
 [[Let me explain one more time]]
 
@@ -12,10 +18,6 @@
 
 [[Let me try to answer your question like this]]
 
-
-[[Let's talk about the what, why, and how of the...]]
-
-[[let me kick it off with the what]]
 
 [[Let me get a closer look at this first]]
 

@@ -11,3 +11,5 @@
  [[Which stand for noun]]
 
  [[One of the most powerfull tools that you can have]]
+
+ [[The smart contracts written in Solidity need to be compiled and deployed to the blockchain This can be achieved by using a development environment for Ethereum called Truffle]]
