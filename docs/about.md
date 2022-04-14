@@ -10,27 +10,30 @@ author: "Arman Riazi"
 ---
 
 # About Me
-> I'm ArmanRiazi I work with companies to realize benifits & business outcomes from Blockchain and ITIL technologies.
 
-> Arman Riazi knows how to move your business, mind, developing on blockchain 4.0.
+<iframe width="1520" height="553" src="https://youtu.be/ZQbxqD5bsak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> Arman Riazi knows how to move your business, developing on Blockchain 4.0.
 
 > Getting Luxary services that you can afford.
 
-<!--<iframe src="https://drive.google.com/file/d/1g8he91nt_O4yo2feBwK2fD--sB3T-rVn/preview" width="720" height="420" allow="autoplay" loading="lazy" allowfullscreen="false"  style="border:1px solid black;" marginheight="0px" marginwidth="0px" scrolling="false" allow-downloads="false"></iframe>-->
 
-![Image title](assets/attachments/me.png)
 
-> I am Arman Riazi I work with companies to realize benefits and business outcomes from Blockchain and ITIL.
+
+
+> I'm ArmanRiazi. I work with companies to realize the benefits and business outcomes of Blockchain and ITIL.
 
 > I want to kind of give you a menu of every type of investment and solutions on the Blockchain.
  
-> I learned  the hard way over the years and I try to make it really simplicitic in this WebSite.
-
-> I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 2 years.
+> I learned the hard way over the years and I try to make it really simplistic on the website.
 
 > It took me ages to learn the programming and found knowledge of IT.
 
-> I recommend signing up Discord channel to get updates and share information to each other.
+> I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 2 years.
+
+> I've always influence by dr.Ravenwood. His works are so creative. I am sure he will impressive much more in the future.
+
+> I recommend signing up Discord channel to keep in connect.
 > > Channel: Blockchain-Aramisit, Discord ID: ArmanRiazi
 
 > Following the table is my recent experiences 😋 for access to [archive](public/archive/archive-until-2016.md) before 2020 you can click on it.
@@ -76,9 +79,11 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 
  > Cryptocurrency #trading and using financial services. 
 
- > Graduated **M.Sc** [[master]] In Field Of Information Technology. 
+ > Graduated **M.Sc** [[master]] In The Field Of Information Technology. 
 
  > Birthday: 11/11/1989
+
+ ![Image title](assets/attachments/me.png)
 
  Over 10 years of experience in designing, developing, deploying, analyzing, and implementing [[Cloud]]-native, web, and software engineers. 
  

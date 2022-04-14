@@ -8,8 +8,13 @@ title: "English"
 author: "ArmanRiazi"
 ---
 
-[ForGraph](forgraph.md)
 
-[BBC](bbc.md)
+[ForGraph](en-forgraph.md)
+
+[BBC](en-about.md)
+
+[Seminar](category/seminar/en-seminar.md)
+
+[BBC](en-bbc.md)
 
 [EnglishGrammarHere](https://englishgrammarhere.com/)
