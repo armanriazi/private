@@ -1,1 +1,1 @@
-[[It has two years left on my passport]]
+[[My passport has two years left on its expired date]]
