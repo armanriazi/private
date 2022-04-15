@@ -8,7 +8,7 @@
 
 > Improved speed and performance.
 
-> I developed a sample-project base on [[Reactjs]], [[Nodejs]], [[Couchdb]], #[[IBM]] ,and [[Cloud]], on [[Heroku]] [[CICD]].
+> I developed a sample-project base on [[Reactjs]], [[Nodejs]], [[Couchdb]], [[IBM]] ,and [[Cloud]], on [[Heroku]] [[CICD]].
 
 > I wanted to start work on reactjs that I think it has a main components include grid, list, search, connected to db. 
 
@@ -17,3 +17,5 @@
 [Github Repository](https://github.com/armanriazi/armanriazi-movies-reactjs)
 
 ![Build Status](../../assets/attachments/heroku-armanriazi-movies-reactjs.JPG)
+
+#Reactjs#Nodejs#Couchdb#IBM#Cloud#Heroku#CICD
