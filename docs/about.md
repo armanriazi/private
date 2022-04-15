@@ -11,7 +11,7 @@ author: "Arman Riazi"
 
 # About Me
 
-<iframe width="1520" height="553" src="https://youtu.be/ZQbxqD5bsak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/ZQbxqD5bsak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > Arman Riazi knows how to move your business, developing on Blockchain 4.0.
 
