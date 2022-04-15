@@ -1,3 +1,13 @@
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
 [[If you don't understand ..., then it can be catastrophic,right]]
 
 [[If I understand you correctly, you think our investment has been mistake]]

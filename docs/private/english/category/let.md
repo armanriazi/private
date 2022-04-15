@@ -1,3 +1,13 @@
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
 [[Let's talk about the what, why, and how of the...]]
 
 [[let me kick it off with the what]]

@@ -1,3 +1,13 @@
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
 [[What about a meeting sometime later last week-Q]]
 
 [[Why don't we take a short break-Q]]

@@ -1,3 +1,13 @@
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
 [[As previously discussed]]
 
 [[As mention earlier in the course]]

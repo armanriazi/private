@@ -1,3 +1,13 @@
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
 [[So take a look here]]
 
 [[So back to noun]]

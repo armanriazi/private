@@ -1,3 +1,14 @@
+
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
 [[We're gonna be recommending hopefully to website]]
 
 [[Please, do your own research always and don't take the media's world for it]]

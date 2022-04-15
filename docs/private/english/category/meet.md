@@ -1,3 +1,13 @@
+ ---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
  [[We need to move on]]
 
 [[I think we are drifting off the point a bit]]

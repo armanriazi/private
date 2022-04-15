@@ -1,4 +1,3 @@
-
 ---
 search:
 exclude: true
@@ -8,9 +7,3 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-[[We are degrising]]
-
-[[Snap in the face]]
-
-[[We get fooled by]]

@@ -1,3 +1,13 @@
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
 [[You've notice .... Is falling as a result of the time lost]]
 
 [[To me, it's just total waste of time]]

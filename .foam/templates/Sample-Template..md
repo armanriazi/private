@@ -1,12 +1,11 @@
 ---
 search:
-exclude: false
+exclude: true
 type:  English
 keywords:  English
 feature:  English
-title: "Example Page"
-author: "Mary Marple"
-{::options parse_block_html="true" /}
+title: "English"
+author: "ArmanRiazi"
 ---
 
 # Foam Note Templates

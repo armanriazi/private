@@ -1,3 +1,13 @@
+---
+search:
+exclude: true
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
+
  [[I am just tried of the same old grind]]
 
  [[I try to study English between the other activities of the day]]
