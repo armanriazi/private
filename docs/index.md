@@ -16,6 +16,7 @@ title: "Arman Riazi"
 >  I prefer to create a knowledge base for myself and then share it.
 >  The philosophy of creating this page is to solve this issue.
 
+**[Guide-Website](public/other/guide-website.md)**
 > Through to my experiences. 
 **[Go Surfing On...](public/public.md)**
 

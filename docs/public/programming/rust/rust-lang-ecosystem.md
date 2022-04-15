@@ -3,7 +3,7 @@
 Understanding the Rust Ecosystem
 ================================
 
-Last updated: 06/15/2020
+Last updated: 06/15/2020(Copied)
 
 ![Graph representing all the facets made up in a programming language ecosystem.](https://d33wubrfki0l68.cloudfront.net/31da1a1cdb40016c5020838f324d8eef7f1f91da/232f3/assets/images/prog-lang-ecosystem.png)
 
@@ -427,8 +427,6 @@ I send a monthly newsletter with 1 exciting thing, 1 helpful thing, and new jobs
 
 Email\*
 
-By subscribing, you agree with Revue’s [Terms of Service](https://www.getrevue.co/terms) and [Privacy Policy](https://www.getrevue.co/privacy).
+By subscribing, you agree with Revue’s Terms of Service
 
-©2022[Joe Previte](https://joeprevite.com)
-
-[](https://twitter.com/jsjoeio)[](https://github.com/jsjoeio)[](https://linkedin.com/in/jsjoeio)[](https://twitch.tv/jsjoeio)[](https://youtube.com/c/jsjoeio)
+©2022 Joe Previte

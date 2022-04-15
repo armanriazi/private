@@ -15,6 +15,8 @@
 
 * [Archive-Projects](archive/main.md)
 
+* [How to learn quickly](other/learn-quickly.md)
+
 * [Links](other/main.md)
 
 * [Entertainment](../fun.md)
