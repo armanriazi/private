@@ -1,6 +1,6 @@
 ---
 search:
-exclude: false
+  exclude: true
 type:  About
 keywords:  About armanriazi
 feature:  About 

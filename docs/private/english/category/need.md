@@ -1,7 +1,7 @@
  
  ---
 search:
-exclude: true
+  exclude: true
 type:  English
 keywords:  English
 feature:  English

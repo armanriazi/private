@@ -1,7 +1,7 @@
 ---
 search:
 exclude: true
-type:  English
+  type:  English
 keywords:  English
 feature:  English
 title: "English"

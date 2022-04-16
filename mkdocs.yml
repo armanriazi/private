@@ -22,7 +22,7 @@ theme:
   logo: assets/attachments/me.png
   favicon: assets/attachments/favicon.ico
   language: en
-  features:
+  features:    
   - search.suggest
   - search.highlight
   - search.share
