@@ -2,6 +2,8 @@
 
 ## Sample Projects 
 
+<iframe width="967" height="506" src="https://www.youtube.com/embed/iPtStz3uIGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Smart Contract-Sales-Energy](smart-contract-marketplace-in-energy.md)
 
 [Smart Contract-RealState](smart-contract-real-estate.md)
