@@ -112,11 +112,11 @@ extra:
   homepage: https://armanriazi.github.io/
   social:
     - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/armanriazi_
+      link: https://twitter.com/arman_riazi_science
       name: ArmanRiazi on Twitter
   analytics:
     provider: google
-    property: 311352239
+    property: G-S8E1J4V9C3
       feedback:
       title: Was this page helpful?
       ratings:
