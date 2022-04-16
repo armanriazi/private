@@ -7,7 +7,7 @@ feature:  English Graph
 title: "English For Graph"
 author: "ArmanRiazi"
 ---
-
+{ data-search-exclude }
 [[influence]]
 [influence](category/influence.md)
 

@@ -61,6 +61,22 @@ icon:
      example: fontawesome/solid/flask
      quote: fontawesome/solid/quote-left     
 markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tilde
+  - toc:
+     permalink: true
+     toc_depth: 4        
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences:
@@ -80,22 +96,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji 
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - attr_list
-  - md_in_html
-  - meta
-  - tables
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.betterem
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.mark
-  - pymdownx.tilde
-  - toc:
-     permalink: true
-     toc_depth: 4      
 plugins:  
   - tags:
      tags_file: tags.md
@@ -112,7 +112,7 @@ extra:
   homepage: https://armanriazi.github.io/
   social:
     - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/aramisit_token
+      link: https://twitter.com/armanriazi_
       name: ArmanRiazi on Twitter
   copyright: Copyright &copy; 2022 Arman Riazi
   generator: false

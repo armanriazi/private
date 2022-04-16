@@ -7,6 +7,8 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
+
 > Hello first name is Arman and Last name is Riazi
 
 > I hope you have a good time

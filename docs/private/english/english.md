@@ -7,7 +7,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
+{ data-search-exclude }
 
 [ForGraph](en-forgraph.md)
 
