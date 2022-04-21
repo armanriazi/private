@@ -1,3 +1,6 @@
+
+{ data-search-exclude }
+
 <div style="text-align: center;"><span style="font-family: Mihan-Iransans; font-size: small;"><strong>
 Slides Archived Until 2019
 </strong></span></div>

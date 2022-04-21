@@ -7,6 +7,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
 
 [[Why don't you give that a try first-Q]]
 

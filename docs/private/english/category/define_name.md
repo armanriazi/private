@@ -7,6 +7,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
 
  [[Which is called revenue]]
 

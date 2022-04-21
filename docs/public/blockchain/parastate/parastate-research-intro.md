@@ -1,5 +1,10 @@
+---
+tags:
+  - parastate
+  - polkadot_ecosystem
+  - pos
+---
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Parastate(4)**
-
 
 👩‍🏫👩‍🏫👩‍🏫
 

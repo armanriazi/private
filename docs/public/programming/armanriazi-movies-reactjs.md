@@ -1,6 +1,19 @@
+---
+tags:
+  - github
+  - couchdb
+  - ibm
+  - reactjs
+  - nodejs
+  - expressjs
+  - api
+  - restapi
+  - cloud
+  - sample
+  - cicd
+  - devops
+---
 
-
-[[Github-ArmanRiazi]]
 
 # armanriazi-movies-reactjs
 
@@ -18,4 +31,5 @@
 
 ![Build Status](../../assets/attachments/heroku-armanriazi-movies-reactjs.JPG)
 
-#Reactjs#Nodejs#Couchdb#IBM#Cloud#Heroku#CICD
+
+[[Github-ArmanRiazi]]

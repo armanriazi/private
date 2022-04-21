@@ -7,6 +7,8 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
+
 
 [[canbe]]
 [canbe](canbe.md)

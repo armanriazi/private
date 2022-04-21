@@ -1,3 +1,10 @@
+---
+tags:
+  - devops
+  - cicd
+  - kubernetes
+---
+
 # Kubernetes 
 
 Capabilities:

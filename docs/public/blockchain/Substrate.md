@@ -1,3 +1,11 @@
+---
+tags:
+  - polkadot_ecosystem
+  - project
+  - sample
+  - substrate
+  - github
+---
 
 ## Substrate
 

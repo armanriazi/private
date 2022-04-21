@@ -1,4 +1,11 @@
-
+---
+tags:
+  - kusama
+  - polkadot_ecosystem
+  - substrate
+  - whitepapaer
+  - polkadot
+---
 
 
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(1)**

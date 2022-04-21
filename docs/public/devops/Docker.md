@@ -1,3 +1,10 @@
+---
+tags:
+  - devops
+  - docker
+  - container
+---
+
 # Docker
 
 DevOps: Docker registry Basic Authentication and HTTPS

@@ -1,4 +1,3 @@
-
 ---
 search:
   exclude: true
@@ -8,6 +7,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
 
 [[We're gonna be recommending hopefully to website]]
 

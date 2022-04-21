@@ -1,3 +1,9 @@
+---
+tags:
+  - cryprocurrency
+  - trade
+---
+
 # Trading-Technical-Fundamental
 
 * [Crypto Trading](../archive/trading-archive-2021.md)

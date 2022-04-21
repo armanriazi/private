@@ -1,4 +1,10 @@
-﻿# Solidity
+﻿---
+tags:
+  - smartcontract
+  - ethereum_ecosystem
+---
+
+# Solidity
 
 ## Sample Projects 
 

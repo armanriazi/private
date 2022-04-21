@@ -1,3 +1,10 @@
+---
+tags:
+  - rust
+  - programming
+  - codebase
+  - github
+---
 
 * [Rust](rust/rust.md)
   

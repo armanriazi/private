@@ -1,5 +1,18 @@
-
-[[Github-ArmanRiazi]]
+---
+tags:
+  - github
+  - couchdb
+  - ibm
+  - reactjs
+  - nodejs
+  - expressjs
+  - api
+  - restapi
+  - cloud
+  - sample
+  - cicd
+  - devops
+---
 
 # armanriazi-vidly-api
 [online: armanriazi-vidly-api.herokuapp](https://armanriazi-vidly-api.herokuapp.com/)
@@ -22,3 +35,6 @@
 [Github Repository](https://github.com/armanriazi/armanriazi-vidly-api)
 
 ![Build Status](../../assets/attachments/heroku-armanriazi-vidly-api.herokuapp.JPG)
+
+
+[[Github-ArmanRiazi]]

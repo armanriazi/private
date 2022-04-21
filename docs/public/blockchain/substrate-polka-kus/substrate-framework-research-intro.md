@@ -1,4 +1,10 @@
-
+---
+tags:
+  - kusama
+  - polkadot_ecosystem
+  - substrate
+  - polkadot
+---
 
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Part(2)**
 

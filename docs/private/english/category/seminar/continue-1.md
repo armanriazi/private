@@ -7,6 +7,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
 
 [[So keep in mind that ...]]
 [[At this point you're probably wondering, what is ...]]

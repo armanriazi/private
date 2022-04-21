@@ -1,4 +1,10 @@
-
+---
+tags:
+  - kusama
+  - polkadot_ecosystem
+  - substrate
+  - crowdloan
+---
 
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/CrowdLoan(3)**
 

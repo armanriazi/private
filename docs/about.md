@@ -1,4 +1,14 @@
 ---
+tags:
+  - about
+  - me
+  - i
+  - armanriazi
+  - riazi
+  - experience
+  - skills
+  - career
+  - recuit
 search:
   exclude: true
 type:  About
@@ -32,9 +42,6 @@ author: "Arman Riazi"
 > I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer for about 2 years.
 
 > I've always influence by dr.Ravenwood. His works are so creative. I am sure he will impressive much more in the future.
-
-> I recommend signing up Discord channel to keep in connect.
-> > Channel: Blockchain-Aramisit, Discord ID: ArmanRiazi
 
 > Following the table is my recent experiences 😋 for access to [archive](public/archive/archive-until-2016.md) before 2020 you can click on it.
 
@@ -97,3 +104,25 @@ About 8-month trading, 2 months solidity, 4 months rust-lang, 2 months substrate
 ## Resume
  
 <iframe src="https://drive.google.com/file/d/1OFAWs46pYsdmxW33v2qAFugY1mTdzyTk/preview" width="640" height="480" allow="autoplay"></iframe>
+
+## Favourites
+
+> Read fundamental blockchain whitepapers. and new taxonomy articles.
+
+> Personal interests Footbal, Running, Body-Building, Motorcycles and Reading Books.
+
+1> Live Concert and (Music Video)[fun.md]
+
+## Call Me-Preferred Channels
+
+> Skype: armanriazi (Video Call)
+
+> Telegram: @arman_riazi(Instant Message, Call)
+
+> Instagram: arman_soc_riazi(Instant Message, Call)
+
+> Twitter: arman_soc_riazi(Message, Shared links)
+
+> Channel: Blockchain-Aramisit, Discord ID: ArmanRiazi
+
+>> I recommend signing up channels to keep in connect.

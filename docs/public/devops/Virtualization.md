@@ -1,3 +1,12 @@
+---
+tags:
+  - vsphere
+  - devops
+  - cloud
+  - esxi
+  - virtualization
+---
+
 # Virualization
 
 ## [[VSphere]] 7.1- Features

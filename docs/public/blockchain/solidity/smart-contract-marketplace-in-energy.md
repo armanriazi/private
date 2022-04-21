@@ -4,12 +4,17 @@ feature:  Blockchain
 title: "Arman Riazi"
 author: "Arman Riazi"
 search:
-exclude: false
+    exclude: false
 type:  SmartContract
 keywords:  github armanriazi ethereum solidity energy nodejs metamask rpc
 feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
+tags:
+  - smartcontract
+  - ethereum_ecosystem
+  - sample
+  - github
 ---
 
 
@@ -154,3 +159,7 @@ opening the file index.html in any web browser.
 [Armanriazi-Github-Energy-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-marketplace-in-energy)
 
 #nodejs #metamask #rpc
+
+[[Ethereum_Ecosystem_Research]]
+
+[[smart-contract]]

@@ -1,3 +1,12 @@
+---
+tags:
+  - container
+  - rancher
+  - kubernetes
+  - caas
+  - devops
+---
+
 # Rancher
 
 **One Platform for Kubernetes Management**

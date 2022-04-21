@@ -1,3 +1,7 @@
+---
+tags:
+  - wasm
+---
 
 [[Polkadot-Ecosystem-Research]]
 

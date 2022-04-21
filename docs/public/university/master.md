@@ -1,5 +1,17 @@
 ---
 Keywords: CloudComputing ContainerAllocation Workflow ACO
+tags:
+  - cloud
+  - container
+  - caas
+  - virtualization
+  - devops
+  - master
+  - science
+  - armanriazi
+  - java
+  - university
+  - github
 ---
 
 # Master Thesis--Arman Riazi

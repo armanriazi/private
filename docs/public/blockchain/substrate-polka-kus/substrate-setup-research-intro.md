@@ -1,4 +1,12 @@
-
+---
+tags:
+  - kusama
+  - polkadot_ecosystem
+  - substrate
+  - rust
+  - node
+  - rpc
+---
 
 **Walk-Through/Substrate/NodeSetup**
 

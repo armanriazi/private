@@ -1,3 +1,9 @@
+---
+tags:
+  - devops
+  - cicd
+---
+
 # CICD
 
 ## Features

@@ -1,3 +1,11 @@
+---
+tags:
+  - substrate
+  - polkadot_ecosystem
+  - webassembly
+  - wasm
+  - llvm
+---
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/EWASM(5)**
 
 👩‍🏫👩‍🏫👩‍🏫

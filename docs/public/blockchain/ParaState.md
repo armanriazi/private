@@ -1,3 +1,13 @@
+---
+tags:
+  - polkadot_ecosystem
+  - substrate
+  - project
+  - sample
+  - research
+  - ewasm
+---
+
 ## ParaState
 
 ### Project

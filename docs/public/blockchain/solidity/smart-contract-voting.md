@@ -1,4 +1,3 @@
-
 ---
 keywords:   armanriazi ArmanRiazi Github Blockchain Ethereum Solidity
 feature:  Blockchain 
@@ -11,6 +10,11 @@ keywords:  github armanriazi ethereum solidity vote
 feature:  Blockchain
 author: "Arman Riazi"
 title: "Arman Riazi"
+tags:
+  - smartcontract
+  - ethereum_ecosystem
+  - sample
+  - github
 ---
 
 
@@ -55,3 +59,8 @@ npm install
 
 ### Sourcecode
 [Armanriazi-Github-Vote-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-vote)
+
+
+[[Ethereum_Ecosystem_Research]]
+
+[[smart-contract]]

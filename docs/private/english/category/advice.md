@@ -8,6 +8,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
 
 [[You need to exercise more often]]
 

@@ -1,4 +1,11 @@
-## HyperLedger-[[IBM]]
+---
+tags:
+  - hyperledger
+  - devops
+  - ibm
+---
+
+## HyperLedger-IBM
 
 ??? quote
     I remember, used hyperledger-fabric with composer, kubernetes, and even Node-Red.The framework is suit for specialist who have experience with [[Devops]] and I can say that Composer is good idea for this developing.
@@ -53,3 +60,6 @@ In short, we are not dealing with occasional challenges, but rather "wheels will
 > Secured by Microsoft
 
 ![HyperLedger-IBM](../../assets/attachments/hyperleger-azure.JPG)
+
+
+[[IBM]]

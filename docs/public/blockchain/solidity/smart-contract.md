@@ -1,4 +1,12 @@
-# [[SmartContract]]
+---
+tags:
+  - smartcontract
+  - ethereum_ecosystem
+  - sample
+  - github
+---
+
+# SmartContract
 
 ## Sample Projects 
 
@@ -11,3 +19,7 @@
 [Smart Contract-Sale Product](smart-contract-sale.md)
 
 [Smart Contract-Vote](smart-contract-voting.md)
+
+[[Ethereum_Ecosystem_Research]]
+
+[[smart-contract]]

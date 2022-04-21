@@ -8,6 +8,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
+{ data-search-exclude }
 
 [[Why is this the case-Q]]
 

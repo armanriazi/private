@@ -1,3 +1,8 @@
+---
+tags:
+  - secondstate
+  - iot
+---
 **Highlighted Deep Dive Into Polkadot/Substrate/Kusama/Secondstate(6)**
 
 👩‍🏫👩‍🏫👩‍🏫

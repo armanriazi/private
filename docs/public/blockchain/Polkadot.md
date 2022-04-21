@@ -1,3 +1,12 @@
+---
+tags:
+  - polkadot_ecosystem
+  - substrate
+  - project
+  - sample
+  - research
+---
+
 ## Polkadot
 
 ### Project
