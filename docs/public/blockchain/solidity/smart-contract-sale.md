@@ -1,4 +1,3 @@
-
 ---
 keywords:   armanriazi ArmanRiazi Github Blockchain Ethereum Solidity
 feature:  Blockchain 
@@ -16,6 +15,8 @@ tags:
   - ethereum_ecosystem
   - sample
   - github
+  - faucet
+  - kovan
 ---
 
 
@@ -54,6 +55,15 @@ npm install
 
 * This sample does not follow the internal network in the previous sample It has got an ethereum test network called Kovan.
 
+### Truffle Commands
+
+```
+npm run truffle-migrate-reset
+
+//gitter.im/kovan-testnet/faucet
+
+```
+
 ### Sourcecode
 [Armanriazi-Github-Marketplace-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-market)
 
@@ -63,3 +73,7 @@ npm install
 [[Ethereum_Ecosystem_Research]]
 
 [[smart-contract]]
+
+[[Faucet]]
+
+[[Kovan]]

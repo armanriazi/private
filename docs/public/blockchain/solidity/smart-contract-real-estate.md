@@ -162,6 +162,11 @@ viewer window.
 node 5-chooseAgentOffer <offer id>
 ```
 
+### Ganache Commands
+
+npm run ganache
+ganache-cli --accounts
+
 ### Smart Contract
   
 The logic of the smart contract facilitating the workflow is defined in the Solidity file RealEstateMarket.sol. The contract defines the public methods for initiating sales, creating housing manager certificates, as well as creating listing offers and accepting them.

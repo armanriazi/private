@@ -56,6 +56,10 @@ npm install
 * Private Test Network
 * Integrate to the Metamask
 
+## Ganache Commands
+
+npm run ganache
+ganache-cli --accounts
 
 ### Sourcecode
 [Armanriazi-Github-Vote-Sample Project](https://github.com/armanriazi/armanriazi-ethereum-vote)
