@@ -1,13 +1,12 @@
 ---
-search:
-  exclude: true
+
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-{ data-search-exclude }
+
 
 > Hello first name is Arman and Last name is Riazi
 

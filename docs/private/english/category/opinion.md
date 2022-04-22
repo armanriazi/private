@@ -1,13 +1,12 @@
 ---
-search:
-  exclude: true
+
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-{ data-search-exclude }
+
 
 [[To each his own. Everyone has a different opinion]]
 

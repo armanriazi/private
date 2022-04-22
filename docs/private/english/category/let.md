@@ -1,13 +1,12 @@
 ---
-search:
-  exclude: true
+
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-{ data-search-exclude }
+
 
 [[Let's talk about the what, why, and how of the...]]
 

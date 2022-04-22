@@ -7,7 +7,7 @@ feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-{ data-search-exclude }
+
 
 [[Just a second please I almost done]]
 [[It takes a little while to work]]

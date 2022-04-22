@@ -1,13 +1,12 @@
 ---
-search:
-  exclude: true
+
 type:  English
 keywords:  English
 feature:  English Graph
 title: "English For Graph"
 author: "ArmanRiazi"
 ---
-{ data-search-exclude }
+
 
 [[influence]]
 [influence](category/influence.md)
