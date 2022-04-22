@@ -1,13 +1,10 @@
 ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 > Hello first name is Arman and Last name is Riazi
 
 > I hope you have a good time

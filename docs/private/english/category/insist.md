@@ -1,13 +1,10 @@
 ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
  [[you have to do sth]]
 
  [[You can't except me to work]]

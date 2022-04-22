@@ -1,13 +1,10 @@
 ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 [[There should be learning rather than coding]]
 
  [[Compared to etc]]

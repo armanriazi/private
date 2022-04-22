@@ -1,13 +1,10 @@
  ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 [[I can't face myself]]
 
 [[I don't think of myself as a hero person]]

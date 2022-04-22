@@ -1,13 +1,10 @@
 ---
-
 type:  private
 keywords:  private
 feature:  private
 title: "private"
 author: "ArmanRiazi"
 ---
-
-
 
 [English](english/english.md)
 

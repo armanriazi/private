@@ -1,14 +1,10 @@
 ---
-search:
-exclude: true
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 [[So keep in mind that ...]]
 [[At this point you're probably wondering, what is ...]]
 [[The ... is often used alongside with the..]]

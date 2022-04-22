@@ -1,14 +1,10 @@
 ---
-search:
-exclude: true
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 [[I'm gonna cover any boring theory]]
 [[I work on substrate in the last few months]]
 [[It took me ages to learn programming and found knowledge of IT]]

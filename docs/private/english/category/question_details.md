@@ -1,14 +1,11 @@
 
 ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 [[Why is this the case-Q]]
 
 [[Could you be more precise-Q]]

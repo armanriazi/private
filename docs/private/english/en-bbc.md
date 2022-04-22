@@ -1,13 +1,10 @@
 ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 > I can't work it out.
 > 
 > I can't get my head round this.

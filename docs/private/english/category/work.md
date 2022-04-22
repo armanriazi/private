@@ -1,13 +1,10 @@
  ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
  [[I'm just fooling around online]]
  
  [[I've been working at the computer all day]]

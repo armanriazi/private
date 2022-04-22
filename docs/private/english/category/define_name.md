@@ -1,13 +1,10 @@
  ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
  [[Which is called revenue]]
 
  [[When price increase it's called revenue]]

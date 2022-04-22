@@ -1,13 +1,10 @@
 ---
-
 type:  English
 keywords:  English
 feature:  English
 title: "English"
 author: "ArmanRiazi"
 ---
-
-
 [[It's saying, it means to make etc]]
 
 [[I've been meaning to speak to you all evening]]
