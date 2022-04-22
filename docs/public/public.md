@@ -3,4 +3,4 @@
 
 * [Private](../private/private.md)
 
-* [Private](../tags.md)
+* [Tags](../tags.md)

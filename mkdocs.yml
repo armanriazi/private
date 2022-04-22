@@ -5,7 +5,8 @@ repo_url: https://github.com/armanriazi/private
 nav:    
     - 'Home':
         - 'Index': 'index.md'
-        - 'Walk-through': 'public/public.md'                                             
+        - 'Walk-through': 'public/public.md'            
+    - 'Tags': 'tags.md'                                             
 theme:
   name: material
   logo: assets/attachments/me.png
