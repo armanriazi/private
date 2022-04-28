@@ -35,6 +35,8 @@ author: "ArmanRiazi"
 
 [[Let's take a look at the following exp]]
 
+[[Let's focus your attention on]]
+
 [[Let's take a few  minutes to discuss the difference between these two type of setups]]
 
 [[I hope you enjoy. If you have any question please let me know]]

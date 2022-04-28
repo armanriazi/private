@@ -4,7 +4,7 @@
 > to force the kernel to re-read the partition table so that it is not necessary to perform a reboot.
 
 #### Get Status
-lsblk **
+```lsblk```
 ```pvscan```
 ```vgs -o +devices,lv_path```
 ```vgdisplay```

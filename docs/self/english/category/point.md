@@ -13,3 +13,5 @@ author: "ArmanRiazi"
 [[Keeping to the point]]
 
 [[From my point of view]]
+
+[[I'm not at the point yet but it's not far away]]

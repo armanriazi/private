@@ -1,3 +1,5 @@
+[[adage]]
+[adage](category/adage.md)
 
 [[influence]]
 [influence](category/influence.md)
@@ -100,6 +102,10 @@
 [[practise]]
 [practise](category/practise.md)
  
+[[hand]]
+[hand](category/hand.md)
+
+
 [[interupt]]
 [interupt](category/interupt.md)
 
@@ -111,6 +117,9 @@
 
 [[ask]]
 [ask](category/ask.md)
+
+[[re]]
+[re](category/re.md)
 
 [[talk]]
 [talk](category/talk.md)

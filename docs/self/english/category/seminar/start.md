@@ -19,3 +19,5 @@ author: "ArmanRiazi"
 [[The goal of the unit tests is actually to make sure that we won't face errors while we are trying to deploy the release version]]
 [[After this section we're going to jump right into investment banking as such]]
  [[We need to move on ...]]
+[[I will take questions at the end of my presentation]]
+[[Feel free to ask questions during my presentation]]
