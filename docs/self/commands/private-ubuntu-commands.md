@@ -1,48 +1,49 @@
 ### LVM-Disk
 #### Notice
-** [[partprobe]] **
+**[[partprobe]]**
 > to force the kernel to re-read the partition table so that it is not necessary to perform a reboot.
 
 #### Get Status
-** lsblk **
-** pvscan **
-** vgs -o +devices,lv_path **
-** vgdisplay **
-** lvmdiskscan **
+lsblk **
+```pvscan```
+```vgs -o +devices,lv_path```
+```vgdisplay```
+```lvmdiskscan```
 
 
 ### Add Disk
-** fdisk /dev/sdX **
+```fdisk /dev/sdX``
 > Regular disk: n => (Enter All)=>p => t => 8e = changes to LVM partition type=>w
+
 > Swap disk: n => (Enter All)=>p => t => 82 = changes to SWAP partition type=>w
 
 ### Create Partition
-** pvcreate /dev/sdX1  **
+```pvcreate /dev/sdX1```
 
 ### Create Logical Volume
-** vgextend vgubuntu /dev/sdX **
-** lvcreate -l 100%FREE -n XLV vgubuntu **
+```vgextend vgubuntu /dev/sdX```
+```lvcreate -l 100%FREE -n XLV vgubuntu```
 
 > For Regular Disk
 
-** mkfs -t ext4 /dev/vgubuntu/XLV **
-** mount -t ext4 /dev/vgubuntu/XLV /mnt/X/ **
+```mkfs -t ext4 /dev/vgubuntu/XLV```
+```mount -t ext4 /dev/vgubuntu/XLV /mnt/X/```
 
 > For Swap Disk
 
-** mkswap /dev/vgubuntu/swap **
-** mkswap /dev/mapper/vgubuntu-swap **
-** swapon -v /dev/vgubuntu/swap **
-** [[partprobe]] **
-** swapon -va **
-** cat /proc/swaps **
-** Free -h **
+```mkswap /dev/vgubuntu/swap```
+```mkswap /dev/mapper/vgubuntu-swap```
+```swapon -v /dev/vgubuntu/swap```
+```partprobe```
+```swapon -va```
+```cat /proc/swaps```
+```Free -h```
 
 ### Fstab Boot
 
-```
-cat /etc/fstab
+```gedit /etc/fstab```
 
+```
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 /dev/mapper/vgubuntu-root /               ext4    errors=remount-ro 0       1
 
@@ -60,10 +61,8 @@ UUID=9fd9c344-09a7-4bbf-af88-9b4e1c24955d       /mnt/docker    ext4    defaults 
 
 
 ### Network
-echo "1" > /proc/sys/net/ipv4/ip__forward
- iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222
-
-netsh interface portproxy add v4tov4 listenport=35999 listenaddress=0.0.0.0 connectport=80 connectaddress=0.0.0.0
-
-netsh http delete urlacl url=http://*:35999/ user=Everyone
+```echo "1" > /proc/sys/net/ipv4/ip__forward```
+```iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222```
+```netsh interface portproxy add v4tov4 listenport=35999 listenaddress=0.0.0.0 connectport=80 connectaddress=0.0.0.0```
+```netsh http delete urlacl url=http://*:35999/ user=Everyone```
 
