@@ -429,46 +429,45 @@
 
 <h3 id="lvm-disk">LVM-Disk<a class="headerlink" href="#lvm-disk" title="Permanent link">&para;</a></h3>
 <h4 id="notice">Notice<a class="headerlink" href="#notice" title="Permanent link">&para;</a></h4>
-<p>** [[partprobe]] **</p>
+<p><strong>[[partprobe]]</strong></p>
 <blockquote>
 <p>to force the kernel to re-read the partition table so that it is not necessary to perform a reboot.</p>
 </blockquote>
 <h4 id="get-status">Get Status<a class="headerlink" href="#get-status" title="Permanent link">&para;</a></h4>
-<p>** lsblk **
-** pvscan **
-** vgs -o +devices,lv_path **
-** vgdisplay **
-** lvmdiskscan **</p>
+<p>lsblk **
+<code>pvscan</code>
+<code>vgs -o +devices,lv_path</code>
+<code>vgdisplay</code>
+<code>lvmdiskscan</code></p>
 <h3 id="add-disk">Add Disk<a class="headerlink" href="#add-disk" title="Permanent link">&para;</a></h3>
-<p>** fdisk /dev/sdX **</p>
+<p><code>`fdisk /dev/sdX</code></p>
 <blockquote>
-<p>Regular disk: n =&gt; (Enter All)=&gt;p =&gt; t =&gt; 8e = changes to LVM partition type=&gt;w
-Swap disk: n =&gt; (Enter All)=&gt;p =&gt; t =&gt; 82 = changes to SWAP partition type=&gt;w</p>
+<p>Regular disk: n =&gt; (Enter All)=&gt;p =&gt; t =&gt; 8e = changes to LVM partition type=&gt;w</p>
+<p>Swap disk: n =&gt; (Enter All)=&gt;p =&gt; t =&gt; 82 = changes to SWAP partition type=&gt;w</p>
 </blockquote>
 <h3 id="create-partition">Create Partition<a class="headerlink" href="#create-partition" title="Permanent link">&para;</a></h3>
-<p>** pvcreate /dev/sdX1  **</p>
+<p><code>pvcreate /dev/sdX1</code></p>
 <h3 id="create-logical-volume">Create Logical Volume<a class="headerlink" href="#create-logical-volume" title="Permanent link">&para;</a></h3>
-<p>** vgextend vgubuntu /dev/sdX **
-** lvcreate -l 100%FREE -n XLV vgubuntu **</p>
+<p><code>vgextend vgubuntu /dev/sdX</code>
+<code>lvcreate -l 100%FREE -n XLV vgubuntu</code></p>
 <blockquote>
 <p>For Regular Disk</p>
 </blockquote>
-<p>** mkfs -t ext4 /dev/vgubuntu/XLV **
-** mount -t ext4 /dev/vgubuntu/XLV /mnt/X/ **</p>
+<p><code>mkfs -t ext4 /dev/vgubuntu/XLV</code>
+<code>mount -t ext4 /dev/vgubuntu/XLV /mnt/X/</code></p>
 <blockquote>
 <p>For Swap Disk</p>
 </blockquote>
-<p>** mkswap /dev/vgubuntu/swap **
-** mkswap /dev/mapper/vgubuntu-swap **
-** swapon -v /dev/vgubuntu/swap **
-** [[partprobe]] **
-** swapon -va **
-** cat /proc/swaps **
-** Free -h **</p>
+<p><code>mkswap /dev/vgubuntu/swap</code>
+<code>mkswap /dev/mapper/vgubuntu-swap</code>
+<code>swapon -v /dev/vgubuntu/swap</code>
+<code>partprobe</code>
+<code>swapon -va</code>
+<code>cat /proc/swaps</code>
+<code>Free -h</code></p>
 <h3 id="fstab-boot">Fstab Boot<a class="headerlink" href="#fstab-boot" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>cat /etc/fstab
-
-# &lt;file system&gt; &lt;mount point&gt;   &lt;type&gt;  &lt;options&gt;       &lt;dump&gt;  &lt;pass&gt;
+<p><code>gedit /etc/fstab</code></p>
+<div class="highlight"><pre><span></span><code># &lt;file system&gt; &lt;mount point&gt;   &lt;type&gt;  &lt;options&gt;       &lt;dump&gt;  &lt;pass&gt;
 /dev/mapper/vgubuntu-root /               ext4    errors=remount-ro 0       1
 
 /dev/mapper/vgubuntu-swap   swap     swap    defaults     0 0
@@ -482,10 +481,10 @@ UUID=9fd9c344-09a7-4bbf-af88-9b4e1c24955d       /mnt/docker    ext4    defaults 
 /dev/mapper/vgubuntu-sub /mnt/sub ext4 errors=remount-ro,x-gvfs-show,x-udisks-auth,x-gvfs-name=mnt-sub 0 1
 </code></pre></div>
 <h3 id="network">Network<a class="headerlink" href="#network" title="Permanent link">&para;</a></h3>
-<p>echo "1" &gt; /proc/sys/net/ipv4/ip__forward
- iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222</p>
-<p>netsh interface portproxy add v4tov4 listenport=35999 listenaddress=0.0.0.0 connectport=80 connectaddress=0.0.0.0</p>
-<p>netsh http delete urlacl url=http://*:35999/ user=Everyone</p>
+<p><code>echo "1" &gt; /proc/sys/net/ipv4/ip__forward</code>
+<code>iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222</code>
+<code>netsh interface portproxy add v4tov4 listenport=35999 listenaddress=0.0.0.0 connectport=80 connectaddress=0.0.0.0</code>
+<code>netsh http delete urlacl url=http://*:35999/ user=Everyone</code></p>
 
               
             </article>
