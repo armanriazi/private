@@ -1,11 +1,3 @@
----
-type:  English
-keywords:  English
-feature:  English Graph
-title: "English For Graph"
-author: "ArmanRiazi"
----
-
 
 [[influence]]
 [influence](category/influence.md)
