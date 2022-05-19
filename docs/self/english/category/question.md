@@ -8,44 +8,51 @@ author: "ArmanRiazi"
 
 
 [[question_think]]
+[question_think](question_think.md)
 
 [[question_try]]
+[question_try](question_try.md)
 
 [[question_know]]
+[question_know](question_know.md)
 
 [[question_much]]
+[question_much](question_much.md)
 
 [[question_could]]
+[question_could](question_could.md)
 
 [[question_do]]
+[question_do](question_do.md)
 
 [[question_can]]
+[question_can](question_can.md)
 
 [[question_time]]
+[question_time](question_time)
 
 [[question_details]]
+[question_details](question_details.md)
 
 [[question_would]]
+[question_would](question_would.md)
 
 
 [[question_let]]
-
+[question_let](question_let.md)
 
 [[question_issue]]
-
-
-[[One more question]]
+[question_issue](question_issue.md)
 
 [[Pardon-Q]]
 
+[[One more question]]
 
 [[Which is the best way encoding-Q]]
 
 [[did you catch the process photos I posted-Q]]
 
-
 [[Please clarifying what you mean-Q]]
-
 
 [[Which task do you associate with current plan-Q]]
 
@@ -60,7 +67,6 @@ author: "ArmanRiazi"
 [[How are they taken-Q]]
 
 [[What are they used for-Q]]
-
 
 [[Will there be an opportunity to do some getting advice-Q]]
 

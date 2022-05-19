@@ -1,6 +1,9 @@
 [[adage]]
 [adage](category/adage.md)
 
+[[question]]
+[question](category/question.md)
+
 [[influence]]
 [influence](category/influence.md)
 
@@ -51,10 +54,10 @@
 [[organize]]
 [organize](category/organize.md)
 
- [[if]]
+[[if]]
 [if](category/if.md)
 
- [[mean]]
+[[mean]]
 [mean](category/mean.md)
  
 [[understand]]
@@ -92,8 +95,8 @@
 [[time]]
  [time](category/time.md)
 
- [[whichis]]
- [which](category/whichis.md)
+[[whichis]]
+[whichis](category/whichis.md)
 
 
 [[way]]
@@ -134,7 +137,7 @@
 [take](category/take.md)
 
 [[look-see]]
-[take](category/look-see.md)
+[look-see](category/look-see.md)
 
 [[recommend]]
 [recommend](category/recommend.md)

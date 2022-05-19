@@ -11,7 +11,7 @@ author: "ArmanRiazi"
 
 > I hope you have a good time
 
-> Let me explain about my self to into to you
+> Let me explain about my self to introduce to you
 
 > I have been working on the Blockchain ecosystem as a CryptoTrader and Blockchain developer.
 
