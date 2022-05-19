@@ -481,10 +481,12 @@ UUID=9fd9c344-09a7-4bbf-af88-9b4e1c24955d       /mnt/docker    ext4    defaults 
 /dev/mapper/vgubuntu-sub /mnt/sub ext4 errors=remount-ro,x-gvfs-show,x-udisks-auth,x-gvfs-name=mnt-sub 0 1
 </code></pre></div>
 <h3 id="network">Network<a class="headerlink" href="#network" title="Permanent link">&para;</a></h3>
-<p><code>echo "1" &gt; /proc/sys/net/ipv4/ip__forward</code>
-<code>iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222</code>
-<code>netsh interface portproxy add v4tov4 listenport=35999 listenaddress=0.0.0.0 connectport=80 connectaddress=0.0.0.0</code>
-<code>netsh http delete urlacl url=http://*:35999/ user=Everyone</code></p>
+<p><code>echo "1" &gt; /proc/sys/net/ipv4/ip__forward</code></p>
+<blockquote>
+<p><code>iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222</code></p>
+<p><code>netsh interface portproxy add v4tov4 listenport=35999 listenaddress=0.0.0.0 connectport=80 connectaddress=0.0.0.0</code></p>
+<p><code>netsh http delete urlacl url=http://*:35999/ user=Everyone</code></p>
+</blockquote>
 
               
             </article>

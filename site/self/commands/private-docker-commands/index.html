@@ -352,14 +352,12 @@
 
   <h1>Private docker commands</h1>
 
-<blockquote>
-<p>docker run  -it --rm -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material build</p>
-</blockquote>
-<p>docker tag local-image:tagname new-repo:tagname
-docker push armanriazi2blockchain/armanriazi2blockchain:tagname
-docker exec -it -u root node-docker /bin/bash
-docker run -it autodevops.dynv6.net:5000/mongo:4
-chmod 777 /home/user/.docker</p>
+<p><code>docker run --rm -it -v ${PWD}:/docs armanriazi.jfrog.io/default-docker-virtual/squidfunk/mkdocs-material:202204 build</code></p>
+<p><code>docker tag local-image:tagname new-repo:tagname</code></p>
+<p><code>docker push armanriazi2blockchain/armanriazi2blockchain:tagname</code></p>
+<p><code>docker exec -it -u root node-docker /bin/bash</code></p>
+<p><code>docker run -it autodevops.dynv6.net:5000/mongo:4</code></p>
+<p><code>chmod 777 /home/user/.docker</code></p>
 
               
             </article>

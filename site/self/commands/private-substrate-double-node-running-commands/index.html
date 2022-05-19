@@ -426,15 +426,15 @@
   --enable-offchain-indexing true \
   --chain ./customSpecRaw.json   
   --rpc-methods Unsafe \</p>
-<p><div class="highlight"><pre><span></span><code>subkey restore Alice
+<p><code>subkey restore Alice</code></p>
+<blockquote>
+<p><code>./target/release/node-template purge-chain --base-path /tmp/alice --chain local</code></p>
+<div class="highlight"><pre><span></span><code>  /home/u2004zero/u2004zero/app/substrate/substrate-node-template
+  cargo build --release &amp;&amp; ./target/release/node-template --ws-external --rpc-cors all --name &quot;Arman Riazi&quot; --pruning archive --prometheus-external --chain local  --tmp --dev  (fir)  (--base-path ./my-chain-state --enable-offchain-indexing true)
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>./target/release/node-template purge-chain --base-path /tmp/alice --chain local
-</code></pre></div></p>
-<p>/home/u2004zero/u2004zero/app/substrate/substrate-node-template
-cargo build --release &amp;&amp; ./target/release/node-template --ws-external --rpc-cors all --name "Arman Riazi" --pruning archive --prometheus-external --chain local  --tmp
- --dev  (fir)  (--base-path ./my-chain-state --enable-offchain-indexing true)</p>
-<p>/scripts/docker_run.sh cargo build --release &amp;&amp; ./target/release/node-template --dev --ws-external --base-path ./my-chain-state</p>
-<p>SKIP_WASM_BUILD=1 cargo check -p node-template-runtime</p>
+<p><code>/scripts/docker_run.sh cargo build --release &amp;&amp; ./target/release/node-template --dev --ws-external --base-path ./my-chain-state</code></p>
+<p><code>SKIP_WASM_BUILD=1 cargo check -p node-template-runtime</code></p>
+</blockquote>
 
               
             </article>
