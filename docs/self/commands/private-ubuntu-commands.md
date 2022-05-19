@@ -44,6 +44,7 @@
 ```gedit /etc/fstab```
 
 ```
+
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 /dev/mapper/vgubuntu-root /               ext4    errors=remount-ro 0       1
 
@@ -61,8 +62,12 @@ UUID=9fd9c344-09a7-4bbf-af88-9b4e1c24955d       /mnt/docker    ext4    defaults 
 
 
 ### Network
+
 ```echo "1" > /proc/sys/net/ipv4/ip__forward```
+>
 ```iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222```
+>
 ```netsh interface portproxy add v4tov4 listenport=35999 listenaddress=0.0.0.0 connectport=80 connectaddress=0.0.0.0```
+>
 ```netsh http delete urlacl url=http://*:35999/ user=Everyone```
 

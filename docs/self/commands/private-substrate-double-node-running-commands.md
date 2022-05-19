@@ -43,17 +43,15 @@
   --chain ./customSpecRaw.json \  
   --rpc-methods Unsafe \
 
+```subkey restore Alice```
+>
+```./target/release/node-template purge-chain --base-path /tmp/alice --chain local```
+>
 ```
-subkey restore Alice
+  /home/u2004zero/u2004zero/app/substrate/substrate-node-template
+  cargo build --release && ./target/release/node-template --ws-external --rpc-cors all --name "Arman Riazi" --pruning archive --prometheus-external --chain local  --tmp --dev  (fir)  (--base-path ./my-chain-state --enable-offchain-indexing true)
 ```
-```
-./target/release/node-template purge-chain --base-path /tmp/alice --chain local
-```
-
-/home/u2004zero/u2004zero/app/substrate/substrate-node-template
-cargo build --release && ./target/release/node-template --ws-external --rpc-cors all --name "Arman Riazi" --pruning archive --prometheus-external --chain local  --tmp
- --dev  (fir)  (--base-path ./my-chain-state --enable-offchain-indexing true)
-
-/scripts/docker_run.sh cargo build --release && ./target/release/node-template --dev --ws-external --base-path ./my-chain-state
-
-SKIP_WASM_BUILD=1 cargo check -p node-template-runtime
+>
+```/scripts/docker_run.sh cargo build --release && ./target/release/node-template --dev --ws-external --base-path ./my-chain-state```
+>
+```SKIP_WASM_BUILD=1 cargo check -p node-template-runtime```
