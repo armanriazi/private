@@ -169,11 +169,19 @@
 [[work]]
 [work](category/work.md)
 
+[[make]]
+[make](category/make.md)
+
 [[decision]]
 [decision](category/decision.md)
 
+[[sorry]]
+[sorry](category/sorry.md)
+
+
 [[define_name]]
 [define_name](category/define_name.md)
+
 
 [[do]]
 [do](category/do.md)
@@ -184,3 +192,23 @@
 
 [[point]]
 [point](category/point.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
