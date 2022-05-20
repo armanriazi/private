@@ -114,37 +114,39 @@ author: "ArmanRiazi"
 
 ## 8. What responsibilities did you have in past/current jobs?
 
-I previously worked as a full-stack web developer within some company. In my role, I was responsible for developing a project. After that, I was big on DevOps engineering and cloud computing by the way we can find it as cloud-native.
+> **I previously** worked as a full-stack web developer within some companies. In my role, I was responsible for developing a project. **After that, I was big on** DevOps engineering and cloud computing by the way we can find it as cloud-native.
 
 ## 9. What motivates you? What are you passionate about? What are your hobbies?
 
-Cosmetic books
-Creating relationships and participation on behalf of others
-Travel and sports
-Change strategy and upgrade information
+> Cosmology books
+> Creating relationships and participation on behalf of others
+> Travel and sports
+> Change strategy and upgrade information
 
 ## 10. What are your pet peeves?
-Eagle and dog
+
+> Eagle and dog
 
 ## 11. Do you prefer to work independently or in a team?
-Absolutely with team
+
+> Absolutely with team
 
 ## 12. How would others describe you?
 
-Self-organized
-Multidimensional
+> Self-organized
+> Multidimensional
 
 ## 13. If you were a food, what food would you be?
 
-Chicken grilled
+> Chicken grilled
 
 ## 14. Explain a time when you had to Take the initiative?
 
-It is not persicely but the attitude is anything goes
+> **It is not precisely** might be when I will be happy or maybe anything goes :)
 
 ## 15. What is your biggest achievement? What are you most proud of?
 
-My greatest accomplishment is  getting master's degree after 5 years and I am getting acquainted with the Blockchain subject.
+> My greatest accomplishment is getting **master's degree** after 5 years and I am getting acquainted with the Blockchain subject.
 
 ## 16. Where do you want to be 5 years  from now?
 
