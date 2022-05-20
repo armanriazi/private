@@ -1,0 +1,1 @@
+[[pause]] [[afraid]] [[while]] [[time]] [[think]]

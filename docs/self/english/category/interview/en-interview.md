@@ -1,152 +1,187 @@
-Thank  you for giving  me the  opportunity.
-It's my pleasure. Thanks for inviting me.
+---
+type:  English
+keywords:  English
+feature:  English
+title: "English"
+author: "ArmanRiazi"
+---
 
-That's  not really  what  I want  to asking. I meant...
-Sorry  I'm  still   not very  clear  about...
-Sorry I don't quite get your drift.
-Don't be afraid to pause for a short while if you need time to think.
+# Sentences
 
-So that  is basically  what  I want  to say about  this  for now...
+[[Thank you for giving me the opportunity]]
 
-Sometimes  it's  important to see potential.
+[[It's my pleasure. Thanks for inviting me]]
 
-You can fool other people but you can't fool yourself that's what I believe.
+[[That's not really what I want to asking.I meant etc]]
 
-I'm  a person who....
+[[Sorry I'm still not very clear about etc]]
 
-I'm  a type of person that...
+[[Sorry I don't quite get your drift]]
 
-In any work environment
+[[Don't be afraid to pause for a short while if you need time to think]]
 
-In my spare time
+[[So that is basically what I want  to say about this for now etc]]
 
-I'm very technical oriented
+[[Sometimes it's important to see potential]]
 
-=============================
+[[You can fool other people but you can't fool yourself that's what I believe]]
 
-1. What can you do for this company?
+[[I'm a person who etc]]
 
-I always have a strong willingness to learn. I took my own time to study the program and mastered it quickly. I usually make good decisions for making the structure of a framework because I believe when I handle the best practices and influence it to work it will be profitable for the company!
-I very much like to put together components as an engineering work  I've always had particularly good feedback for my work in this area. I believe I excel in that field.
-I'm used to taking a personal approach to the development and it will be like a map.
+[[I'm a type of person that etc]]
+
+[[In any work environment]]
+
+[[In my spare time]]
+
+[[I'm very technical oriented]]
+
+# Questions
+
+## 1. What can you do for this company?
+
+> What I want to do is depends on some factors for example:
+
+> I usually make good decisions for making the structure of a program so I believe when I handle the **best practises** and related it to work it will be profitable for the company!
+
+> I very much like to **put together components** as an engineering work I've always had particularly good feedback for my work in this area. 
+
+> I'm used to taking a **personal approach** to the development and it will be like a map for my tasks because I've got qualification.
  
 
-2. Why should we hire you? Why are you the best person for  the job?
+## 2. Why should we hire you? Why are you the best person for the job?
 
-This is a critical question in the process, thank you for asking. 
-I will bring the that innovative and war spirit to your company, and your success will be my top priority.
-Because I am confident and perfect fit for this position.
-I have experience and traits that you are looking  for.
-My education  and my strengths show that I can do this  job.
-Based on research I've done, your company is looking for a Blockchain enthusiastic and experienced developer or maybe Blockchain specialist and architecture to grow your business and help your company.
-In addition, I hope I will be able to demonstrate my understanding of the crypto markets and analysis along with my passion if just you want it.
-I bring many ideas with me that can be replicated on a larger scale.
-I'm also a big follower of your brand and feel fully aligned with your image and values.
-I very much think that my skills and experience are a good fit for what you're looking for.
-I'm also a big follower of your brand and feel fully aligned with your image and values.
-I was looking for a little more stability and also to be part of a larger organisation.
+> This is a **critical question** in the process, thank you for asking. 
 
-3. What do you know about our company?
+> I will bring that **innovative and war spirit** to your company, and your success will be **my top priority**, because I am confident and **perfect fit** for this position and I have experience and traits that you are looking for.
 
-I really respect your company's commitment to be constantly evolving. I think that growth and innovation are key in any industry but especially in the field of technology, and this organization is constantly pushing past the preconceived limitations.  As an engineer, I strive to approach problems in new and creative ways, which is why I think I would be an asset to this team."
+> I bring many **ideas** with me that can be replicated on a larger scale.
 
-4. What attracted you to this company?
+> **Based on research I've done,** your company is looking for a Blockchain enthusiastic and experienced developer or maybe Blockchain specialist and architecture to grow its business so I am sure my education and my strengths show that I can do this job. **I very much think that** my skills and experience are a good fit for what you're looking for. And I believe I **excel** in that field.
 
-Using Blockchain for variety of the existence business models
-And Not only does the innovativeness of the company attract me, but also the way they treat their employees.
+> **I'm also a big follower** of your company and **feel fully aligned with your image and values**.
 
 
-5. Tell us about yourself?
+## 3. What do you know about our company?
 
-I've worked in software engineering for my entire 12-years career, and my commitment to critical thinking and attention to deep problems have gotten me to where I am today.
-I graduated with a master's degree in information technology from the University of Najafabad, Iran, in 2021.
-During  my work on DevOps and web development until 2020 as you can see my sample works on archive section of my personal website I attend to the cryptocurrency and Blockchain development.
-So I've got a lot of experience and knowledge in different sectors. But I've got my decision for more concentrate on polka ecosystem a d rust. Although my past knowledge helped me for understanding Blockchain and capability of learning new technologies that we can called equalification. I'd really like the opportunity to use all this experiences into the services of company for getting more profit.
-I enjoy being  around different  types  of people and I always like to  challenge myself to improve at everything I do. I think my strongest traits is my attention to details.this trait has helped me tremendously in this field  of work. that resulted in taking too much time on a particular task and it shows down my work, after that I found my work and efficacy increased  dramatically. As a developer it is  important to understand  all areas of the project. I will be more diligent if I take a good suggestion.
-If I explain my behavior in relationships I want to tell you
-I'm take charge and head work up when from the front matters.
-I am quite easy going I suppose I work well with anyone and my attitude is "anything goes".
+> I really **respect** your company's commitment to be constantly evolving. 
 
-6. List 5 words describing yourself? What are your strengths?
+> I think that growth and innovation are **key** in any industry but especially in the field of technology, and this organization is constantly **pushing past the preconceived limitations**. 
 
-Enthusiasm.Reliable.Flexible.Motivative.Creative. fitting a good choice to problems and High availability
+> As an engineer, I **strive** to approach problems in new and creative ways, which is why I think **I would be an asset** to this team."
 
-7. What are your weaknesses?
+## 4. What attracted you to this company?
 
-I feel my English ability  is my weakness trait. I know this is only a temporary  issue.  I'm definitely studying hard to communicate  more effectively.the weakest trait I struggled with was not asking  for help. I'm  working  on knowing when it would be beneficial to ask for the help.
-I am not very good at speaking English.
-I hardly ever attention to formal things
+> Using Blockchain for a variety of the existing **business models**.
 
-8. What responsibilities did you have in past/current jobs?
+> And Not only does the innovativeness of the company attract me, but also **the way they treat their employees**.
+
+
+## 5. Tell us about yourself?
+
+> I've worked in software engineering for my entire 12-years career, and **my commitment to critical thinking** and **attention to deep problems** have gotten me to where I am today.
+> I **graduated** with a master's degree in information technology from the University of Najafabad, in 2021. Which is one of the top 200 the universities in the world.
+
+> I always have a strong **willingness** to learn.
+
+> **I've got** a lot of experience and knowledge in different sectors. But I've got my decision for more concentrate on polka ecosystem and rust. **Although my past knowledge** helped me for understanding Blockchain and the capability of learning new technologies. **I'd really like the opportunity** to use all these experiences in the services of a company for getting more profit.
+
+> **I took my own time** to study the program and mastered it quickly. 
+
+> **During** my work on DevOps and web development until 2020 as you can see my works on the archive section of my personal website **I attend** to the cryptocurrency and Blockchain development.
+
+> I think my **strongest trait** is my attention to detail. this trait has helped me tremendously in this field of work. **That resulted in taking too much time** on a particular task and it shows down my work, after that, I found my work and efficacy increased dramatically. As a developer, it is important to understand all areas of the project. 
+
+> **I enjoy** being around different types of people and I always like to challenge myself to improve at everything I do. 
+
+> I take charge and head work up when from the front **matters**.
+
+> I am quite **easy going** I suppose I work well with anyone and my attitude is "anything goes".
+
+> Finally, I will be more **diligent** if I take a good suggestion.
+
+## 6. List 5 words describing yourself? What are your strengths?
+
+> Enthusias. Reliable. Flexible. Motivative. Creative. Fitting a good choice to the problems. In additon I've got system features like High availability :)
+
+## 7. What are your weaknesses?
+
+> I feel my **English** ability is my weakness trait. I am not very good at speaking English. I know this is only a **temporary issue**. I'm definitely studying hard to communicate more effectively.
+
+> The weakest trait **I struggled with was not asking for help**. I'm working on knowing when it would be beneficial to ask for help.
+
+> Next is I hardly ever **attention to formal** things.
+
+## 8. What responsibilities did you have in past/current jobs?
 
 I previously worked as a full-stack web developer within some company. In my role, I was responsible for developing a project. After that, I was big on DevOps engineering and cloud computing by the way we can find it as cloud-native.
 
-9. What motivates you? What are you passionate about? What are your hobbies?
+## 9. What motivates you? What are you passionate about? What are your hobbies?
 
 Cosmetic books
 Creating relationships and participation on behalf of others
 Travel and sports
 Change strategy and upgrade information
 
-10. What are your pet peeves?
+## 10. What are your pet peeves?
 Eagle and dog
 
-11. Do you prefer to work independently or in a team?
+## 11. Do you prefer to work independently or in a team?
 Absolutely with team
 
-12. How would others describe you?
+## 12. How would others describe you?
 
 Self-organized
 Multidimensional
 
-13. If you were a food, what food would you be?
+## 13. If you were a food, what food would you be?
 
 Chicken grilled
 
-14. Explain a time when you had to Take the initiative?
+## 14. Explain a time when you had to Take the initiative?
 
 It is not persicely but the attitude is anything goes
 
-15. What is your biggest achievement? What are you most proud of?
+## 15. What is your biggest achievement? What are you most proud of?
 
 My greatest accomplishment is  getting master's degree after 5 years and I am getting acquainted with the Blockchain subject.
 
-16. Where do you want to be 5 years  from now?
+## 16. Where do you want to be 5 years  from now?
 
 I’d like to be seen as someone with deep expertise in the Blockchain sector.
 In five years, I want to be an expert at my position and start  training to be a Blockchain developer at higher scale.
 I want my expertise to directly impact the company in a positive way.I want to continue gaining experience and immigrate to a few countries for working.I believe opportunities come to great workers and I am going  to try to be one of them.
 
-17. Do you have any questions for me?
+## 17. Do you have any questions for me?
 
 What are the requirements and guarantees for immigration and employment?
 
-18. What can you do for us that other applicants can’t?
+## 18. What can you do for us that other applicants can’t?
 
 I bring three things to the table that most candidates can’t offer:  at the first is problem-solving ability that I’ve used to improve team performance, in-depth knowledge of information technology, and previous experience in variety programming languages.
 
-19. Are you willing to relocate?
+## 19. Are you willing to relocate?
 
 I very much enjoy this area and would love to continue my career here, but this position is a great opportunity for my career and if relocating is a part of that, I would definitely consider it.
 
-20. What salary are you seeking?
+## 20. What salary are you seeking?
 
 My salary requirements are flexible. I look forward to discussing in more detail what my responsibilities at this company would be. After that, we can determine a fair salary for the role.
 1 years ago I set up my startup in the field of investment in cryptocurrency and "Nfts"
 I have not worked on games but I hope to help the team for the Blockchain sector
 
 
-21. I see what you mean. Right, so, do you have any questions for me?
+## 21. I see what you mean. Right, so, do you have any questions for me?
 
 Um, I think we've covered many of the areas I had wanted to address.
 I have two quick questions though.What does success look like?Who would I mostly work with on a daily basis?
 
 
-22. What do you think will be the main challenges of coming to a much larger company?
+## 22. What do you think will be the main challenges of coming to a much larger company?
 
 I can see that it might be perceived as a weakness to not have experience in an organisation of this size, though I see that it could also be a benefit. I won't be bringing too many preconceived and possibly inflexible ideas with me to the company.
 
-23. Do you manage your time?
+## 23. Do you manage your time?
 
 Well, so I think so. I'm a very organized person. I have a huge filing system and I always know where everything is. I schedule my day carefully and try to make an appointment so I can keep.
 #Organized
@@ -162,23 +197,23 @@ I estimated that it will take 3 additional days....
 I knew the additional work was too large to finish on time.
 I should have more firm telling them that we will need a few more days
 
-24. What's the biggest difficulty you have ever faced at work last year?
+## 24. What's the biggest difficulty you have ever faced at work last year?
 
 We had a problem with the new software. We've installed it wasn't working properly and we were losing a lot of money because of it. It was down to me to fix it. So I worked round the clock. I finally found a way around it, but it was really hard work and the pressure was unbelievable.
 
-25. can you remember a time when you helped resolve the conflicts among your colleagues or classmates a couple of months ago?
+## 25. can you remember a time when you helped resolve the conflicts among your colleagues or classmates a couple of months ago?
 
 There was a problem in my department a new system meant that you had to sign in and out all the time many people didn't like this because there was only one place you could sign in which was a long way from where most people work. I suggested we put signing in stations at several locations and that seemed to solve the problem.
 
-26. Have you ever had to work on a topic? You knew nothing about?
+## 26. Have you ever had to work on a topic? You knew nothing about?
 
 Sometimes I'm giving something that I don't know much about so I do some investigation and ask her out get up to speed.
 
-27. Are you comfortable making decisions and taking the lead ?
+## 27. Are you comfortable making decisions and taking the lead ?
 
 we're going to lose I think some decisions are better left two people more senior. For example, I don't like fighting anyone.
 
-28. how you dealing with problems?
+## 28. how you dealing with problems?
 
 I'm good at dealing with problems.
 Basically I want to find a potential  problem and put measures in place to correct  it before it happens.
@@ -194,7 +229,7 @@ Yah it is due to making a bad assumption. But I always try to learn about it.
 #failed to complete an assignment on time
 External factors caused me to missed a deadline.
 
-29. What is meaning of Success and failure to you?
+## 29. What is meaning of Success and failure to you?
 #Success
 To achieve a goal I have set for myself .
 Success to me is knowing that  my contributions positively Impacted on my company and complete assignments on time in a excellent manner.
@@ -202,16 +237,16 @@ Success to me is knowing that  my contributions positively Impacted on my compan
 I think failure is not reaching  your potential.
 I think to fail at something is making  a mistake and not learning anything form it. So learning  from mistake is a valuable lesson.
 
-30. Risk
+## 30. Risk
 I consider myself to be in the middle .
 Before  taking a risk,  I always evaluate all of other options, the pro's and con's success and failure.
 
-31. mistake
+## 31. Mistake
 
 Learning from a mistake is the key point.
 Maybe one section misinterpreted by me so in this situation  I always ask more clarification.
 
-32. Aiming
+## 32. Aiming
 
 I don't miss wonderful opportunity because I aim is too high.
 Aiming keeps me focused and forces me to growth  by trying to reach high goals I have set for myself.
@@ -220,17 +255,21 @@ I decided  to put more emphasis on priority and planning.
 My short term goal is to find a position where I can use the knowledge and strengths that I have. My long term goal is to become skilled in all aspects of developing to get more experience.I am willing to work hard.
 Contributing to a company where I'll become a valuable  asset.
 
-33. change one thing about  your personality
+## 33. change one thing about  your personality
 
 I wish I was more patient with people  and I would  like to be more understanding. Because when happened misunderstanding that will makes bad consequences although  I believe to forgive  people as long as possible.
 I handle changes smoothly.
 I am good at dealing  with change  because I'm flexible with my work.  I analyze the situation and I always try to find ways I can contribute  to the change in positive way.
 
-34. do you work under pressure
+## 34. do you work under pressure
 
 Yes because I don't panic.  I maintain self-control as work as efficiently as possible. If the situation involved pressure due to lack of time, then the only difference in my work would be the extra time I would need to put in to meet the deadline on time. I use the feelings of pressure as a tool to motivate me to work harder and more efficiency.
 
-=====================
+## 35. Why did you leave your company?
+
+> I was looking for a little more stability and also to be part of a larger organisation.
+
+# End-Sentence
 
 I think  you've answered  a slightly  different  question.
 
