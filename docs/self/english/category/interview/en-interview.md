@@ -34,7 +34,7 @@ author: "ArmanRiazi"
 
 [[Sometimes it's important to see potential]]
 
-[[You can fool other people but you can't fool yourself that's what I believe]]
+[[You can **fool other people but you can't fool yourself that's what I believe]]
 
 [[I didn't take enough time to introduce it and **nobody knew** how it worked]]
 
@@ -250,7 +250,7 @@ author: "ArmanRiazi"
 
 > So I can achieve more than I set out to do
 
-> *The area I need to improve is probably browser bookmarks.I think they needs to be more Organized *
+> *The area I need to improve is probably browser bookmarks.I think they needs to be more Organized*
 
 > *If I know I'm having guest or customer, then I would definitely make things more tidy.*
 
@@ -372,11 +372,11 @@ author: "ArmanRiazi"
 
 ## 34. What do you think will be the main challenges of coming to a much larger company?
 
-*> Though I see that it could also be a benefit*
+> *Though I see that it could also be a benefit*
 
 > I won't be bringing too many preconceived and possibly inflexible ideas with me to the company.
 
-> *I can see that it might be perceived as a weakness to not have experience in an organisation of this size, *
+> *I can see that it might be perceived as a weakness to not have experience in an organisation of this size*
 
 ## 35. Can you remember a time when you helped resolve the conflicts among your colleagues or classmates a couple of months ago?
 
