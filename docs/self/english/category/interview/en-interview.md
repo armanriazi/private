@@ -289,24 +289,23 @@ author: "ArmanRiazi"
 
 ## 26. Are you remember a good decision for a solution of problem?
 
-> Actually, I prefer to review process and research more for problem. This approach tremendously help me in almost of time.
+> Actually, I prefer to **review** process and research more for problem. This approach tremendously help me in almost of time.
 
-> I believe all decisions should be made by having all the information if you are missing an important details it's easy to make a bad decision.  
+> I believe all decisions should be made by having all the information if you are **missing an important details** it's easy to make a bad decision.  
 
-> I make important decisions by examining all the details and then weighing the pro's and con's for each decision.
+> I make important decisions by examining all the details and then **weighing** the pro's and con's for each decision.
 
 > So I make important decisions by having all of the information.
 
-> Important decisions are made by knowledge through Information and wisdom through experience.
+> Important decisions are made by knowledge through Information and **wisdom through experience**.
 
-> I'll gather all the information I can find and then apply my experience while analyzing the information with this combination 
+> **I'll gather** all the information I can find and then apply my experience while analyzing the information with this combination 
 
 > I'm confident I'll make the correct important decisions.
 
 ## 27. Are you remember a poor decision for a solution of problem?
 
-> Yah it is due to making a bad assumption. But I always try to learn about it.
-
+> Yah it is due to making **a bad assumption**. But I always try to learn about it.
 
 ## 28. What is meaning of Success and failure to you?
 #Success
@@ -314,14 +313,14 @@ author: "ArmanRiazi"
 
 > Success to me is knowing that my contributions positively Impacted on my company and complete assignments on time in a excellent manner.
 
-#Failure & Mistake means to me
+#Failure & Mistake
 > I think to fail at something is making a mistake and not learning anything form it. 
 
-> So learning from mistake is a valuable lesson.
+> So learning from mistake is a **valuable lesson**.
 
-> Learning from a mistake is the key point.
+> Learning from a mistake is the **key point**.
 
-> Maybe one section misinterpreted by me so in this situation I always ask more clarification.
+> Maybe one section **misinterpreted** by me so in this situation I always **ask more clarification**.
 
 > *I think failure is not reaching your potential.*
 
