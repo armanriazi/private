@@ -16,11 +16,11 @@ author: "ArmanRiazi"
 
 [[In my spare time]]
 
-[[I'm very technical oriented]]
+[[I'm very technical **oriented**]]
 
-[[Thank you for giving me the opportunity]]
+[[Thank you for **giving** me the opportunity]]
 
-[[It's my pleasure. Thanks for inviting me]]
+[[It's my ==pleasure==. Thanks for **inviting** me]]
 
 [[That's not really what I want to asking.I meant etc]]
 
@@ -34,7 +34,7 @@ author: "ArmanRiazi"
 
 [[Sometimes it's important to see potential]]
 
-[[You can **fool other people but you can't fool yourself that's what I believe]]
+[[You can fool other people but you can't fool yourself that's what I believe]]
 
 [[I didn't take enough time to introduce it and **nobody knew** how it worked]]
 
@@ -60,7 +60,7 @@ author: "ArmanRiazi"
 
 ## 1. What can you do for this company?
 
-> What I want to do is depends on some factors for example:
+> What ==I want to do is depends on some factors for example:
 
 > I usually make good decisions for making the structure of a program so I believe when I handle the **best practises** and related it to work it will be profitable for the company!
 
@@ -279,7 +279,7 @@ author: "ArmanRiazi"
 
 > Basically I want to find a potential problem and **put measures in place** to correct it before it happens.
 
-> It's very important to anticipate a problem and fix it** before it becomes** a real problem .
+> It's very important to anticipate a problem and fix it **before it becomes** a real problem .
 
 > It is important  to view problems **form different perspectives**.
 
@@ -362,7 +362,7 @@ author: "ArmanRiazi"
 
 > I maintain **self-control** as work as efficiently as possible. 
 
-> If the situation involved pressure due to **lack of time**, then the only difference in my work would be the **extra time **
+> If the situation involved pressure due to **lack of time**, then the only difference in my work would be the **extra time**
 
 > I would need to put in to meet the deadline on time. I use the feelings of **pressure as a tool** to motivate me to work harder and more efficiency.
 
