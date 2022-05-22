@@ -60,9 +60,9 @@ author: "ArmanRiazi"
 
 ## 1. What can you do for this company?
 
-> What ==I want to do is depends on some factors for example:
+> What ==I want to== do is depends on some factors for example:
 
-> I usually make good decisions for making the structure of a program so I believe when I handle the **best practises** and related it to work it will be profitable for the company!
+> I usually <mark>make good decisions</mark> for making the structure of a program so I believe when I handle the **best practises** and related it to work it will be profitable for the company!
 
 > I very much like to **put together components** as an engineering work I've always had particularly good feedback for my work in this area. 
 
