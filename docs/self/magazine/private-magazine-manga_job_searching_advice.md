@@ -1,0 +1,27 @@
+
+<iframe     frameborder="0" 
+            display: block;
+            marginheight="0" 
+            marginwidth="0" 
+            width="100%" 
+            height="100%" 
+            background-position: center
+            background-repeat: no-repeat
+            background-size: cover
+            scrolling="auto"
+            style=" margin: 0px;padding: 0px;height: 100%;border: none;overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0%;left:0px;right:0px;bottom:0px"
+src="https://archive.org/embed/manga_Job_Searching_Advice"></iframe>
+
+<!-- 
+<iframe src="https://archive.org/embed/manga_Job_Searching_Advice" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+---
+
+<iframe src="https://archive.org/embed/PersepolisVolume1" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+---
+
+<iframe src="https://archive.org/embed/PersepolisVolume2" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+---
+
+<iframe src="https://archive.org/embed/milo-manara-gullivera-2016" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe> -->
