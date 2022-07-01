@@ -10,6 +10,8 @@ author: "ArmanRiazi"
 
 [Interview](category/interview/en-interview.md)
 
+[Hakathon](category/seminar/en-hakathon.md)
+
 [Seminar](category/seminar/en-seminar.md)
 
 [BBC](en-bbc.md)

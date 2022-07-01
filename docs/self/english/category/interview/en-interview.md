@@ -54,6 +54,8 @@ author: "ArmanRiazi"
 
 [[And that means sometimes I spend ==too much time== on details and ==not enough time== **on other aspects of the job**]]
 
+[[If anything **changes**, I can ==reach back== out to you.]]
+
 ## Questions
 
 ### 1. What can you do for this company? What Can You Contribute?
@@ -61,19 +63,18 @@ author: "ArmanRiazi"
 > ==What I want== to ==do depends== on some **factors for** example:
 
 > I'm ==usually good at== resolving a **problem** so I believe 
-> ==when== I handle the **best practices** and related them to work 
+> ==when I handle== the **best practices** and related them to work 
 > ==it will be== **profitable** for the company!
 
 > In other example:
 > ==at my previous work experience I brought== Mvc, RestAPI, and DevOps engineering to a company when they didn't work **except** Monolithic  Application by ASP.Net WebForms.
 
-> ==So, for contribute to the company== I will improve your work, services like ... 
-
 > I'm ==ready== for **a new challenge** something that **stretches me**
 
 > As an engineer, I **strive** to ==approach== problems in new and creative ways,
-> which is why 
-> I think **I would be an asset** to this team."
+> which is why I think **I would be an asset** to this team."
+
+> ==So, for contribute to the company== I will improve your work, services like ... 
 
 ---
 > I'm ==used== to taking a **personal approach** to the development 
@@ -87,7 +88,7 @@ author: "ArmanRiazi"
 
 > This is a **critical question** ==in the process==, thank you for asking. 
 
-> I ==bring== many **ideas** with me that can be replicated on a larger scale.
+> I ==bring== many **ideas** with me that can be **replicated on a larger scale**.
 > I will ==bring== that **innovative and war spirit** to your company,
 > In addition, I ==bring== **three things** to the table that most candidates can’t offer:
 
@@ -98,6 +99,7 @@ author: "ArmanRiazi"
    >> And **previous experience** ==in variety programming languages==. 
 
 > and ==your success== will be **my top priority**,
+
 > because I am ==confident== and **perfect fit for** this position 
 > and I have ==experience and traits== that you are looking for.
 
