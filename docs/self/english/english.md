@@ -10,7 +10,7 @@ author: "ArmanRiazi"
 
 [Interview](category/interview/en-interview.md)
 
-[Hakathon](category/seminar/en-hakathon.md)
+[Hakathon](./en-hakathon.md)
 
 [Seminar](category/seminar/en-seminar.md)
 

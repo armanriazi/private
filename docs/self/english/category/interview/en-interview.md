@@ -101,6 +101,7 @@ author: "ArmanRiazi"
 > and ==your success== will be **my top priority**,
 
 > because I am ==confident== and **perfect fit for** this position 
+
 > and I have ==experience and traits== that you are looking for.
 
 > Finally, I think **feel fully aligned with your image and values**.
@@ -115,7 +116,7 @@ author: "ArmanRiazi"
 
 > I ==really== **respect** your company's commitment ==to be constantly evolving==. 
 
-> I really proud of your **roadmap** since the company will be working on ...
+> I ==really== **proud** of your **roadmap** since the company will be working on ...
 
 > I ==really== **think** that growth and innovation are **key** in any industry 
 > ==but especially== in the field of technology, and this organization 
@@ -123,7 +124,7 @@ author: "ArmanRiazi"
 
 ### 4. What attracted you to this company?
 
-> You know, **are driven by profit**. 
+> You know, **are driven by profit** is important. 
 > That's important I want to work ==for the best==.
 
 > You **lead** the ... ==in== technology
@@ -131,7 +132,7 @@ author: "ArmanRiazi"
  
 > I know the company **using** Blockchain ==for a variety of== the existing **business models**.
 
-> ==So== not only does the innovativeness of the company attract me, but also **the way they treat their employees**.
+> ==So not only== does the innovativeness of the company attract me, but also **the way they treat their employees**.
 
 > I like the corporate **culture** here. 
 
@@ -143,34 +144,42 @@ author: "ArmanRiazi"
 
 > ==I always have worked= in software engineering for my entire 12-years career,
 > and **my commitment to critical thinking** and **attention to deep problems** ==have gotten me to where I am today==.
+
+> ==I always have== a strong **willingness** to learn.
 > **I took my own time** to study and mastered it quickly. 
-> I **graduated** with a master's degree in information technology from the University of Najafabad, in 2021.
+
+> I **graduated** with a master's degree in information technology from the University of ..., in 2021.
+
 > **During** my work on DevOps and web development until 2020 
 > **as you can see** my works on the archive section of my personal website 
 > **I attend** to the cryptocurrency and Blockchain development.
  
-> ==I always have== a strong **willingness** to learn.
-> *Which is one of the top 200 the universities in the world.*
-
 > ==I've got== a lot of experience and knowledge in different sectors.
+
 > ==I've got== my decision for more concentrate on polka ecosystem and rust. 
+
 > **Although my past knowledge** helped me for understanding Blockchain and the capability of learning new technologies. 
+
 > **I'd really like the opportunity** to use all these experiences in the services of a company ==for getting more profit==.
 
 > I think my ==strongest trait== is my **attention to detail**. 
 > ==this trait== has helped me **tremendously** in this field of work. 
+
 > **That resulted in taking too much time** on a particular task 
 > *and it shows down my work*,but, after that, I found my work and efficacy **increased dramatically**. 
 
 > ==I enjoy== **being around different types of** people.
 > ==I am quite== **easy going** I suppose I work well with anyone and my attitude is "anything goes".
-> *and I always like to challenge myself to improve at everything I do.*
+
+> ==I always like== to challenge myself to improve at everything I do.
 
 > Finally, I ==take charge== and ==head work up== when ==from the front== **matters**.
 > I will be more **diligent** if I take a good suggestion.
 
 ---
 > As a developer, it is important to understand many areas of the project.  
+
+> *Which is one of the top 200 the universities in the world.*
 
 ### 6. List 5 words describing yourself? What are your strengths?
 
@@ -191,8 +200,11 @@ author: "ArmanRiazi"
 ### 8. What responsibilities did you have in past/current jobs?
 
 > ==I previously== **I was** a full-stack web developer within some companies.
+
 > ==In my role==, **I was responsible** for developing a project. 
+
 > ==After that==, **I was big on** DevOps engineering and cloud computing 
+
 > ==by the way== we can find it as cloud-native.
 
 ### 9. What motivates you? What are you passionate about? What are your hobbies?
@@ -230,11 +242,11 @@ author: "ArmanRiazi"
 
 ### 16. Where do you want to be 5 years from now?
 
-> In five years, ==I want to be== an expert at my position and start training to be a Blockchain developer at higher scale.
-> ==I want to== continue gaining experience and immigrate to a few countries for working.
-> ==I want my== expertise to directly impact the company in a positive way.
+> In five years, ==I want to be== an expert at my position and **start** training to be a Blockchain developer at higher scale.
+> ==I want to== continue **gaining experience** and **immigrate** to a few countries for working.
+> ==I want my== expertise to **directly** impact the company in a positive way.
 
-> ==I’d like to be seen== as someone with deep expertise in the Blockchain sector.
+> ==I’d like to be seen== as someone **with high expertise** in the Blockchain sector.
 
 ---
 > I believe opportunities come to great engineers and I am going to try to be one of them.
@@ -246,20 +258,25 @@ author: "ArmanRiazi"
 > Um, I think ==we've covered== many **of the areas** ==I had wanted to address==.
 
 > I have two ==quick questions== though:
+
 > What does success look like? 
+
 > Who would I mostly work with on a daily basis?
 
 
 ### 18. Are you willing to relocate?
 
 > I very much **enjoy this area** and ==would love to continue== my career here, 
+
 > but this position is a **great opportunity** ==for== my career
+
 > And **if relocating** is a part of that, **I would** ==definitely consider it==.
 
 ### 19. What salary are you seeking?
 
-> ==My salary requirements== are **flexible**. 
+> My salary would be **flexible**. 
 > ==I look forward to discussing== **in more detail what my responsibilities** at this company would be. 
+
 > ==After that, we can determine== a **fair salary** for the role.
 
 ---
@@ -277,12 +294,14 @@ author: "ArmanRiazi"
 > I ==consider== myself-organized .
 
 > Well, I think. I'm a very organized person. 
+
 ---
 
 > I have a huge filing system and I always know where everything is. 
 
 **Time Mangement**
 > I'm good at managing my time. 
+
 > ==I prioritize== my tasks and this allows me to stay ahead of schedule.
 
 > ==I schedule== my day carefully and try to make an appointment so I can keep.
@@ -307,43 +326,50 @@ author: "ArmanRiazi"
 
 ### 21. What's the biggest difficulty you have ever faced at work last year?
 
-> I had a problem with the ACO algorithm **in my graduation project**. 
-> I've done many solution but it wasn't working properly.
-> And I were **losing** a lot of time because of it. 
+> I had a problem with the ==ACO== algorithm **in my graduation project**. 
+> I've done many solution but it wasn't working ==properly==.
+
 > It was **down to me** to fix it. 
+
+> And I were **losing** a lot of time because of it. 
 > So I worked **round the clock**. I finally found **a way around it**, 
-> but it was really hard work and the pressure was unbelievable.
+
+> but it was really hard work and the ==pressure was unbelievable==.
 
 ### 22. Have you ever had to work on a topic? You knew nothing about?
 
 > ==Sometimes== I'm given ==something== that I don't know much about 
 > so I do some investigation and ==ask around==, 
+
 > you know **to get up to speed**.
 
 ### 23. Are you comfortable making decisions and taking the lead ?
 
 > Yes but not always! I think some decisions are better **left to people more senior**. 
+
 > For example, I don't like fighting anyone.
 
 ### 24. how you dealing with problems?
 
-> I'm good at dealing with problems.
+> I'm ==good at dealing== with problems.
 
 > ==It's important== to anticipate a problem and fix it **before it becomes** a real problem .
 
 > ==It is important== to view problems **from different perspectives**.
 
 ---
+
 > ==Basically== I want to find a potential problem and **put measures in place** to correct it before it happens.
 
 
 ### 25. Are you remember failed to complete an assignment on time?
 
-> External factors ==caused me== to missed a deadline.
+> Yah, External factors ==caused me== to missed a deadline.
 
 ### 26. Are you remember a good decision for a solution of problem?
 
 > Actually, I prefer to **review** process and **research** more for problem. 
+
 > This approach **tremendously** help me ==in almost of time==.
 
 > ==if== you are **missing an important details** it's easy to make a bad decision.  
@@ -358,7 +384,7 @@ author: "ArmanRiazi"
 > ==and then== apply my **experience** 
 > ==while analyzing== the information with this **combination** 
 
-> I'm confident I'll make the correct important decisions.
+> ==I'm confident== I'll make the correct important decisions.
 
 ---
 > I believe all decisions should be made by having all the information
@@ -378,6 +404,7 @@ author: "ArmanRiazi"
 > ==To fail at something== is making a mistake and not learning anything form it. 
 
 > ==learning from mistake== is a **valuable lesson**.
+
 > ==Learning from a mistake== is the **key point**.
 
 > Maybe one section **misinterpreted** by me 
@@ -394,7 +421,7 @@ author: "ArmanRiazi"
 
 ### 30. Do you have any Aiming?
 
-> ==Aiming== **keeps me focused and forces** me to growth by trying to reach high goals I have set for myself.
+> ==Aiming== **keeps me focused and forces** me to growth by trying to reach high goals I have **set** for myself.
 
 > ==So I don't miss wonderful opportunity== because I aim is too high.
 
@@ -441,9 +468,9 @@ author: "ArmanRiazi"
 
 ### 34. What do you think will be the main challenges of coming to a much larger company?
 
-> I can see that it might be **perceived** as a weakness to not have experience in an organisation of this size
-> Though I see that it could also be a **benefit**
-> Because I won't be bringing too many **preconceived** and **possibly inflexible ideas** with me to the company.
+> I can see that it might be ==perceived== as a **weakness** to not have experience in an organisation of this size
+> Though I see that it could also be a ==benefit==
+> Because **I won't be bringing** too many ==preconceived== and ==possibly inflexible ideas== with me to the company.
 
 
 ### 35. Can you remember a time when you helped resolve the conflicts among your colleagues or classmates a couple of months ago?
@@ -457,14 +484,14 @@ author: "ArmanRiazi"
 
 ### 36. Tell me more about the projects you mentioned on your CV?
 
-> *Let me see I guess the purpose is to look at ways of increasing the company's income without adding additional cost.*
+> *Let me see I guess the purpose is to look at ways of **increasing the company's income** ==without adding additional cost==.*
 
 
 ### 37. Can you tell me about your responsibilities and you will jump at the moment?
 
-> Sure. I'm the ==stuff== development. 
+> Sure. I'm a developer. 
  
-> Actually ==I have good strategies== to improve my performance. 
+> Actually ==I have good strategies== to improve my **performance**. 
 > That seems to be very effective.
 
 > ==I have good knowledge== to **expand and growth areas** where skills need to be more used or improved. 
@@ -477,6 +504,6 @@ author: "ArmanRiazi"
 
 > I think you've answered a **slightly** different question.
 
-> Thank you for your time. **I'd welcome** the opportunity to continue discussing this role with you.
+> Thank you for your time. **I'd welcome** the opportunity to **continue** discussing this role with you.
 
 
