@@ -383,6 +383,26 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#wasm" class="md-nav__link">
+    WASM
+  </a>
+  
+    <nav class="md-nav" aria-label="WASM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#optional" class="md-nav__link">
+    Optional
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -428,6 +448,8 @@
 <div class="highlight"><pre><span></span><code>cargo test -- --ignored
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>cargo tarpaulin --out Html
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>cargo publish -vvv --no-verify
 </code></pre></div>
 <h3 id="rust">Rust<a class="headerlink" href="#rust" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/node-template -lruntime=debug --dev
@@ -500,6 +522,26 @@ cargo build --release
 <a href="#Cargo">Other commands(Maybe you needs follow): Cargo command section</a></p>
 <h4 id="uninstall-cargo-and-rust">Uninstall Cargo And Rust<a class="headerlink" href="#uninstall-cargo-and-rust" title="Permanent link">&para;</a></h4>
 <div class="highlight"><pre><span></span><code>rustup self uninstall
+</code></pre></div>
+<h3 id="wasm">WASM<a class="headerlink" href="#wasm" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>cargo build --target wasm32-unknown-unknown --release
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>curl https://get.wasmer.io -sSfL | sh
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>wasm-gc ./target/wasm32-unknown-unknown/release/wasm_example.wasm ./wasm_example_rust.wasm
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>wasm-pack build --target web
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>wasmer wasm_example_rust.wasm -i yourprogram args
+</code></pre></div>
+<h4 id="optional">Optional<a class="headerlink" href="#optional" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>sudo apt-get install libtinfo5
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>sudo apt-get install  libncurses5
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>console.log(&quot;🦀 Rust + 🕸 Wasm = ❤&quot;);
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>python3 -m http.server
 </code></pre></div>
 
               

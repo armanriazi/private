@@ -44,6 +44,10 @@ cargo test -- --ignored
 cargo tarpaulin --out Html
 ```
 
+```
+cargo publish -vvv --no-verify
+```
+
 ### Rust
 
 ```
@@ -144,3 +148,43 @@ cargo build --release
 rustup self uninstall
 ```
 
+### WASM
+
+```
+cargo build --target wasm32-unknown-unknown --release
+```
+
+```
+curl https://get.wasmer.io -sSfL | sh
+```
+
+```
+wasm-gc ./target/wasm32-unknown-unknown/release/wasm_example.wasm ./wasm_example_rust.wasm
+```
+
+```
+wasm-pack build --target web
+```
+
+```
+wasmer wasm_example_rust.wasm -i yourprogram args
+```
+
+#### Optional
+
+```
+sudo apt-get install libtinfo5
+```
+
+```
+sudo apt-get install  libncurses5
+```
+
+
+```
+console.log("🦀 Rust + 🕸 Wasm = ❤");
+```
+
+```
+python3 -m http.server
+```

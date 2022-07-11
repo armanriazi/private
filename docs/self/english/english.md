@@ -10,6 +10,10 @@ author: "ArmanRiazi"
 
 [Interview](category/interview/en-interview.md)
 
+[Subtitle-words](category/subtitle-words/subtitle-words.md)
+
+[Valuable-Sentences](category/valuable-sentences/valuable-sentences.md)
+
 [Hakathon](./en-hakathon.md)
 
 [Seminar](category/seminar/en-seminar.md)
