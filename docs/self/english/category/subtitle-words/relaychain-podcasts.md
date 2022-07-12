@@ -107,6 +107,7 @@ Settle down
 ```
 ```
 Fast-Paced
+```
 
 ### Keywords
 
@@ -235,5 +236,5 @@ General Data Protection Regulation (EU)
 European Economic Area ("EEA")
 ```
 ```
-contributors license agreement (“CLA”)
+Contributors license agreement (“CLA”)
 ```

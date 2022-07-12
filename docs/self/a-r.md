@@ -10,6 +10,8 @@ author: "ArmanRiazi"
 
 [Issues](issues/issues.md)
 
+[Technical](technical/technical.md)
+
 [Mindmap](mindmap/mindmap.md)
 
 [English](english/english.md)
