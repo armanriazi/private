@@ -3,24 +3,29 @@ tags:
   - podcast
   - dr.gavinwood
 ---
-### Relay Chain PodCast 1(Dr.gavin wood)
 
-[[Substrate]]
+
+## Relay Chain PodCast 1(Dr.gavin wood)
+
+### Substrate
 > Substrate have a strong engineering core
 
-[[Policy&Security]]
+### Policy&Security
+
 **Dr{**
 > Nation state vs Decentralized(dao,dac,protocol).  
 
 > The virtue of technology is essential when we have trusted platforms. 
-Facebook does not ==guarantee the privacy== of users. 
-It's difficult to ==trust== governments and companies.
-It is almost impossible to agree on any kind of global ==firewall== .
-Potential Malicious actor or attack.
->
+
+> Facebook does not ==guarantee the privacy== of users. 
+
+> It's difficult to ==trust== governments and companies.
+
+> It is almost impossible to agree on any kind of global ==firewall== .Potential Malicious actor or attack.
+
 **}**
 
-[[SmartContract]]
+### SmartContract
 
 **Dr{**
 > Unexpected State transition because of some bug, in a contract.
@@ -45,12 +50,6 @@ Potential Malicious actor or attack.
 
 **}**
 
-[[Words]]
-**Dr{**
-> calibration errors or drift
-
-**}**
-
 [[Skill]]
 
 **Dr{**
@@ -60,19 +59,20 @@ Potential Malicious actor or attack.
 
 **}**
 
-[[Economic]]
+### Economic
+
 **Dr{**
 > The rules that you can introduce would allow the emergent effects to become what it is that you want. That's an incredibly difficult thing to learn, but it's something that is very important in the world of sort of, you know, this trust-free digital crypto-economic world. 
-
 **}**
 
-[[Problem]]
+### Problem
+
 **Dr{**
 > I think understanding better, which problems are better solved in a decentralized fashion and which problems are perfectly fine
 
 **}**
 
-[[Transaction]]
+### Transaction
 
 **Dr{**
 
@@ -80,7 +80,7 @@ Potential Malicious actor or attack.
 
 **}**
 
-[[Summery-PolkadotEcosystem]]
+### Summery-PolkadotEcosystem
 
 **Dr{**
 
@@ -110,7 +110,7 @@ Potential Malicious actor or attack.
 
 > Final runtime upgrade initiated by the web 3 foundation will remove the pseudo module and in doing so remove its omnipotent position as being able to Remove its omnipotent position as being able to cancel the chain as being able to create a new chain candidate at that point polka. Dot is a live decentralized and permissionless Network The final stages of polka dots, rollout will be delivering the, these extra pieces of functionality. One of those extra pieces of functionality will be the balance transfers. This will allow dot tokens to be transferable and not just an indicator, and this will likely happen very soon after the pseudo module is released. But of course, we don't know what point because it will be in the hands of the dot token holders. 
 
-> Two more posts to do upgrades will then necessarily include the rollout of the first pair of chains and eventually para chain, and para, thread, purchasing, or leasing modules. And finally, the XE m p, cross para chain, message passing system. 
+> Two more posts to do upgrades will then necessarily include the rollout of the first pair of chains and eventually para chain, and para, thread, purchasing, or leasing modules. And finally, the XCMP, cross para chain, message passing system. 
 
 >  Kusuma have 1000 tips without any ZK snarks or lighting networks.
 
@@ -121,3 +121,121 @@ Potential Malicious actor or attack.
 > Dot is a amorphous protocol.
 
 **}**
+
+
+### NOPS
+
+**Georgio{**
+
+> We have these algorithms that work together, they're called babe and grandpa babies. 
+
+> ...producing blocks and proposing. What the next stage change should be? And grandpa is for finalizing it...
+
+> That's in this very polka dot specific in that validators are responsible for passing messages between parachains
+
+#### NOPS-Consensus
+
+> we're not really voting on blocks. But we're voting on chains.(
+**WIKI-GRANDPA{**
+
+> A pure Nakamoto consensus blockchain that runs PoW is only able to achieve the notion of ==probabilistic finality== and reach eventual consensus. Probabilistic finality means that under some assumptions about the network and participants, if we see a few blocks building on a given block, we can estimate the probability that it is final. Eventual consensus means that at some point in the future, all nodes will agree on the truthfulness of one set of data. This eventual consensus may take a long time and will not be able to be determined how long it will take ahead of time. 
+
+> However, finality gadgets such as GRANDPA (GHOST-based Recursive ANcestor Deriving Prefix Agreement) or Ethereum's Casper FFG (the Friendly Finality Gadget) are designed to give stronger and quicker guarantees on the finality of blocks - specifically, that they can never be reverted after some process of Byzantine agreements has taken place. The notion of irreversible consensus is known as ==provable finality==.
+
+> GRANDPA stands apart from other Byzantine fault-tolerant (==BFT==).The protocol applies votes transitively and the GRANDPA algorithm finds the highest block number with a sufficient number of votes to be considered final. This process allows several blocks to be finalized in one round.
+**}**
+
+**WIKI-BABE{**
+
+> BABE (Blind Assignment for Blockchain Extension) is the ==block production== mechanism that runs between the validator nodes and determines the authors of new blocks. BABE is comparable as an algorithm to Ouroboros Praos, with some key differences in chain selection rule and slot time adjustments. BABE ==assigns block production slots to validators== according to stake and using the Polkadot randomness cycle.
+
+> Validators in Polkadot will participate in a ==lottery in every slot== that will tell them whether or not they are the block producer candidate for that slot. ==Slots are discrete units of time==, **nominally 6 seconds** in length. Because of this randomness mechanism, multiple validators could be candidates for the same slot. Other times, a slot could be empty, resulting in inconsistent block time.
+**}**
+)
+
+#### NOPS-Accounts
+
+> Polka dots has two general types of accounts. Stash & controller.
+
+> The stash account is something that should generally be capped offline.
+
+> This would be like, where you keep your life savings or large amounts of money that you don't intend to move. But if you're participating in governance or nominating, you want to be able to nominate with the stake. But you don't want to sign a lot of messages with this key because that kind of inherently makes it vulnerable to being captured by somebody else. 
+
+> So you really only have to sign one message with your stash account and that is a certificate. And so ==you take the public key of another account which we call the controller== and you just sign a message from your stash account that says, you know what, here's a public key of another address. I want this to be my controller, and, and this controller account, you can put a very small amount of funds, like, just enough to cover transfer fees. 
+
+> I want to ==nominate== **this validator**. I want to **validate myself**, or I want to **vote on this governance proposal**. 
+
+#### NOPS-Session Keys
+
+> Now we go let's go into a little bit of about the session keys because that's something really interesting. 
+
+> we have four and so these Keys you can just declare and say I want them. Associated with some sort of message that validators perform, and it should be noted that ==these keys are not meant to be accounts==. So they don't have to be the same cryptography that an account uses, and I can be completely different. Although at the moment, they're not, these are just for signing messages. So ==these are not associated with funds at all==. So in polkadot we have four, 
+
+```
+GRANDPA: ed25519
+BABE: sr25519
+I'm Online: sr25519
+Parachain: sr25519
+```
+> We have one for babe for the block. Reduction, 
+
+> We have one for Grandpa, which is finalization, 
+
+> We have one for, I'm online, which is sort of like a helper message. It just you tell the chain every couple hours like, hey, I'm here as I'm supposed to be and then 
+
+> We have one called para chain ID, So this helps the power chains and validators find each other
+
+##### NOPS-Signing Signatures
+
+> Boneh-Lynn-Shacham (BLS) signatures have slow signing, very slow verification, require slow and much less secure pairing friendly curves, and tend towards dangerous malleability. Yet, BLS permits a diverse array of signature aggregation options far beyond any other known signature scheme, which makes ==BLS a preferred scheme for voting in consensus algorithms== and for ==threshold signatures==.
+
+> (It seems polkadot do not use BLS)
+
+> I do not have to really manage or maintain any of these Keys, it will be done for me by the node and all I have to do it. It's basically calling our RPC which will generate those keys for me and then return. 
+
+> Run the public half of all, four of them and then, I mean, just to put it in an even simpler words, I have to just pass those poor for public Keys as parameters to extrinsic call. And then it will associate those with my controller because message will be signed with my controller key and from there on, and I'm all set.
+
+> We have four session keys and there aren't any hsms(
+**WIKI-HSMS{**
+> Signing Outside the Client
+
+> >In the future, Polkadot will support signing payloads outside the client so that keys can be stored on another device, e.g. a hardware security module (HSM) or secure enclave. For the time being, however, Session key signatures are performed within the client.
+
+> HSMS ARE NOT A PANACEA
+
+> > They do not incorporate any logic and will just sign and return whatever payload they receive. Therefore, an attacker who gains access to your validator node could still commit slashable behavior.
+**}**
+)
+
+> We let people nominate more than one validator and we have an algorithm called fragment that will automatically distribute the nomination stake and Way that optimizes the valid or sets. So, Really to optimizations that are taking place, what's the best combination of validators and nominative? 
+
+> That results in the most amount of dots at stake. Okay. And then, second optimization is, what is that allocation of those nominators that results in the most even distribution of that
+
+#### NOPS-Reward
+
+> They're proportional to how much total is at stake and then within that all of the validators, get equal rewards regardless of who has the most steak. And so we want to have about == 50% of the network at stake behind the validators==. That's our goal, so that ==the other 50% of the network, is for a parachain auctions==. So we expect a change to have dots bonded for their parachains and slots and then a small amount of liquid tokens to be traded transferred, whatever. 
+
+> Are they the inflation ramps up as the amount of steak ramps up? 
+> And that's why there's always more rewards as more goes at stake and then once you pass 50%, they drop off quite dramatically. So there's not much incentive to be a validator.
+
+#### NOPS-Punishment
+
+> ==You set up two nodes with the same keys and they accidentally signed different things==. You really shouldn't do that so you get punished heavily.
+
+> ==if you import and vote on a block that conflicts with this chain==, you're clearly not running the standard software and so it's not just like a screw up, its your actually trying to attack the network.
+
+**}**
+
+
+### Words
+```I still could not wrap my head around what they are``` 
+```I think just to clarify one thing that```
+```If I understood correctly that```
+```Freaking amazing``` 
+```Literally```
+```Aside```
+```Diverges```
+```Ramps up```
+```Axes```
+```Negligence```
+```Niche```
