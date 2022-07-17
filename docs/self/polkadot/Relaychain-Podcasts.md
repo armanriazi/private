@@ -94,31 +94,37 @@ tags:
 
 > During the first phase polka dot will operate as a purely proof of authority chain, to proof of authority. 
 
-> Simply means that we have a number of authorities on behalf of the web three Foundation, fix the validator nodes and these validator nodes that will never change. They will always be operated by the 13 foundation and they will be the ones producing you. 
+> Simply means that we have a number of authorities on behalf of the web three Foundation, fix the validator nodes and these validator nodes that will never change. They will always be operated by the 3 foundation and they will be the ones producing you. 
 
-> The first is the pseudo module so this will allow the 13 Foundation to upgrade the chain as a desires. The second piece is a pieces of functionality that can be used by the polka dot Community. The first is allowing claims, so that dot tokens or at least thought token, sort of indicators can be claimed. 
+> ==The first is the pseudo module(& POA)= so this will allow the web 3 foundation to **upgrade the chain** as it desires the second pieces are pieces of functionality that can be used by the polka-dot community the first is allowing claims so that dot tokens or at least dot tokens sort of indicators can be claimed 
 
-> The second piece(proof of stake)of functionality allows those who hold dot token allocations to Signal their intent? Attention to stay can become validators or nominators.
+> The second piece(==NPOS==) of functionality allows those who hold dot token allocations to signal their intention to state and become validators or nominators for that matter this in this phase the only validators will be the web three foundations validator nodes but others can signal their intent and when we have enough people signaling their intent then we move to 
 
-> 3 phase is where the pseudo key is enabled. Various pieces of governance to to function the governance. Operators have polka dot is fairly sophisticated. Now, it's evolved alongside kusama and broadly speaking, there are sort of four modules. 
+> Phase two the web 3 foundation will issue a sort of special command using its pseudo functionality using its pseudo permissions and we will switch from proof of authority to proof of stake and all of those stakes with their dot allocations that had signaled their intention to become validators they will be well at least some of them will be selected to ==become validators== and we will see the chain move from being operated merely by the web 3 foundation to being operated by an international selection of validators so while the chain is running under proof of authority it's really just trust in the web 3 foundation we have to expect this chain candidate to continue once it moves to proof of stake or nominated proof of stake our our variant of it then it will be quite different and we'll be trusting in the economics of our crypto economic logic now once the chain has been running well with a large validator set then the pseudo key will be used a second time and we will be able to move to phase
 
-> > 3.1 One is the referendums module, allowing a A coin, weighted voting system.holders are able to basically alter the fate of the polka dot Network. 
-> > 3.2 council module, allowing adult token holders to elect a number of members. Polkadot Council doesn't actually are very much hard power but it is able to The legislative agenda and potentially remove dangerous, upgrade. 
-> > 3.3 Third element is the technical committee. This is a non voted body and it's selected simply by those teams that have properly implemented. Polkadot, it doesn't have any real substantial power but it is able to fast-track certain upgrades, certain changes to the chain. That the, that it believes are important. Usually, these will be bug fixes. Then the 3.4 fourth piece of the Evidence operators is the treasury. treasury allows the council as well as various as well as the assembled dot token Alders, to place funds, that have been have been amassed through the staking system through the block reward system and put them to use on things. Typically external to polka dot. 
+> Three phase three is where the pseudo key has enabled various pieces of governance to to function the governance a parachain of polkadot is fairly sophisticated now it's evolved alongside kusama I'm broadly speaking there are sort of four modules One is the 
 
-> Finalize phase: Final runtime upgrade initiated by the web three foundation will remove the pseudo module and in doing so remove its omnipotent position as being able to cancel the chain as being able to create a new chain candidate at that point. Polkadot is a live decentralized and permissionless Network The final stages of polka dots. Roll out about them. You only need to look as far as kusama now once the council...
+> 3.1 ==Referendums module== allowing a coin weighted voting system that means that token holders are able to basically alter the fate of the polkadot network and the second is the 
 
-> Final runtime upgrade initiated by the web 3 foundation will remove the pseudo module and in doing so remove its omnipotent position as being able to Remove its omnipotent position as being able to cancel the chain as being able to create a new chain candidate at that point polka. Dot is a live decentralized and permissionless Network The final stages of polka dots, rollout will be delivering the, these extra pieces of functionality. One of those extra pieces of functionality will be the balance transfers. This will allow dot tokens to be transferable and not just an indicator, and this will likely happen very soon after the pseudo module is released. But of course, we don't know what point because it will be in the hands of the dot token holders. 
+> 3.2 ==Council module== allowing token holders to elect a number of members to the polkadot council both council doesn't actually have very much hard power but it is able to steer the legislative agenda and potentially remove dangerous upgrades that might be voted on by the the token holders the
 
-> Two more posts to do upgrades will then necessarily include the rollout of the first pair of chains and eventually para chain, and para, thread, purchasing, or leasing modules. And finally, the XCMP, cross para chain, message passing system. 
+> 3.3 Third element is the ==Technical Committe== this is a non voted body and it's selected simply by those teams that have properly implemented polka-dot it doesn't have any real substantial power but it is able to fast-track certain upgrades certain changes to the chain that they that it believes are important usually these will be bug fixes then the
 
->  Kusuma have 1000 tips without any ZK snarks or lighting networks.
+> 3.4 Fourth piece of the governance a parachain is the ==Treasury== the Treasury allows the the council as well as various as well as the assembled token holders to to place funds that have been there have been a masked through the staking system through the block reward system and put them to use on things typically external to polka-dot whatever they may be again these are all elements of the kusama governance system and if you would like sort of to learn more about them you only need to look as far as kusama now what is the council and the various governance other governance modules are in place the public the dot token holders have the avenues to affect changes in the system basically the fate of polkadot is now in the hands of the token holders a 
 
-> we have seamless upgrades that are controlled by the underlying logic of the consensus
+> Final ==runtime upgrade== initiated by the web 3 foundation will remove the pseudo module and in doing so remove its omnipotent position as being able to cancel the chain as being able to create a new chain candidate at that point polka dot is a live decentralized and permissionless network the final stages of polka-dots rollout will be delivering the these extra pieces of functionality one of those extra pieces of functionality will be the balance transfers this will allow dot tokens to be transferable and not just an indicator and this will likely happen very soon after the pseudo module is released but of course we don't know what point because it will be in the hands of the dot token holders two more post pseudo upgrades will necessarily include the rollout of the first pair of chains and eventually para chain and para thread purchasing or leasing modules and 
 
-> Web 3 allows people come together and coordinate more
+> Finally the ==XCMP== cross power chain message passing system these will be rolled out as they become available as they are their code is finalized and as the audits are completed and will be done in concert between the various technical implementation teams the research teams and the dot holding community and that's.
 
-> Dot is a amorphous protocol.
+> basically it launch a polka dot in five or six phases
+
+>>  Kusuma have 1000 tips without any ZK snarks or lighting networks.
+
+>> we have seamless upgrades that are controlled by the underlying logic of the consensus
+
+>> Web 3 allows people come together and coordinate more
+
+>> Dot is a amorphous protocol.
 
 **}**
 
@@ -225,17 +231,3 @@ Parachain: sr25519
 > ==if you import and vote on a block that conflicts with this chain==, you're clearly not running the standard software and so it's not just like a screw up, its your actually trying to attack the network.
 
 **}**
-
-
-### Words
-```I still could not wrap my head around what they are``` 
-```I think just to clarify one thing that```
-```If I understood correctly that```
-```Freaking amazing``` 
-```Literally```
-```Aside```
-```Diverges```
-```Ramps up```
-```Axes```
-```Negligence```
-```Niche```
