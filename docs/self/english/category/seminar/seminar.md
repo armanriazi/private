@@ -1,6 +1,6 @@
 ---
 search:
-exclude: true
+    exclude: true
 type:  English
 keywords:  English
 feature:  English
@@ -10,9 +10,9 @@ author: "ArmanRiazi"
 
 [Start](start.md)
 
-[Part-One](part-one.md)
+[PartOne](partone.md)
 
-[Part-Two](part-two.md)
+[PartTwo](parttwo.md)
 
 [Finish](finish.md)
 

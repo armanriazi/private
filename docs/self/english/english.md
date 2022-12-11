@@ -16,7 +16,7 @@ author: "ArmanRiazi"
 
 [Hakathon](./en-hakathon.md)
 
-[Seminar](category/seminar/en-seminar.md)
+[Seminar](category/seminar/seminar.md)
 
 [BBC](en-bbc.md)
 
