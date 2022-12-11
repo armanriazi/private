@@ -8,23 +8,15 @@ title: "English"
 author: "ArmanRiazi"
 ---
 
-
-[[start]]
 [Start](start.md)
 
-[[continue-1]]
-[Continue-1](continue-1.md)
+[Part-One](part-one.md)
 
-[[continue-2]]
-[Continue-2](continue-2.md)
+[Part-Two](part-two.md)
 
-[[finish]]
 [Finish](finish.md)
 
-[[if]]
-[if](../if.md)
+[If](../if.md)
 
-
-[[let]]
 [Let](../let.md)
 

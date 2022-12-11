@@ -152,7 +152,8 @@ rustup target add wasm32-unknown-unknown --toolchain stable
 rustup component add rust-src --toolchain stable-x86_64-unknown-linux-gnu
 ```
 
-> rust-toolchain.toml file content:
+> [!info]- Toolchain 
+> rust-toolchain.toml file content
 
 ```
 [toolchain]
