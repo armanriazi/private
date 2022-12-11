@@ -38,7 +38,9 @@ cargo tree -d
 cargo tree --duplicates
 ```
 
-[!info] This will show features in the dependency graph. Each feature will appear showing which package enabled it
+??? info
+
+    This will show features in the dependency graph. Each feature will appear showing which package enabled it
 
 ```
 cargo tree -e features
@@ -48,13 +50,17 @@ cargo tree -e features
 cargo modules generate tree --with-types --package shared
 ```
 
-[!info] This is a more compact view that shows a comma-separated list of features enabled on each package
+??? info
+
+    This is a more compact view that shows a comma-separated list of features enabled on each package
 
 ```
 cargo tree -f "{p} {f}"
 ```
 
-[!info] This will invert the tree, showing how features flow into the given package "foo". This can be useful because viewing the entire graph can be quite large and overwhelming. Use this when you are trying to figure out which features are enabled on a specific package and why. See the example at the bottom of the cargo tree page on how to read this.
+??? info
+
+    This will invert the tree, showing how features flow into the given package "foo". This can be useful because viewing the entire graph can be quite large and overwhelming. Use this when you are trying to figure out which features are enabled on a specific package and why. See the example at the bottom of the cargo tree page on how to read this.
 
 ```
 cargo tree -e features -i foo
@@ -100,7 +106,8 @@ cargo clippy -p example -- --no-deps
 
 #### Test
 
-> Test coverage on linux
+??? info
+    Test coverage on linux
 
 ```
 cargo tarpaulin --out Html
@@ -152,8 +159,8 @@ rustup target add wasm32-unknown-unknown --toolchain stable
 rustup component add rust-src --toolchain stable-x86_64-unknown-linux-gnu
 ```
 
-> [!info]- Toolchain 
-> rust-toolchain.toml file content
+??? info
+    rust-toolchain.toml file content
 
 ```
 [toolchain]
@@ -171,7 +178,8 @@ rustup override set stable
 
 #### Rust And Cargo
 
-> Providing configuration for rust and substarte on ubuntu
+??? info
+    Providing configuration for rust and substarte on ubuntu
 
 ```
 apt-get update

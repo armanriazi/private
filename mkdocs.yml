@@ -24,6 +24,8 @@ theme:
   - navigation.tabs.sticky
   - navigation.sections
   - navigation.expand  
+  - content.tabs.link
+  - content.tooltips
 icon:
    admonition:
      note: octicons/tag-16
@@ -60,15 +62,18 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.betterem
   - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
+  - pymdownx.critic    
   - pymdownx.mark
-  - pymdownx.tilde
+  - pymdownx.tilde  
+  - pymdownx.snippets  
+  - pymdownx.inlinehilite    
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
      permalink: true
      toc_depth: 4        
-  - pymdownx.arithmatex:
-      generic: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -78,14 +83,8 @@ markdown_extensions:
       custom_checkbox: true  
   - pymdownx.tabbed:
       alternate_style: true       
-  - pymdownx.snippets
-  - pymdownx.inlinehilite
   - pymdownx.highlight:
       use_pygments: true
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji 
-      emoji_generator: !!python/name:materialx.emoji.to_svg
 plugins:  
   - tags:
      tags_file: tags.md
@@ -99,7 +98,7 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra:
-  homepage: https://armanriazi.github.io/private
+  homepage: https://armanriazi.github.io/private/site/self/
   social:
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/arman-soc-riazi
@@ -118,5 +117,5 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using Email address mailto: armanriazi.blockchain@gmail.com .
-  copyright: Copyright &copy; 2022 Arman Riazi
+  copyright: Copyright &copy; 2023 Arman Riazi
   generator: false
