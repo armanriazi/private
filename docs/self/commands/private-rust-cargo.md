@@ -1,11 +1,23 @@
 ### Cargo
 
+#### Help
+
+```
+cargo --list
+```
+
+#### Build Run
+
+```
+cargo build --features foo
+```
+
 ```
 cargo build --release --target=wasm32-unknown-unknown
 ```
 
 ```
-cargo tree -d
+cargo run -p subcrate
 ```
 
 ```
@@ -13,19 +25,69 @@ time cargo run
 ```
 
 ```
+cargo make --makefile build.toml
+```
+
+#### Tree
+
+```
+cargo tree -d
+```
+
+```
+cargo tree --duplicates
+```
+
+[!info] This will show features in the dependency graph. Each feature will appear showing which package enabled it
+
+```
+cargo tree -e features
+```
+
+```
+cargo modules generate tree --with-types --package shared
+```
+
+[!info] This is a more compact view that shows a comma-separated list of features enabled on each package
+
+```
+cargo tree -f "{p} {f}"
+```
+
+[!info] This will invert the tree, showing how features flow into the given package "foo". This can be useful because viewing the entire graph can be quite large and overwhelming. Use this when you are trying to figure out which features are enabled on a specific package and why. See the example at the bottom of the cargo tree page on how to read this.
+
+```
+cargo tree -e features -i foo
+```
+
+#### Watch
+
+```
 cargo watch -x run
 ```
+
+#### Package
 
 ```
 cargo clear
 ```
 
 ```
-cargo fix --allow-dirty
+cargo upgrade/add package
 ```
 
 ```
-cargo fix --edition
+cargo publish -vvv --no-verify
+```
+
+```
+cargo release
+```
+
+#### Fix
+
+```
+cargo fix --allow-dirty --edition
 ```
 
 ```
@@ -36,16 +98,24 @@ cargo clippy --fix
 cargo clippy -p example -- --no-deps
 ```
 
-```
-cargo test -- --ignored
-```
+#### Test
+
+> Test coverage on linux
 
 ```
 cargo tarpaulin --out Html
 ```
 
 ```
-cargo publish -vvv --no-verify
+cargo test -- --ignored
+```
+
+```
+cargo audit
+```
+
+```
+cargo nexttest run
 ```
 
 ### Rust
