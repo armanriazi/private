@@ -347,6 +347,61 @@
     Cargo
   </a>
   
+    <nav class="md-nav" aria-label="Cargo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#help" class="md-nav__link">
+    Help
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-run" class="md-nav__link">
+    Build Run
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tree" class="md-nav__link">
+    Tree
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#watch" class="md-nav__link">
+    Watch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package" class="md-nav__link">
+    Package
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fix" class="md-nav__link">
+    Fix
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test" class="md-nav__link">
+    Test
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -427,29 +482,66 @@
   <h1>Private rust cargo</h1>
 
 <h3 id="cargo">Cargo<a class="headerlink" href="#cargo" title="Permanent link">&para;</a></h3>
+<h4 id="help">Help<a class="headerlink" href="#help" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>cargo --list
+</code></pre></div>
+<h4 id="build-run">Build Run<a class="headerlink" href="#build-run" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>cargo build --features foo
+</code></pre></div>
 <div class="highlight"><pre><span></span><code>cargo build --release --target=wasm32-unknown-unknown
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>cargo tree -d
+<div class="highlight"><pre><span></span><code>cargo run -p subcrate
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>time cargo run
 </code></pre></div>
+<div class="highlight"><pre><span></span><code>cargo make --makefile build.toml
+</code></pre></div>
+<h4 id="tree">Tree<a class="headerlink" href="#tree" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>cargo tree -d
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>cargo tree --duplicates
+</code></pre></div>
+<p>[!info] This will show features in the dependency graph. Each feature will appear showing which package enabled it</p>
+<div class="highlight"><pre><span></span><code>cargo tree -e features
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>cargo modules generate tree --with-types --package shared
+</code></pre></div>
+<p>[!info] This is a more compact view that shows a comma-separated list of features enabled on each package</p>
+<div class="highlight"><pre><span></span><code>cargo tree -f &quot;{p} {f}&quot;
+</code></pre></div>
+<p>[!info] This will invert the tree, showing how features flow into the given package "foo". This can be useful because viewing the entire graph can be quite large and overwhelming. Use this when you are trying to figure out which features are enabled on a specific package and why. See the example at the bottom of the cargo tree page on how to read this.</p>
+<div class="highlight"><pre><span></span><code>cargo tree -e features -i foo
+</code></pre></div>
+<h4 id="watch">Watch<a class="headerlink" href="#watch" title="Permanent link">&para;</a></h4>
 <div class="highlight"><pre><span></span><code>cargo watch -x run
 </code></pre></div>
+<h4 id="package">Package<a class="headerlink" href="#package" title="Permanent link">&para;</a></h4>
 <div class="highlight"><pre><span></span><code>cargo clear
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>cargo fix --allow-dirty
+<div class="highlight"><pre><span></span><code>cargo upgrade/add package
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>cargo fix --edition
+<div class="highlight"><pre><span></span><code>cargo publish -vvv --no-verify
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>cargo release
+</code></pre></div>
+<h4 id="fix">Fix<a class="headerlink" href="#fix" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>cargo fix --allow-dirty --edition
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>cargo clippy --fix
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>cargo clippy -p example -- --no-deps
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>cargo test -- --ignored
-</code></pre></div>
+<h4 id="test">Test<a class="headerlink" href="#test" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Test coverage on linux</p>
+</blockquote>
 <div class="highlight"><pre><span></span><code>cargo tarpaulin --out Html
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>cargo publish -vvv --no-verify
+<div class="highlight"><pre><span></span><code>cargo test -- --ignored
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>cargo audit
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>cargo nexttest run
 </code></pre></div>
 <h3 id="rust">Rust<a class="headerlink" href="#rust" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/node-template -lruntime=debug --dev
