@@ -615,10 +615,10 @@
 <p>Now we go let's go into a little bit of about the session keys because that's something really interesting. </p>
 <p>we have four and so these Keys you can just declare and say I want them. Associated with some sort of message that validators perform, and it should be noted that <mark>these keys are not meant to be accounts</mark>. So they don't have to be the same cryptography that an account uses, and I can be completely different. Although at the moment, they're not, these are just for signing messages. So <mark>these are not associated with funds at all</mark>. So in polkadot we have four, </p>
 </blockquote>
-<div class="highlight"><pre><span></span><code>GRANDPA: ed25519
-BABE: sr25519
-I&#39;m Online: sr25519
-Parachain: sr25519
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a>GRANDPA: ed25519
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a>BABE: sr25519
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><a href="#__codelineno-0-3"><span class="linenos" data-linenos="3 "></span></a>I&#39;m Online: sr25519
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><a href="#__codelineno-0-4"><span class="linenos" data-linenos="4 "></span></a>Parachain: sr25519
 </code></pre></div>
 <blockquote>
 <p>We have one for babe for the block. Reduction, </p>
@@ -694,12 +694,14 @@ And that's why there's always more rewards as more goes at stake and then once y
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "content.tabs.link", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "search.highlight", "search.share", "announce.dismiss", "header.autohide", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "content.tabs.link", "content.tooltips", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
       
         <script src="../../../assets/javascripts/mkdocs-extra.js"></script>
+      
+        <script src="../../../assets/javascripts/mathjax.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
       

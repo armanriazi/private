@@ -6,6 +6,9 @@ title: "private"
 author: "ArmanRiazi"
 ---
 
+[Programming](programming/programming.md)
+
+
 [Commands](commands/commands.md)
 
 [Issues](issues/issues.md)

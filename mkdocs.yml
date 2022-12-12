@@ -26,6 +26,7 @@ theme:
   - navigation.expand  
   - content.tabs.link
   - content.tooltips
+  - content.code.annotate 
 icon:
    admonition:
      note: octicons/tag-16
@@ -66,8 +67,11 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde  
   - pymdownx.snippets  
-  - pymdownx.inlinehilite    
-  - footnotes
+  - pymdownx.inlinehilite      
+  - pymdownx.keys
+  - footnotes  
+  - pymdownx.arithmatex:
+      generic: true  
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -82,9 +86,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true  
   - pymdownx.tabbed:
-      alternate_style: true       
+      alternate_style: true           
   - pymdownx.highlight:
+      linenums: true
       use_pygments: true
+      linenums_style: pymdownx-inline
+      anchor_linenums: true      
 plugins:  
   - tags:
      tags_file: tags.md
@@ -94,6 +101,7 @@ extra_css:
   - assets/css/mkdocs-extra.css
 extra_javascript:
   - assets/javascripts/mkdocs-extra.js
+  - assets/javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
