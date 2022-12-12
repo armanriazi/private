@@ -349,6 +349,21 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#code" class="md-nav__link">
+    Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browserslistrc" class="md-nav__link">
+    .browserslistrc
+
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -373,23 +388,23 @@
   <h1>Rust</h1>
 
 <h3 id="intro">Intro<a class="headerlink" href="#intro" title="Permanent link">&para;</a></h3>
-<blockquote>
 <p>Rust’s borrow checker works by validating references at compile time, rather than reference counting or performing garbage collection at runtime.</p>
-</blockquote>
 <p>It’s possible to have multiple immutable references (i.e., read-only references) to objects or variables, but you may never have more than a single active mutable reference.
  The borrow checker will not allow references to out of scope variables, and it only allows one mutable reference or multiple immutable references, but never both.</p>
 <mark class="critic block">
 <p>Formatting can also be applied to blocks by putting the opening and closing
 tags on separate lines and adding new lines between the tags and the content.</p>
 </mark>
+<h3 id="code"><code>Code</code><a class="headerlink" href="#code" title="Permanent link">&para;</a></h3>
 <div class="highlight"><span class="filename">bubble_sort.py</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="k">def</span> <span class="nf">bubble_sort</span><span class="p">(</span><span class="n">items</span><span class="p">):</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="hll"><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)):</span>
 </span><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="hll"><a href="#__codelineno-0-3"><span class="linenos" data-linenos="3 "></span></a>        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">i</span><span class="p">):</span>
 </span><a id="__codelineno-0-4" name="__codelineno-0-4"></a><a href="#__codelineno-0-4"><span class="linenos" data-linenos="4 "></span></a>            <span class="k">if</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]:</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5"></a><a href="#__codelineno-0-5"><span class="linenos" data-linenos="5 "></span></a>                <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
 </code></pre></div>
-<div class="highlight"><span class="filename">.browserslistrc</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos="1 "></span></a>
-</code></pre></div>
+<hr />
+<h2 id="browserslistrc"><div class="highlight"><span class="filename">.browserslistrc</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos="1 "></span></a>
+</code></pre></div><a class="headerlink" href="#browserslistrc" title="Permanent link">&para;</a></h2>
 
               
             </article>

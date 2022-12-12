@@ -56,17 +56,18 @@ icon:
 markdown_extensions:
   - meta
   - attr_list
+  - def_list
   - md_in_html
   - tables
   - admonition
   - pymdownx.details
+  - pymdownx.snippets  
   - pymdownx.superfences
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.critic    
   - pymdownx.mark
-  - pymdownx.tilde  
-  - pymdownx.snippets  
+  - pymdownx.tilde    
   - pymdownx.inlinehilite      
   - pymdownx.keys
   - footnotes  
