@@ -14,7 +14,7 @@ author: "ArmanRiazi"
 
 [PartTwo](parttwo.md)
 
-[Finish](finish.md)
+[Finish](partfinish.md)
 
 [If](../if.md)
 
