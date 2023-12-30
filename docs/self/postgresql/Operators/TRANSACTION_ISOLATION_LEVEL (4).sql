@@ -1,6 +1,0 @@
-SELECT
-  *
-FROM
-  Customer
-WHERE
-  age BETWEEN 22 AND 24; -- BETWEEN

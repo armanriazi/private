@@ -9,6 +9,6 @@ FROM
 SELECT * FROM OrderHistory;
 
 
-
+DROP VIEW OrderHistory;
 
 --\d+ OrderHistory
