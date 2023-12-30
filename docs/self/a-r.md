@@ -10,6 +10,8 @@ author: "ArmanRiazi"
 
 [Commands](commands/commands.md)
 
+[PostgreSQL](./postgresql/postgresql.md)
+
 [Issues](issues/issues.md)
 
 [Technical](technical/technical.md)
