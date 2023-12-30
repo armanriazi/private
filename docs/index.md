@@ -9,6 +9,7 @@ keywords:  github private
 author: "Arman Riazi"
 title: "A.R"
 ---
+
 [![mkdocs-ci](https://github.com/armanriazi/private/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/armanriazi/private/actions/workflows/ci.yml)
 
 > **This link is private to learning.Please for accessing to my public website please [check]("https://armanriyazi.github.io")**
