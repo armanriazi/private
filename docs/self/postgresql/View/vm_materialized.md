@@ -3,6 +3,14 @@ Having a materialized view can be beneficial in cases where the underlying table
 
 The queries above create a materializable view of customer names and their corresponding order dates, which can then be refreshed to update the view with new data. The WITH NO DATA option is important because it prevents any actual data from being inserted into the view. This can improve query performance as the data is already stored in the materializable view rather than having to constantly re-query the underlying tables. 
 */
+materialized views actually store the results in separate database objects.
+
+The table below summarizes the differences between these two views:
+Aspect 	Regular view 	Materialized view
+Data storage 	Not required 	Required
+Data freshness 	Always up-to-date data 	Stale data possible
+Maintenance 	Not required 	Required
+Performance 	Slower 	Faster
 
 CREATE MATERIALIZED VIEW Mat_OrderHistory AS
 SELECT
