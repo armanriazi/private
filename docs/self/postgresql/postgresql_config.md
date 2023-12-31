@@ -1,5 +1,19 @@
 # Commands
 
+
+```bash
+dpkg -l | grep postgres
+```
+
+
+```bash
+cd ~
+nano .profile
+PATH=$PATH:/usr/lib/postgresql/16/bin
+export PATH
+. ~/.profile
+```
+
 ```bash
 sudo -i -u postgres 
 SHOW config_file;
@@ -31,9 +45,13 @@ psql -h localhost -U postgres -d mydatabase
 
 ```bash
 ps ax | grep postgres:
+
+netstat -nlp | grep 5432
 ```
 
 > To start the PostgreSQL server, use the following command:
+
+`data_directory "/var/lib/postgresql/16/main"`
 
 ```bash
 pg_ctl start -D </path/to/data/directory>
@@ -52,7 +70,7 @@ VACUUM FULL;
 REINDEX TABLE <table_name>;
 ```
 
-`data_directory "/var/lib/postgresql/16/main"`
+
 
 
  # Executable files
