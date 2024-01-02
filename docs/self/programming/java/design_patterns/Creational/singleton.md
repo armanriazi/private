@@ -99,3 +99,16 @@ public class AirforceOneWithDoubleCheckedLocking {
 ```
 
 The double checked locking is now considered an antipattern and its utility has largely passed away as JVM startup times have sped up over the years.
+
+# #Other Examples
+
+In the Java API we have the following singletons:
+
+    java.lang.Runtime
+    java.awt.Desktop
+
+
+## Caveats
+
+    Its possible to subclass a singleton class by making the constructor protected instead of private. It might be suitable under some circumstances. An approach taken in these scenarios is to create a register of singletons of the subclasses and the getInstance method can take in a parameter or use an environment variable to return the desired singleton. The registry maintains a mapping of string names to singleton objects.
+
