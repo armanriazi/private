@@ -14,6 +14,9 @@ SELECT '\n' AS " "; -- Adding new line
 
 SELECT pow(9, 2) AS "Powers function result";
 
+SELECT abs(-10) AS "ABS function result";
+
+SELECT greatest(2, 54, 67, 99) AS "Greatest function result";
 
 /*
 Rounded number

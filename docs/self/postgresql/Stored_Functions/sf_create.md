@@ -2,7 +2,7 @@ CREATE FUNCTION get_cheap_product_count(low MONEY, high MONEY)
 RETURNS VARCHAR(50)
 LANGUAGE plpgsql
 AS 
-$$
+$product_count$ -- OR $$
 DECLARE  
     product_count integer; 
 BEGIN
@@ -13,7 +13,7 @@ BEGIN
         price between low and high; 
 
     RETURN product_count;  
-END; $$;
+END; $product_count$; -- OR $$
 
 SELECT * FROM get_cheap_product_count(100::MONEY, 500::MONEY);
 
