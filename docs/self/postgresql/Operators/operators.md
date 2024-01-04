@@ -1,5 +1,12 @@
   --The ALL operator returns TRUE if all the values in the subquery meet the condition.
-  
+
+SELECT
+  3 + 4 as Sum,
+  5 - 2 as Diff,
+  6 * 8 as Mul,
+  10 / 2 as Div,
+  8 % 3 as Mod;
+    
 SELECT
   *
 FROM
@@ -78,10 +85,11 @@ WHERE
   city LIKE '%ton'; -- LIKE
 
 
+Select EmployeeName,
+ CASE
+WHEN Salary >=80000 AND Salary <=100000 THEN 'Director'
+WHEN Salary >=50000 AND Salary <80000 THEN 'Senior Consultant'
+Else 'Director'
+END AS Designation
+from Employee
 
-  SELECT
-  3 + 4 as Sum,
-  5 - 2 as Diff,
-  6 * 8 as Mul,
-  10 / 2 as Div,
-  8 % 3 as Mod;
