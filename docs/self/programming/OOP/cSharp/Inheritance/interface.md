@@ -1,3 +1,5 @@
+
+
 # when do we use inheritance?
 Wherever we come across an IS A relationship between objects, we can use inheritance.
 Let’s have a look at 'Rust'(Subclass) classe which can be derived using ProgrammingLanguage(Superclass).

@@ -1,5 +1,11 @@
-A derived class can use all the fields and methods of the superclass directly which are non-private or protected.
+# Index
 
+- [Interface](interface.md)
+
+---
+
+
+A derived class can use all the fields and methods of the superclass directly which are non-private or protected.
 
 # Advantages of Inheritance
 
