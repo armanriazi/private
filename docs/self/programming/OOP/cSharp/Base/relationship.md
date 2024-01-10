@@ -7,14 +7,14 @@ In object-oriented programming, association is the common term **used for both t
 
 Wherever we come across an IS A relationship between objects, we can use inheritance.
 
-[Component](~/oop/is.jpg)
+![IS](../../../../../assets/attachments/oop/is.jpg)
 
 # Part-Of
 
 class B and class C have their own implementations, but their objects are part-of the implementation of Class A and are only created once a class A object is created.
 In a part-of relationship between two classes at least one class must be a part of the other but not both classes must be a part of the other.
 
-[Component](~/oop/component.jpg)
+![Component](../../../../../assets/attachments/oop/component.jpg)
 
 ## Composition
 Composition is the practice of accessing other class objects in your class. In such a scenario, the class which creates the object of the other class is known as the owner and is responsible for the lifetime of that owner object.
@@ -85,7 +85,8 @@ class VendingMachine { // Owner class
 This is a slightly less concrete relationship between two classes. Class A and class B hold a has-a relationship if one or both need the other’s object to perform an operation, but both class objects can exist independently of each other.
 
 This implies that a class has-a reference to an object of the other class but does not decide the lifetime of the other class’s referenced object.
-[has-a](~/oop/has-a.jpg)
+
+![HAS-A](../../../../../assets/attachments/oop/has-a.jpg)
 
 ## Aggregation 
 Aggregation is a specialized form of association. It follows the Has-A model. In aggregation, a class uses the objects of other classes. Here, we will refer to the class, **using** the objects of other classes, as the container class, and the classes whose objects are being used as the contained classes.

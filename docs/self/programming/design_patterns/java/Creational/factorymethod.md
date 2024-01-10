@@ -92,15 +92,16 @@ public class Client {
 
 ## Other Examples
 
-    The factory method pattern pervades toolkits and frameworks. The pattern can be used whenever a class doesn't know ahead of time what subclass objects it would need to instantiate. This is common problem in designing frameworks, where the consumers of the framework are expected to extend framework provided abstract classes and hook-in functionality or object creations.
+The factory method pattern pervades toolkits and frameworks. The pattern can be used whenever a class doesn't know ahead of time what subclass objects it would need to instantiate. This is common problem in designing frameworks, where the consumers of the framework are expected to extend framework provided abstract classes and hook-in functionality or object creations.
 
-    The Java API exposes several factory methods:
+The Java API exposes several factory methods:
         java.util.Calendar.getInstance()
         java.util.ResourceBundle.getBundle()
         java.text.NumberFormat.getInstance()
 
 ## Caveats
 
-    The pattern can result in too many subclasse with very minor differences.
-    If the subclass extends the functionality, then the superclass can't use it unless it downcasts it to the concrete type. The downcast may fail at runtime.
+The pattern can result in too many subclasse with very minor differences.
+
+If the subclass extends the functionality, then the superclass can't use it unless it downcasts it to the concrete type. The downcast may fail at runtime.
 

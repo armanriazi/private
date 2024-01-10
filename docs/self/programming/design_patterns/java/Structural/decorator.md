@@ -101,7 +101,8 @@ public class Client {
 From the client code, one can observe how the plane's behavior is extended at runtime. From the client code, one can see how we wrap the boeing object in successive decorators and are able to retrieve the net weight.
 
 ## Other Examples
-    A prominent example of this pattern is the java.io package, which includes several decorators. Look at the snippet below:
+A prominent example of this pattern is the java.io package, which includes several decorators. Look at the snippet below:
+
 ```java
     public void main() {
         // FileInputStream is responsible for reading the file

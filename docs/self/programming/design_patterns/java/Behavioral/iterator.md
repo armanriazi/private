@@ -137,22 +137,22 @@ When the iteration control rests with the client using the iterator, that is, th
 
 ## Other examples
 
-    In Java several classes directly or indirectly implement the Iterator interface. By indirect implemenation, it is implied that a class implements an interface that extends the Iterator interface.
+In Java several classes directly or indirectly implement the Iterator interface. By indirect implemenation, it is implied that a class implements an interface that extends the Iterator interface.
 
-    Another example one can think of is in case of tree datastructure. One can parametrize the createIterator() method to yield iterators which traverse the tree in preorder, inorder or postorder.
+Another example one can think of is in case of tree datastructure. One can parametrize the createIterator() method to yield iterators which traverse the tree in preorder, inorder or postorder.
 
-    java.util.Scanner class is another example of the iterator pattern.
+java.util.Scanner class is another example of the iterator pattern.
 
-    java.util.Enumeration interface although deprecated but is an early example of the iterator pattern in Java.
+java.util.Enumeration interface although deprecated but is an early example of the iterator pattern in Java.
 
 
 ## Caveats
 
-    Note that there could be more than one pending traversals on the aggregate. Each iterator would store its own traversal state. The iterator can apply the memento pattern to store the traversal state.
+Note that there could be more than one pending traversals on the aggregate. Each iterator would store its own traversal state. The iterator can apply the memento pattern to store the traversal state.
 
-    By moving the traversal outside of the aggregate, it's easier to provide variations on the traversal algorithm to the client.
+By moving the traversal outside of the aggregate, it's easier to provide variations on the traversal algorithm to the client.
 
-    Special care needs to be taken care when insertions or deletions are allowed to an aggregate amidst an on-going traversal. The iterator can either skip over a new element or iterate over the same element twice.
+Special care needs to be taken care when insertions or deletions are allowed to an aggregate amidst an on-going traversal. The iterator can either skip over a new element or iterate over the same element twice.
 
-    For composites as described in the Composite Pattern, it might make sense to create internal iterators instead of external ones, reason being that the composite can have several levels of aggregate structures and its easier for the composite to internally keep track of the traversal position by calling itself recursively and implicitly storing the traversal path in the call stack.
+For composites as described in the Composite Pattern, it might make sense to create internal iterators instead of external ones, reason being that the composite can have several levels of aggregate structures and its easier for the composite to internally keep track of the traversal position by calling itself recursively and implicitly storing the traversal path in the call stack.
 

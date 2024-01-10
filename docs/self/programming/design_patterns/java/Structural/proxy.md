@@ -117,11 +117,11 @@ public class Drone implements IDrone {
 
 ## Other Examples#
 
-    java.lang.reflect.Proxy is an example of the proxy pattern.
+java.lang.reflect.Proxy is an example of the proxy pattern.
 
-    java.rmi.* package contains classes for creating proxies. RMI is Remote Method Invocation. It is a mechanism that enables an object on one Java virtual machine to invoke methods on an object in another Java virtual machine. RMI uses marshalling to send method parameters over the wire and the subject unmarshalls them back into objects.
+java.rmi.* package contains classes for creating proxies. RMI is Remote Method Invocation. It is a mechanism that enables an object on one Java virtual machine to invoke methods on an object in another Java virtual machine. RMI uses marshalling to send method parameters over the wire and the subject unmarshalls them back into objects.
 
 ## Caveats
 
-    A proxy may also be responsibile for additional house-keeping tasks such as deleting the subject, keeping a reference count to the real subject or encoding requests before sending them to the real subject over the wire.
+A proxy may also be responsibile for additional house-keeping tasks such as deleting the subject, keeping a reference count to the real subject or encoding requests before sending them to the real subject over the wire.
 

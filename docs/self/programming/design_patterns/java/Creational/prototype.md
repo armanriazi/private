@@ -56,12 +56,11 @@ public class Client {
 
 > Note that the interface IAircraftPrototype clone method returns an abstract type. The client doesn't know the concrete subclasses. The Boeing747 class can just as well implement the same interface.
 
-
 ## Dynamic Loading
 
 The prototype pattern also helps with dynamic loading of classes. Language frameworks which allow dynamic loading will create an instance of the loaded class and register it in a managing entity. The application can at runtime request the object of the loaded class from the manager. Note, the application can't access the class's constructor statically.
-## Other examples
 
+## Other examples
 In Java the root Object class exposes a clone method. The class implements the interface java.lang.Cloneable.
 
 ## Caveats

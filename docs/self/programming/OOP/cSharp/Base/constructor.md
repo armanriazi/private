@@ -1,8 +1,9 @@
-`A constructor is a method that is called to create an instance or object of a class.``
-:   When there is no constructor implemented in a class, a default constructor is always implemented by the compiler automatically. When called, it creates an object in which the fields are initialized to their default values.
+
+`A constructor is a method that is called to create an instance or object of a class.`
+: When there is no constructor implemented in a class, a default constructor is always implemented by the compiler automatically. When called, it creates an object in which the fields are initialized to their default values.
 
 `Calling a Constructor from Another Constructor`
-    : writing ':this(<args>)'
+: writing ':this(<args>)'
     
  ```c#
 class VendingMachine {

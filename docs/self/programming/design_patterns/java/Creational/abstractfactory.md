@@ -108,16 +108,16 @@ public class Client {
 
     The abstract factory is particularly useful for frameworks and toolkits that work on different operating systems. For instance, if your library provides fancy widgets for the UI, then you may need a family of products that work on MacOS and a similar family of products that work on Windows. Similarly, themes used in IDE can be another example. If your IDE supports light and dark themes then it may use the abstract factory pattern to create widgets that belong to the light or dark theme just by varying the concrete factory that creates the widgets.
 
-    javax.xml.parsers.DocumentBuilderFactory.newInstance() will return you a factory.
+javax.xml.parsers.DocumentBuilderFactory.newInstance() will return you a factory.
 
-    javax.xml.transform.TransformerFactory.newInstance() will return you a factory.
+javax.xml.transform.TransformerFactory.newInstance() will return you a factory.
 
 
 ## Caveats
 
-    It might appear to the naive reader that the factory method pattern and the abstract factory pattern are similar. The difference between the two lies in their motivations. The factory method pattern is usually responsible for creating a single product whereas an abstract factory pattern creates entire families of related products. Furthermore, in the factory method pattern, we use inheritance to create more specialized products whereas, in an abstract factory pattern, we practice object composition by passing in factories that are consumed to create the desired products.
+It might appear to the naive reader that the factory method pattern and the abstract factory pattern are similar. The difference between the two lies in their motivations. The factory method pattern is usually responsible for creating a single product whereas an abstract factory pattern creates entire families of related products. Furthermore, in the factory method pattern, we use inheritance to create more specialized products whereas, in an abstract factory pattern, we practice object composition by passing in factories that are consumed to create the desired products.
 
-    In our aircraft example, we can add a new aircraft simply by creating a concrete factory for it. However, note that if a helicopter is added to the fleet and requires a part that an aircraft doesn't have, then we'll need to extend the IAircraftFactory interface with another create method for the part required only by the helicopter. This will cascade the change to existing factories that'll need to return null since the new component isn't part of the jets.
+In our aircraft example, we can add a new aircraft simply by creating a concrete factory for it. However, note that if a helicopter is added to the fleet and requires a part that an aircraft doesn't have, then we'll need to extend the IAircraftFactory interface with another create method for the part required only by the helicopter. This will cascade the change to existing factories that'll need to return null since the new component isn't part of the jets.
 
-    Concrete factories can be best represented as a singleton object
+Concrete factories can be best represented as a singleton object
 

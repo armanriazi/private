@@ -100,9 +100,9 @@ class Demo {
 }
 ```
 
-## const Fields
+## Const Fields
 
-const fields are assigned values during their initialization. Unlike readonly fields, values are not assigned in the constructor. 
+Const fields are assigned values during their initialization. Unlike readonly fields, values are not assigned in the constructor. 
 
 > Note: The value of a const field is known at compile time, whereas the value of a readonly field is computed when an instance is made.
 
