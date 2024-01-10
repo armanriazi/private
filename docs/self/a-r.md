@@ -1,8 +1,5 @@
 ---
-type:  private
-keywords:  private
-feature:  private
-title: "private"
+title: "Subjects"
 author: "ArmanRiazi"
 ---
 
@@ -10,7 +7,7 @@ author: "ArmanRiazi"
 
 [Commands](commands/commands.md)
 
-[PostgreSQL](./postgresql/postgresql.md)
+[PostgreSQL](postgresql/postgresql.md)
 
 [Issues](issues/issues.md)
 
