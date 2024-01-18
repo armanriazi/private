@@ -119,12 +119,12 @@ ALTER TABLE
 ADD CONSTRAINT
  unique_user_item UNIQUE (customer_id, product_id);
 
- ALTER TABLE
+ALTER TABLE
  order_management.Shopping_cart
 ADD CONSTRAINT
  positive_quantity CHECK (quantity > 0);
 
- ALTER TABLE
+ALTER TABLE
  order_management.Shopping_cart
 ADD CONSTRAINT
  non_negative_price CHECK (price >= 0);
