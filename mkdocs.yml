@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 site_name: Arman Riazi
-repo_url: https://github.com/armanriazi/private/site/self
+repo_url: https://github.com/armanriazi/private/self
 nav:    
     - 'Home':
         - 'Index': 'index.md'
@@ -107,10 +107,10 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra:
-  homepage: https://armanriazi.github.io/private/site/self/
+  homepage: https://armanriazi.github.io/private/self/a-r
   social:
     - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/arman-soc-riazi
+      link: https://twitter.com/armanriazi.meta
       name: ArmanRiazi on Twitter
   feedback:
       title: Was this page helpful?
@@ -125,6 +125,6 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help us improve this page by
-            using Email address mailto: armanriazi.blockchain@gmail.com .
+            using Email address mailto: armanriyazi.github.io@gmail.com .
   copyright: Copyright &copy; 2024-25 Arman Riazi
   generator: false

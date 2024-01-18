@@ -25,14 +25,39 @@ Behavioral design patterns dictate the interaction of classes and objects amongs
 ## Iterator Pattern
 An iterator is formally defined as a pattern that allows traversing the elements of an aggregate or a collection sequentially without exposing the underlying implementation. All types implementing the java.util.Iterator interface are examples of this pattern.
 
+<figure markdown>
+![iterator](../../../../../assets/attachments/design_patterns/iterator.png){ width=600 height=400 align=center }
+<figcaption>Iterator</figcaption>
+</figure>
+
 ## Observer Pattern (Publisher/Subscriber)
 The pattern is formally defined as a one to many dependency between objects so that when one object changes state all the dependents are notified. All types implementing the interface java.util.EventListener are examples of this pattern.
+
+<figure markdown>
+![Observer](../../../../../assets/attachments/design_patterns/observer.png){ width=600 height=400 align=center }
+<figcaption>Observer</figcaption>
+</figure>
+
+<figure markdown>
+![Observer no 2](../../../../../assets/attachments/design_patterns/observer2.png){ width=600 height=400 align=center }
+<figcaption>Observer no.2</figcaption>
+</figure>
 
 ## Strategy Pattern	
 The pattern allows grouping related algorithms under an abstraction, which the client codes against. The abstraction allows switching out one algorithm or policy for another without modifying the client. java.util.Comparator has the method compare() which allows the user to define the algorithm or strategy to compare two objects of the same type.
 
+<figure markdown>
+![Strategy](../../../../../assets/attachments/design_patterns/strategy.png){ width=600 height=400 align=center }
+<figcaption>Strategy</figcaption>
+</figure>
+
 ## Visitor Pattern
 The visitor pattern allows us to define an operation for a class or a class hierarchy without changing the classes of the elements on which the operation is performed. The pattern is suitable in scenarios, where the object structure class or the classes that make up its elements don't change often but new operations over the object structure are desired. java.nio.file.FileVisitor interface has an implementation class of SimpleFileVisitor which is an example of a visitor. The interface is defined as a visitor of files. An implementation of this interface is provided to the Files.walkFileTree() methods to visit each file in a file tree.
+
+<figure markdown>
+![visitor](../../../../../assets/attachments/design_patterns/visitor.png){ width=600 height=400 align=center }
+<figcaption>Visitor</figcaption>
+</figure>
 
 ## Chain of Responsibility Pattern
 In a chain of responsibility pattern implementation, the sender's request is passed down a series of handler objects till one of those objects, handles the request or it remains unhandled and falls off the chain. Multiple objects are given a chance to handle the request. This allows us to decouple the sender and the receiver of a request. The log() method of the java.util.logging.Logger class is an example of this pattern.

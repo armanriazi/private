@@ -18,9 +18,18 @@ Structural patterns are concerned with the composition of classes i.e. how the c
 ## Decorator Pattern
 The decorator pattern can be thought of as a wrapper or more formally a way to enhance or extend the behavior of an object dynamically. The pattern provides an alternative to subclassing when new functionality is desired. A prominent example of this pattern is the java.io package, which includes several decorators. For example the BufferedInputStream wraps the FileInputStream to provide buffering capabilities.
 
+<figure markdown>
+![Decorator](../../../../../assets/attachments/design_patterns/decorator.png){ width=600 height=400 align=center }
+<figcaption>Decorator</figcaption>
+</figure>
+
 ## Proxy Pattern
 In a proxy pattern setup, a proxy is responsible for representing another object called the subject in front of clients. The real subject is shielded from interacting directly with the clients. The java.rmi.* package contains classes for creating proxies. RMI is Remote Method Invocation. It is a mechanism that enables an object on one Java virtual machine to invoke methods on an object in another Java virtual machine.
 
+<figure markdown>
+![Proxy](../../../../../assets/attachments/design_patterns/proxy.png){ width=600 height=400 align=center }
+<figcaption>Proxy</figcaption>
+</figure>
 
 ## Adapter Pattern
 The Adapter pattern allows two incompatible classes to interoperate that otherwise can't work with eachother. Consider the method asList() offered by java.util.Arrays as an exampe of the adapter pattern. It takes an array and returns a list.
