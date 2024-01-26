@@ -1,4 +1,11 @@
+Factory pattern is a creational design pattern used to centralize the creation of multiple instances in one place where they are checked to see which type of instance will be created.  It is used to create an instance without specifying the exact class in a single location.
 
+It is used when: 
+
+1) A class doesn't know what sub-classes will be required to ,create beforehand. 
+2) You need to centralize the creation of instances of different classes. 
+3) All the instances of different classes may require the same parameter. 
+4) A new property/function needs to be added to all the classes without code duplication(this way, we don't' enter a new property or function to each class separately). 
 
 A factory produces goods, and a software factory produces objects. Usually, object creation in Java takes place like so:
 

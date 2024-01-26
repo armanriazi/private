@@ -1,3 +1,4 @@
+It extends the object behavior at the run time.
 The decorator pattern adds new functionality to objects without modifying their defining classes.
 The decorator pattern can be thought of as a wrapper or more formally a way to enhance or extend the behavior of an object dynamically. The pattern provides an alternative to subclassing when new functionality is desired.The strategy is to wrap the existing object within a decorator object that usually implements the same interface as the wrapped object.i.e. the decorator takes action either before or after invoking some method on the wrapped.
 
