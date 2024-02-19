@@ -55,20 +55,17 @@ When a memory leak exists in a microservice, only this microservice is affected 
 ## Independent scaling 
 Most of the time, scaling the whole system is not required. 
 
-Each microservice can be independently scaled.
-
- the microservices naturally have to fulfill **certain requirements. For example, they must be stateless**. Otherwise, requests of a specific client cannot be transferred to another instance, because this instance then would not have the state specific to that client.
-
-In the case of a microservice, **the scaling can be more fine-grained** so that normally fewer additional services are necessary and the basic requirements are less complex.
+- [x] Each microservice can be independently scaled.
+- [x] the microservices naturally have to fulfill **certain requirements. For example, they must be stateless**. Otherwise, requests of a specific client cannot be transferred to another instance, because this instance then would not have the state specific to that client.
+- [x] In the case of a microservice, **the scaling can be more fine-grained** so that normally fewer additional services are necessary and the basic requirements are less complex.
 
 ## Security 
 For example, it is possible to introduce **firewalls** into the communication between microservices.
 Besides, the **communication between microservices can be encrypted** to guarantee that the communication really originates from another microservice and is authentic.
 
 ## Isolation 
-In the end, many advantages of microservices can be traced back to a stronger isolation.
-
-
+- [x] In the end, many advantages of microservices can be traced back to a stronger isolation.
+- [x] In isolation, a microservice can be replaced with a new microservice. This enables the low-risk replacement of microservices and allows one to keep the architecture of the individual microservices clean. Thus, isolation facilitates the long-term maintainability of the software.
 
 <figure markdown>
 ![Event storming](../../../assets/attachments/microservice/isolation.png){ width=400 height=200 align=center }
