@@ -17,7 +17,10 @@ The definition of microservices as independently deployable modules has several 
 ## Sustainable development 
 ### Replaceability of microservices
 To achieve replaceability, the dependencies between microservices have to be managed appropriately.
+
+`Good Qustion`
 Why is it NOT likely that a developer will introduce a new dependency between two modules in a microservice architecture?
+`Answer`
 Because microservices have clear boundaries due to their interface and to introduce a dependency, they will have to call it.
 
 ### Dependencies have to be managed 

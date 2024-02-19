@@ -57,6 +57,7 @@ Events can be useful for integrating bounded contexts. Domain events are a part 
 #### Bounded contexts and microservices
 Bounded contexts divide a system by domains. They do not have to be microservices. They can also be implemented as modules in a deployment monolith.
 However, since the microservices are part of a larger system, dependencies between the modules cannot be completely avoided.
+ommunication between bounded contexts can be triggered from **Domain events.**
 
 #### Evolution
 
@@ -67,3 +68,23 @@ There are a number of reasons why new bounded context, and therefore new microse
 3. New microservices might be created by dividing a current one due to a technical reason (recall division by technicality!).
     *One reason may be to make scalability easier. A microservice may be split in two since the resulting microservices will be smaller and therefore easier to scale. Such reasons might also lead to a larger number of microservices.*
 
+`Good Question`
+
+`Suppose you’re given the following e-commerce system:`
+
+- [x] Customer registration
+- [x] Order process
+        Data validation
+        Freight charge calculation
+- [x] Payment
+- [x] Shipping
+What will happen to the rest of the modules if the internal architecture of order process is changed as follows:
+- [x] Customer registration
+- [x] Order process
+        Data validation
+        *Input sanitation
+        Freight charge calculation
+- [x] Payment
+- [x] Shipping
+
+`Answer:` Nothing - the rest of the modules will not have to change anything.
