@@ -1,3 +1,4 @@
+```sql
 SELECT * FROM Customer;
 
 UPDATE
@@ -9,3 +10,4 @@ SELECT '\n' AS " "; -- Adding new line
 
 SELECT * FROM Customer;
 SELECT '\n' AS " "; -- Adding new line
+```

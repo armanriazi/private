@@ -1,3 +1,4 @@
+```sql
 CREATE VIEW OrderHistory AS 
 SELECT 
     Customer.name, 
@@ -7,8 +8,9 @@ FROM
     ON Customer.order_id = Customer_order.id;
 
 SELECT * FROM OrderHistory;
+```
 
-
+```sql
 DROP VIEW OrderHistory;
-
 --\d+ OrderHistory
+```

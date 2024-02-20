@@ -1,8 +1,6 @@
-/*
 NEW.id refers to the new value of ID for each updated row. The NEW is referred to as a reference variable because it refers to the data that’s being updated. 
-*/
 
-
+```sql
 CREATE OR REPLACE FUNCTION update_creation_date() RETURNS TRIGGER 
 LANGUAGE plpgsql
 AS $$
@@ -15,6 +13,9 @@ CREATE TRIGGER product_insert_trg
 AFTER INSERT ON Product
   FOR EACH ROW EXECUTE PROCEDURE update_creation_date();
 
+```
+
+```sql
 INSERT INTO
   Product (name, price)
 VALUES
@@ -25,3 +26,4 @@ VALUES
   ('Lumia', 499.99);
 
 SELECT * FROM Product;
+```

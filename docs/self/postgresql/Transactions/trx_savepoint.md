@@ -1,5 +1,5 @@
+```sql
 BEGIN; 
-
 INSERT INTO Account
 VALUES ('100-0000-0001', 'Timothy Wright', 1000);
 
@@ -35,6 +35,9 @@ SELECT '\n' AS " "; -- Adding new line
 SELECT '\n' AS " "; -- Adding new line
 
 ROLLBACK TO SAVEPOINT trans_point1;
+```
 
+```sql
 SELECT * FROM Account;
 SELECT '\n' AS " "; -- Adding new line
+```

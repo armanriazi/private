@@ -1,3 +1,4 @@
+```sql
 \echo '>> Initial value'
 
 SELECT * FROM Account;
@@ -17,6 +18,9 @@ SELECT '\n' AS " "; -- Adding new line
 SELECT '\n' AS " "; -- Adding new line
 
 ROLLBACK;
+```
 
+```sql
 SELECT * FROM Account;
 SELECT '\n' AS " "; -- Adding new line
+```

@@ -1,3 +1,4 @@
+```sql
 CREATE TABLE Person (
    id SERIAL PRIMARY KEY,
    hobbies TEXT[]
@@ -9,66 +10,49 @@ VALUES
   (ARRAY ['reading', 'hiking', 'cooking']);
 
 SELECT hobbies[1] FROM Person;
+```
 
-/*
-output:
+Output:
+
+```text
 hobbies
 reading
-*/
+```
 
-/*
-Array Operators and Functions
+### Array Operators and Functions
 
+```text
 Operators/Functions
-	
-
 Description
-
 ARRAY[] 
-	
-
 Creates an array with the given elements 
-
 || 
-	
+```
 
+```text
 Concatenates two arrays 
-
 && 
-	
 
 Intersects two arrays 
-
 = 
-	
 
 Checks if two arrays are equal
-
 array_append(anyarray, anyelement): 
 
-
-
-	
-
 Adds a new element to the end of an array
-
-array_prepend(anyarray, anyelement)
-	
+```
 
 Adds a new element to the beginning of an array 
-
-
-
-
-array_remove(anyarray, anyelement)
-	
+```text
+array_prepend(anyarray, anyelement)
+```
 
 Removes all occurrences of a specific element from an array 
 
-
+```text
+array_remove(anyarray, anyelement)
 array_length(anyarray)
-	
+```
 
-Returns the number of elements in an array 
+> Returns the number of elements in an array.
 
-*/

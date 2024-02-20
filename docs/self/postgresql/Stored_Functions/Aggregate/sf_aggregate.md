@@ -1,3 +1,4 @@
+```sql
 CREATE TABLE Product (
   id SERIAL PRIMARY KEY,
   name VARCHAR(50) NOT NULL,
@@ -13,7 +14,9 @@ VALUES
   ('Mate 9', 599.99),
   ('Moto Z', 599.99),
   ('Lumia', 499.99);
+```
 
+```sql
 SELECT count(*) AS "Number of Records" FROM Product;  
 SELECT '\n' AS " "; -- Adding new line
 
@@ -24,3 +27,4 @@ SELECT min(price) AS "Lowest Price" FROM Product;
 SELECT '\n' AS " "; -- Adding new line
 
 SELECT max(price) AS "Highest Price" FROM Product;
+```

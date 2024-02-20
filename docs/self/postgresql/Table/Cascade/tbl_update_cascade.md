@@ -1,14 +1,19 @@
+```sql
 ALTER TABLE Manager 
   ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (emp_id) REFERENCES Employee (id)
   ON UPDATE CASCADE;
+```
 
+```sql
 UPDATE
   Employee
 SET
   salary = 15000 * 1.2
 WHERE
   name = 'John' RETURNING salary;
-  
+```
+
+```sql
 /*
 SELECT 'Before updation \n' AS " ";
 
@@ -32,3 +37,4 @@ SELECT '\n' AS " ";
 
 SELECT * FROM EMPLOYEE;
 */
+```

@@ -1,5 +1,5 @@
+```sql
 CREATE DATABASE expense_db
-
   WITH OWNER = postgres 
   LC_COLLATE = 'C.UTF-8' 
   LC_CTYPE = 'C.UTF-8' 
@@ -19,11 +19,15 @@ CREATE DATABASE expense_db
   budget MONEY
 );
 
+```
+
+```sql
 ALTER TABLE Expense 
 ADD CONSTRAINT fk_expense_category 
 FOREIGN KEY (category_id) REFERENCES Category (category_id);
+```
 
-
+```sql
 INSERT INTO Category (category_name, budget) VALUES 
 ('groceries', 200), 
 ('restaurants', 150), 
@@ -41,11 +45,13 @@ SELECT '\n' AS " ";
 SELECT * FROM Category ;
 SELECT '\n' AS " ";
 SELECT * FROM Expense;
+```
 
-
+```sql
 CREATE INDEX idx_expense_amount ON Expense (amount);
+```
 
-
+```sql
 SELECT
   SUM(amount)
 FROM
@@ -60,8 +66,9 @@ WHERE
       category_name = 'restaurants'
   )
   AND expense_date BETWEEN '2022-11-01' AND '2022-11-30';
+```
 
-
+```sql
 SELECT
   SUM(amount)
 FROM
@@ -74,3 +81,4 @@ GROUP BY
   category_name
 HAVING
   category_name = 'restaurants';
+```  

@@ -1,10 +1,6 @@
-/*
-
-Explanation
-
 The point data type is used to store a point in geometric space in PostgreSQL. This is commonly used for storing geospatial data.
 
-*/
+```sql
 CREATE TABLE  parks (
    id SERIAL PRIMARY KEY, 
    name TEXT, 
@@ -21,3 +17,4 @@ VALUES
   );
 
 SELECT * FROM parks;
+```

@@ -1,3 +1,4 @@
+```sql
 CREATE FUNCTION get_cheap_product_count(low MONEY, high MONEY)
 RETURNS VARCHAR(50)
 LANGUAGE plpgsql
@@ -16,7 +17,7 @@ BEGIN
 END; $product_count$; -- OR $$
 
 SELECT * FROM get_cheap_product_count(100::MONEY, 500::MONEY);
-
+```
 
 
 

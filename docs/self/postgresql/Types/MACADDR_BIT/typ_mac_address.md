@@ -1,3 +1,4 @@
+```sql
 CREATE TABLE Users (
   user_id SERIAL PRIMARY KEY,
   user_name VARCHAR(255),
@@ -6,7 +7,9 @@ CREATE TABLE Users (
   user_location VARCHAR(255),
   user_status BIT
 );
+```
 
+```sql
 INSERT INTO
   Users (
     user_name,
@@ -32,3 +35,4 @@ VALUES
   );
 
 SELECT * FROM users;
+```

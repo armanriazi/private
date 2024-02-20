@@ -1,16 +1,29 @@
+# Become the postgres user
 
-
-# become the postgres user
+```bash
 sudo -i -u postgres
+```
 
-# open the postgres shell
+# Open the postgres shell
+
+```bash
 psql
+```
 
-# create a void database with the name I want
+# Create a void database with the name I want
+
+```sql
 create database "postgres-local";
+```
 
-# give privileges to the already-existing user postgres to access that database
+# Give privileges to the already-existing user postgres to access that database
+
+```sql
 grant all privileges on database "postgres-local" to postgres;
+```
 
-# set the password 'postgres' to user  'postgres'
+# Set the password 'postgres' to user  'postgres'
+
+```sql
 ALTER USER postgres WITH PASSWORD 'postgres';
+```

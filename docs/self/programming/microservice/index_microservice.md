@@ -5,6 +5,6 @@
         - [Strategic Patterns](./pattern-strategic.md)
         - [Architecture Decisions](./architecture_decisions.md)
         - [Operation](./operation.md)        
-        - [isa](./isa.md)        
+        - [ISA](./isa.md)        
 
 

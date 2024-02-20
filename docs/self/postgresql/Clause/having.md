@@ -1,3 +1,4 @@
+```sql
 SELECT
   department,
   COUNT(*) as "Number of Employees"
@@ -7,3 +8,4 @@ GROUP BY
   department
 HAVING
   COUNT(*) > 1;
+```

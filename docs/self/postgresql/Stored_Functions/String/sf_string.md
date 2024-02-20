@@ -1,4 +1,6 @@
--- String functions 
+String functions 
+
+```sql
 SELECT length('Hello world!') AS "Number of Characters";
 SELECT '\n' AS " "; -- Adding new line
 
@@ -15,23 +17,21 @@ SELECT concat('hello', 'world!') AS "Concatenated string";
 SELECT '\n' AS " "; -- Adding new line
  
 SELECT repeat('Hello world!', 3) AS "Repeated string"; 
+```
 
-/* output
+Output:
+
+```text
 Number of Characters
 12 
-
  Substring
 Hel 
-
  Lowercase string
 hello world! 
-
  Uppercase string
 HELLO WORLD! 
-
  Concatenated string
 helloworld! 
-
  Repeated string
 Hello world!Hello world!Hello world!
-*/
+```

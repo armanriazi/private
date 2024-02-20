@@ -1,12 +1,31 @@
+```bash
 \echo 'Before executing DROP TRIGGER statement'
-SELECT '\n' AS " "; -- Adding new line
+```
 
+```sql
+SELECT '\n' AS " "; -- Adding new line
+```
+
+```bash
 \dS Product
-SELECT '\n' AS " "; -- Adding new line
+```
 
+```sql
+SELECT '\n' AS " "; -- Adding new line
+```
+
+```sql
 DROP TRIGGER product_insert_trg ON Product;
+```
 
+```bash
 \echo 'After executing DROP TRIGGER statement'
-SELECT '\n' AS " "; -- Adding new line
+```
 
+```sql
+SELECT '\n' AS " "; -- Adding new line
+```
+
+```bash
 \dS Product
+```

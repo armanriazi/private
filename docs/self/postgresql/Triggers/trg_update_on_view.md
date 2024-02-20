@@ -1,13 +1,14 @@
-/*
 An INSTEAD OF trigger would be created on a view that’s not inherently updatable. 
-*/
 
+```sql
 CREATE VIEW Product_view AS
     SELECT 
         id, name, price
     FROM
         Product;
+```
 
+```sql
 CREATE FUNCTION update_price() RETURNS TRIGGER 
 LANGUAGE plpgsql
 AS $$ 
@@ -32,5 +33,8 @@ UPDATE
 UPDATE Product_view SET price = 999 WHERE id = 1;
 
 SELECT '\n' AS " "; -- Adding Newline 
+```
 
+```sql
 SELECT id, name, price, modification_date AS "modified", prev_price FROM Product; 
+```

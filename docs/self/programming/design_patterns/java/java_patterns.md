@@ -1,6 +1,7 @@
 
 # Index
-
+## Common Patterns
+ 
 - [Behavioral](Behavioral/behavioral.md)
     - [Iterator](Behavioral/iterator.md)
     - [observer](Behavioral/observer.md)
@@ -20,7 +21,9 @@
 - [Structural](Structural/structural.md)
     - [Decorator](Structural/decorator.md)
     - [Proxy](Structural/proxy.md)
+---
 
+- [Summary](summary.md)
 
 
 

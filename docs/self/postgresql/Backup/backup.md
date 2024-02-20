@@ -2,29 +2,19 @@
 # Importance of backup and recovery
     
 - [x] Data protection: Backups serve as a safety net against data loss. Accidental deletion, hardware failures, software bugs, and natural disasters can all lead to data corruption or loss. Regular backups help protect our valuable data by providing a means to restore it to a previous state.
-
 - [x] Business continuity: Databases play a crucial role in the operation of many businesses. In case of database failures, having reliable backups enables us to recover the system and minimize downtime quickly. This ensures business continuity and reduces the impact on productivity, customer satisfaction, and revenue.
-
 - [x] Disaster recovery: Natural disasters, system failures, or cybersecurity incidents can cause significant disruptions to our database infrastructure. Having well-planned backup and recovery strategies allows us to recover our databases and resume operations efficiently in such situations.
-
 - [x] Compliance and regulations: Many industries have specific compliance and legal requirements regarding data retention and protection. By implementing regular backups, we can meet these obligations and ensure the integrity and availability of the data.
-
 - [x] Development and testing: Backups provide a way to create copies of the production database for testing new software versions, performing data analysis, or simulating scenarios without affecting the live environment.
-
 - [x] Database upgrades and migrations: Backups play a crucial role when moving to a new version of a database system or changing to a different platform. They enable us to revert to a previous state in case of any issues during the upgrade or migration process.
-
 - [x] Data integrity: Backups help maintain data integrity by providing restore points that allow us to revert to a known good state in case of data corruption or erroneous changes.
 
 ## Types based on data capture    
 
 - [x] Full backup: A full backup is a complete copy of the database, including all the data and metadata. Full backups are typically the largest and take a long time to complete. However, they’re the most comprehensive form of backup and provide the most straightforward method for restoring data.
-
 - [x] Incremental backup: An incremental backup includes only the changes made to the database since the last backup. Incremental backups are smaller and take less time to complete than full backups. However, restoring an incremental backup requires the restoration of the full backup and all subsequent incremental backups.
-
 - [x] Differential backup: A differential backup includes only the changes made to the database since the last full backup. Differential backups are smaller than full backups but larger than incremental backups. Restoring a differential backup requires the restoration of the full backup and the differential backup.
-
 - [x] Log backup: A log backup captures the transaction logs of the database, which contain information about the changes made to the database since the last log backup. Log backups, typically performed frequently, such as every few minutes or hours, are used for disaster recovery and supporting point-in-time recovery.
-
 - [x] Snapshot backup: A snapshot backup is a copy of the database at a specific time, created by capturing the state of the database and the storage system. Snapshot backups are typically performed quickly and with minimal impact on the performance of the database and are used for disaster recovery and for supporting point-in-time recovery.
 
 ## Types based on frequency    
@@ -41,6 +31,7 @@ The pg_dump utility is a command-line utility that creates a logical backup of a
 ```bash
 sudo -i -u postgres
 ```
+
 ```bash
 pg_dump database_name > backup_file.sql -- Run out of psql
 
@@ -93,7 +84,7 @@ When we want to perform a point-in-time recovery of the database to a specific t
 
 When we want to remove WAL files that are no longer needed—to free up disk space
 
-When we want to reduce the size of the WAL archive and control the amount of disk space used by WAL logs
+When we want to reduce the size of the WAL archive and control the amount of disk space used by WAL logs.
 
 `pg_resetwal` to reflect the purpose of logging better. This command is typically used as part of a PITR process, where we restore a database to a specific point in time.
 

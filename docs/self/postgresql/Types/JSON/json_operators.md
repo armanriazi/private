@@ -1,21 +1,24 @@
-
+```sql
 SELECT 
   '{"street": "123 Main St", "city": "New York", "state": "NY"}'::jsonb 
   AS "Address";
 
 SELECT '\n' AS " "; -- Adding new line
+```
 
+```sql
 SELECT 
   '{"street": "123 Main St", "city": "New York", "state": "NY"}'::jsonb 
   @> '{"state": "NY"}'::jsonb AS "Is NY state?";
-
 SELECT '\n' AS " "; -- Adding new line
+```
 
+```sql
 SELECT 
   '{"state": "WA"}'::jsonb <@
   '{"street": "123 Main St", "city": "New York", "state": "NY"}'::jsonb 
 AS "Is WA state?";
-
+```
 
 SELECT '\n' AS " "; -- Adding new line
 

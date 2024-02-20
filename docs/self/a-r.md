@@ -7,6 +7,8 @@ author: "ArmanRiazi"
 
 [Commands](commands/commands.md)
 
+[Domain-Driven Design](software/ddd/ddd.md)
+
 [PostgreSQL](postgresql/postgresql.md)
 
 [Issues](issues/issues.md)

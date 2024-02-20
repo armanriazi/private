@@ -1,4 +1,4 @@
-
+```sql
 CREATE TABLE Users (
 	username VARCHAR(20) NOT NULL PRIMARY KEY, 
 	password VARCHAR(50)
@@ -12,3 +12,4 @@ FROM
   Users
 WHERE
   username = 'developer' AND password = md5('p@ssw0rd');
+```  

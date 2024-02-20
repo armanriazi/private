@@ -70,30 +70,20 @@ VACUUM FULL;
 REINDEX TABLE <table_name>;
 ```
 
+## Executable files
 
-
-
- # Executable files
-
-The clusterdb executable: Available in the bin directory, this is used to configure, start, stop, and monitor the database.
-
-The initdb executable: This is used to initialize new databases. We can use this tool to create a brand new PostgreSQL database or restore an existing one.
-
-The pg_dump command: This allows us to export data from our PostgreSQL database into a text file for backup purposes or to transfer to other systems.
-
-The pg_dumpall executable: This allows us to back up a PostgreSQL cluster and its databases.
-
-The pg_restore and pg_basebackup executables: These are used for backing up and restoring our PostgreSQL database and moving it to another server.
+- [x] `The clusterdb executable:` Available in the bin directory, this is used to configure, start, stop, and monitor the database.
+- [x] `The initdb executable:` This is used to initialize new databases. We can use this tool to create a brand new PostgreSQL database or restore an existing one.
+- [x] `The pg_dump command:` This allows us to export data from our PostgreSQL database into a text file for backup purposes or to transfer to other systems.
+- [x] `The pg_dumpall executable:` This allows us to back up a PostgreSQL cluster and its databases.
+- [x] `The pg_restore and pg_basebackup executables:` These are used for backing up and restoring our PostgreSQL database and moving it to another server.
 
 The createdb and dropdb commands: These are used to create and delete databases, respectively.
 
-The psql executable: This is used for executing SQL statements in a terminal or inside the psql client application, allowing us to interactively query data stored in our PostgreSQL database.
-
-The reindexdb executable: This is used for rebuilding indices,
-
-The pg_upgrade executable: This allows us to migrate an existing database installation to a newer version of PostgreSQL.
-
-The pg_config executable: This provides information about our current PostgreSQL.
+- [x] `The psql executable:` This is used for executing SQL statements in a terminal or inside the psql client application, allowing us to interactively query data stored in our PostgreSQL database.
+- [x] `The reindexdb executable:` This is used for rebuilding indices,
+- [x] `The pg_upgrade executable:` This allows us to migrate an existing database installation to a newer version of PostgreSQL.
+- [x] `The pg_config executable:` This provides information about our current PostgreSQL.
 
 # Host-based authentication format(pg_hba)
 
@@ -112,20 +102,21 @@ This refers to the host type of connection. The details about what they mean are
 ## DATABASE
 This specifies which database the connection can be used for. Here, “all” specifies that the connection is allowed for all databases, while “replication” specifies that the connection is allowed for replication connections.
 
-- [x] USER: This specifies which PostgreSQL username can access this particular connection. For example, “postgres” will allow connections from users with the postgres username.
-- [x] ADDRESS: This column defines a list of IP addresses or hostnames that are allowed to connect to the database server.
-- [x] METHOD: This refers to the authentication method that will be used for this connection. The list of valid values is as follows:
+- [x] `USER:` This specifies which PostgreSQL username can access this particular connection. For example, “postgres” will allow connections from users with the postgres username.
+- [x] `ADDRESS:` This column defines a list of IP addresses or hostnames that are allowed to connect to the database server.
+- [x] `OPTIONS:` This column allows for additional settings to be defined for this connection. For example, we can specify that connections from a particular IP address should not have access to any databases except for the ones specifically whitelisted in the dbname field. We can also define password policies to require strong passwords and limit logins to certain times of day or days of the week. Overall, this column provides a lot of flexibility for customizing our database access settings.
+- [x] `METHOD:` This refers to the authentication method that will be used for this connection. The list of valid values is as follows:
 
-    - [x] trust: This specifies that connections from users with matching IP addresses or hostnames will not require additional authentication.
-    - [x] reject: This specifies that connections from users with matching IP addresses or hostnames will be rejected.
-    - [x] password: This specifies that a password will be required each time the user connects. It sends the passwords in plaintext, which isn’t secure and should be avoided if possible.
-    - [x] md5: This uses an MD5 hashing algorithm to encrypt and secure the passwords, which is better than the plaintext password authentication method.
-    - [x] scram-sha-256: This uses a SCRAM-SHA-256 hashing algorithm to encrypt and secure the passwords.
-    - [x] cert: This allows us to specify a valid SSL certificate so that all connections are encrypted.
-    - [x] ident: This uses the ident authentication method, which is generally not recommended as it transmits user passwords in plaintext.
-    - [x] ldap: This enables LDAP authentication.
-    - [x] peer: This allows us to specify a hostname or IP address that can connect without authentication. This is an insecure setting, which should be avoided as far as possible.
-    - [x] radius: This enables RADIUS authentication.
-    - [x] sspi: This specifies connections from users using the SSPI authentication method.
-    - [x] gss: This uses GSSAPI encryption to encrypt and secure the connections.
-- [x] OPTIONS: This column allows for additional settings to be defined for this connection. For example, we can specify that connections from a particular IP address should not have access to any databases except for the ones specifically whitelisted in the dbname field. We can also define password policies to require strong passwords and limit logins to certain times of day or days of the week. Overall, this column provides a lot of flexibility for customizing our database access settings.
+- [x] trust: This specifies that connections from users with matching IP addresses or hostnames will not require additional authentication.
+- [x] reject: This specifies that connections from users with matching IP addresses or hostnames will be rejected.
+- [x] password: This specifies that a password will be required each time the user connects. It sends the passwords in plaintext, which isn’t secure and should be avoided if possible.
+- [x] md5: This uses an MD5 hashing algorithm to encrypt and secure the passwords, which is better than the plaintext password authentication method.
+- [x] scram-sha-256: This uses a SCRAM-SHA-256 hashing algorithm to encrypt and secure the passwords.
+- [x] cert: This allows us to specify a valid SSL certificate so that all connections are encrypted.
+- [x] ident: This uses the ident authentication method, which is generally not recommended as it transmits user passwords in plaintext.
+- [x] ldap: This enables LDAP authentication.
+- [x] peer: This allows us to specify a hostname or IP address that can connect without authentication. This is an insecure setting, which should be avoided as far as possible.
+- [x] radius: This enables RADIUS authentication.
+- [x] sspi: This specifies connections from users using the SSPI authentication method.
+- [x] gss: This uses GSSAPI encryption to encrypt and secure the connections.
+
